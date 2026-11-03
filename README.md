@@ -19,8 +19,15 @@ nothing else; [`CLEANROOM.md`](CLEANROOM.md) explains the rules.
   image (see [`spec/01-media.md`](spec/01-media.md) for the files the engine checks).
 - Godot 4.7 to run it from source.
 
+## Languages
+
+The game plays in the original Japanese, or in English or French through the translation packs in
+[`translations/`](translations/README.md).
+
 ## Licence
 
 OpenScreamer's code and documents are under the GNU General Public License, version 3 or later
 ([`LICENSE`](LICENSE)). This licence covers only OpenScreamer's own work. It does not cover the original game,
-whose data stays on your disk and in your copy.
+whose data stays on your disk and in your copy, nor the translation packs in `translations/`, which are a
+derivative of the game's text and come under the original copyright holders' non-commercial terms
+([`translations/README.md`](translations/README.md)).

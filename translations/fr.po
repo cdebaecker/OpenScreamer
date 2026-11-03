@@ -1,0 +1,5200 @@
+# THE SCREAMER: Francais translation pack for OpenScreamer. 
+# Not covered by OpenScreamer's GPL: see translations/README.md.
+# Generated; keys are digests of the original strings (spec chapter 13).
+# Markup: _ or ~ new line, # a number. ASCII only.
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Language-Name: Francais\n"
+
+#: MAIN2HDE.EXE 0x450 town.27
+#. width: 39
+msgctxt "game"
+msgid "sha1:75fb5de3bf222ad3"
+msgstr "Tu es a l'entree de BIAS. C'est ici_que les Screamers se preparent avant_d'entrer. Alors, tu es pret ?_"
+
+#: MAIN2HDE.EXE 0x4D3 town.28
+#. width: 80
+msgctxt "game"
+msgid "sha1:3e8f000256fb076c"
+msgstr "- COMMAND -__ Entrer__ Capacites__ Inventaire__ Equiper__ Retirer__ Jeter__ En ville"
+
+#: MAIN2HDE.EXE 0x57D town.29
+#. width: 39
+msgctxt "game"
+msgid "sha1:7260f8d41eb9ab30"
+msgstr "\"He, petit. Encore de service ?_Merci pour ta peine. Va donc te_faire un bon paquet de fric.\"_"
+
+#: MAIN2HDE.EXE 0x5FB town.30
+#. width: 39
+msgctxt "game"
+msgid "sha1:5c54808f9803bc92"
+msgstr "\"Bon, j'ouvre la porte. Passe ce_point, c'est un aller simple pour_l'enfer.\""
+
+#: MAIN2HDE.EXE 0x76E event.15
+#. width: 39
+msgctxt "game"
+msgid "sha1:84a134d4509657a4"
+msgstr "C'est la sortie de la tour.~Sortir ?"
+
+#: MAIN2HDE.EXE 0xF8D char.01
+#. width: 39
+msgctxt "game"
+msgid "sha1:619a7118d3b85043"
+msgstr "___      Voici tes capacites"
+
+#: MAIN2HDE.EXE 0x146F town.24
+#. width: 80
+msgctxt "game"
+msgid "sha1:511391fb20a8ca0f"
+msgstr "- COMMAND -__ Aller BIAS__ Bureau FRD__ Docteur__ Bar__ Armurerie__ Capacites__ Inventaire__ Retirer__ Jeter__ Partir"
+
+#: MAIN2HDE.EXE 0x1508 town.25
+#. width: 39
+msgctxt "game"
+msgid "sha1:48586103cdb2610f"
+msgstr "Tu es a Beast City.__Alors, que vas-tu faire ? Choisis_avec les fleches."
+
+#: MAIN2HDE.EXE 0x1591 town.26
+#. width: 70
+msgctxt "game"
+msgid "sha1:32952144866fa49c"
+msgstr "      Tu rentres chez toi, bebe ?_On garde tes donnees, alors reviens._      BIAS t'accueillera toujours !~~Press [SPACE KEY] for more SCREAMER"
+
+#: MAIN2HDE.EXE 0x1692 town.02
+#. width: 39
+msgctxt "game"
+msgid "sha1:4783f5d9045275ef"
+msgstr "_Arrive a la porte de Beast City,_le gardien t'adresse la parole.__\"T'es un Screamer inscrit ?_ Ou un nouveau ? Il en meurt tant_ que je n'arrive plus a retenir_ les visages...\""
+
+#: MAIN2HDE.EXE 0x176C town.06
+#. width: 39
+msgctxt "game"
+msgid "sha1:b0171d746725e343"
+msgstr "Le gardien t'adresse la parole.__\"OK ! Petit. Dis-moi ton nom._ A cet instant, tu deviens un_ Screamer.\"__Tape ton nom._Ton aventure commence ici !"
+
+#: MAIN2HDE.EXE 0x182C town.07
+#. width: 39
+msgctxt "game"
+msgid "sha1:f95ead3585e537c4"
+msgstr "\"Bien. A partir de maintenant, t'es_un Screamer. Tiens bon !\""
+
+#: MAIN2HDE.EXE 0x1888 town.12
+#. width: 39
+msgctxt "game"
+msgid "sha1:aee6391bab2f0b6d"
+msgstr "Le gardien t'adresse la parole._\"Tiens, tiens, te revoila ! T'es alle_ faire tes courses en ville ?\"__Donne-leur ton nom._Une nouvelle aventure commence.__Ou vas-tu prendre la fuite ?"
+
+#: MAIN2HDE.EXE 0x1956 town.13
+#. width: 39
+msgctxt "game"
+msgid "sha1:30148f0af7de8e6f"
+msgstr "_C'est vraiment ton nom ?"
+
+#: MAIN2HDE.EXE 0x19AF town.14
+#. width: 39
+msgctxt "game"
+msgid "sha1:1946fe6f89c39131"
+msgstr "_\"OK, c'est verifie. Tu es admis comme_ Screamer inscrit. Vas-y, entre.__ On boira un verre un de ces jours !_ Si on est encore vivants, bien sur.\""
+
+#: MAIN2HDE.EXE 0x1A57 town.15
+#. width: 39
+msgctxt "game"
+msgid "sha1:6baf87fa4a55c801"
+msgstr "\"Pas de chance, petit. On ne prend_ personne en ce moment... La ville_ est pleine de Screamers ! On_ recrutera bientot, reviens alors !\"__...te dit le gardien._Tu ne peux pas entrer ainsi..._Effacer un personnage deja cree ?"
+
+#: MAIN2HDE.EXE 0x1B58 town.16
+#. width: 39
+msgctxt "game"
+msgid "sha1:c4c42af694162c32"
+msgstr "Qui veux-tu effacer ?"
+
+#: MAIN2HDE.EXE 0x1BA4 town.17
+#. width: 39
+msgctxt "game"
+msgid "sha1:dcb9b809ee080a35"
+msgstr "Vraiment l'effacer ?_Tu as sa permission, hein ?"
+
+#: MAIN2HDE.EXE 0x1C04 town.18
+#. width: 39
+msgctxt "game"
+msgid "sha1:c571b7cda6419689"
+msgstr " a ete_raye de la liste des Screamers !"
+
+#: MAIN2HDE.EXE 0x1C73 town.04
+#. width: 39
+msgctxt "game"
+msgid "sha1:233c6c80db59b115"
+msgstr "Personne n'est encore inscrit."
+
+#: MAIN2HDE.EXE 0x1CB4 town.01
+#. width: 39
+msgctxt "game"
+msgid "sha1:e87153030e81a9b4"
+msgstr "  Taper  \x02 Clavier_Choisir \x02 Fleches_Valider \x02 Espace"
+
+#: MAIN2HDE.EXE 0x1DBA town.03
+#. width: 39
+msgctxt "game"
+msgid "sha1:8933e63c8cdb3f7d"
+msgstr "Nouveau___Inscrit"
+
+#: MAIN2HDE.EXE 0x1E5D town.11
+#. width: 39
+msgctxt "game"
+msgid "sha1:ef1d9e0c848a8727"
+msgstr "Inscrire ce nom sur la liste ?"
+
+#: MAIN2HDE.EXE 0x1EC6 town.09
+#. width: 39
+msgctxt "game"
+msgid "sha1:b88a5568c2f4b441"
+msgstr "_Pas de nom, pas d'inscription !"
+
+#: MAIN2HDE.EXE 0x1F1F town.10
+#. width: 39
+msgctxt "game"
+msgid "sha1:3596541ca5143dd4"
+msgstr "_Ce nom est deja inscrit !"
+
+#: MAIN2HDE.EXE 0x21AC town.19
+#. width: 70
+msgctxt "game"
+msgid "sha1:3e967f73da34a722"
+msgstr "He he he. Tu es deja mort !"
+
+#: MAIN2HDE.EXE 0x21DE town.20
+#. width: 70
+msgctxt "game"
+msgid "sha1:9e5057b9f5eef4f5"
+msgstr "Pas cher, ca ira, je veux juste boire beaucoup !"
+
+#: MAIN2HDE.EXE 0x226B town.21
+#. width: 70
+msgctxt "game"
+msgid "sha1:935618ab969d1645"
+msgstr "Qui je suis ? Celui qui a porte ce programme sur PC-9801."
+
+#: MAIN2HDE.EXE 0x22AB town.22
+#. width: 70
+msgctxt "game"
+msgid "sha1:9ee917aec5bbd50a"
+msgstr "Je ferai des logiciels toujours meilleurs, restez avec nous."
+
+#: MAIN2HDE.EXE 0x22E7 town.23
+#. width: 70
+msgctxt "game"
+msgid "sha1:100849c88e6d79d2"
+msgstr "C'est peu de chose, mais acceptez 10 000 credits."
+
+#: MAIN2HDE.EXE 0x244B bias.01
+#. width: 80
+msgctxt "game"
+msgid "sha1:4eace73162a3c0ae"
+msgstr "- COMMAND -~~ Examiner~~ Ramasser~~ Jeter~~ Equiper~~ Retirer~~ Utiliser~~ Donner~~ Parler~~ Capacites~~ Inventaire~~"
+
+#: MAIN2HDE.EXE 0x2519 bias.06
+#. width: 39
+msgctxt "game"
+msgid "sha1:e79c92625605376f"
+msgstr "___       La barriere sonore a cesse."
+
+#: MAIN2HDE.EXE 0x2576 bias.02
+#. width: 39
+msgctxt "game"
+msgid "sha1:e986a7653093200f"
+msgstr "___    Le Samson Drug ne fait plus effet."
+
+#: MAIN2HDE.EXE 0x25C4 bias.03
+#. width: 39
+msgctxt "game"
+msgid "sha1:88f0aac40a5b8d78"
+msgstr "___    Le Brain Upper ne fait plus effet."
+
+#: MAIN2HDE.EXE 0x2612 bias.04
+#. width: 39
+msgctxt "game"
+msgid "sha1:0c7b5ad76ecc0ee7"
+msgstr "___    Le Tec Upper ne fait plus effet."
+
+#: MAIN2HDE.EXE 0x265E bias.05
+#. width: 39
+msgctxt "game"
+msgid "sha1:ee1c8d4057b30559"
+msgstr "___    Le Responser ne fait plus effet."
+
+#: MAIN2HDE.EXE 0x26F7 bias.07
+#. width: 39
+msgctxt "game"
+msgid "sha1:c35ea9f3890f5ac9"
+msgstr "___      Un objet s'est casse !"
+
+#: MAIN2HDE.EXE 0x2742 bias.08
+#. width: 39
+msgctxt "game"
+msgid "sha1:23251fd010a504a5"
+msgstr "___      Quelque chose est ecrit au mur."
+
+#: MAIN2HDE.EXE 0x2829 bias.09
+#. width: 39
+msgctxt "game"
+msgid "sha1:34bcc3b4c9ea25b8"
+msgstr "___      Quelque chose traine au sol."
+
+#: MAIN2HDE.EXE 0x2A70 item.04
+#. width: 39
+msgctxt "game"
+msgid "sha1:8e2283b87e135416"
+msgstr "    Jeter quoi ? (ESC pour annuler)"
+
+#: MAIN2HDE.EXE 0x2AE0 item.05
+#. width: 39
+msgctxt "game"
+msgid "sha1:e83c42ac5f04a737"
+msgstr "___            C'est jete."
+
+#: MAIN2HDE.EXE 0x2B1E item.03
+#. width: 39
+msgctxt "game"
+msgid "sha1:1d3b738d98f85da2"
+msgstr "___            Tu n'as rien."
+
+#: MAIN2HDE.EXE 0x2C21 item.07
+#. width: 39
+msgctxt "game"
+msgid "sha1:5ffc5c100ffba5f9"
+msgstr "    Equiper quoi ? (ESC pour annuler)"
+
+#: MAIN2HDE.EXE 0x2CAF item.10
+#. width: 39
+msgctxt "game"
+msgid "sha1:ae19f862077e7b99"
+msgstr "___   Tu en portes deja un du genre."
+
+#: MAIN2HDE.EXE 0x2CFA item.11
+#. width: 39
+msgctxt "game"
+msgid "sha1:13dd2319764b8c2d"
+msgstr "___       Equipe."
+
+#: MAIN2HDE.EXE 0x2D36 item.06
+#. width: 39
+msgctxt "game"
+msgid "sha1:b3fe887f43132299"
+msgstr "__        Tu n'as rien."
+
+#: MAIN2HDE.EXE 0x2D6D item.08
+#. width: 39
+msgctxt "game"
+msgid "sha1:33334dbc2528d43e"
+msgstr "      Ca ne s'equipe pas."
+
+#: MAIN2HDE.EXE 0x2DAA item.09
+#. width: 39
+msgctxt "game"
+msgid "sha1:5d40537cb6ce0359"
+msgstr "___   Deja equipe."
+
+#: MAIN2HDE.EXE 0x2EF4 item.01
+#. width: 39
+msgctxt "game"
+msgid "sha1:46e5cd5080f24fa8"
+msgstr "___         Tu n'as rien."
+
+#: MAIN2HDE.EXE 0x31A2 item.13
+#. width: 39
+msgctxt "game"
+msgid "sha1:0d31292bd6cb9b13"
+msgstr "    Retirer quoi ? (ESC pour annuler)"
+
+#: MAIN2HDE.EXE 0x3200 item.15
+#. width: 39
+msgctxt "game"
+msgid "sha1:fa454a86b702d209"
+msgstr "___          Retire."
+
+#: MAIN2HDE.EXE 0x323E item.14
+#. width: 39
+msgctxt "game"
+msgid "sha1:31b5208a7cb2548b"
+msgstr "___      Ce n'est pas equipe."
+
+#: MAIN2HDE.EXE 0x327E item.12
+#. width: 39
+msgctxt "game"
+msgid "sha1:99d61596df9b0d6a"
+msgstr "___          Tu n'as rien."
+
+#: MAIN2HDE.EXE 0x3465 bias.13
+#. width: 39
+msgctxt "game"
+msgid "sha1:87557d70e056fb0a"
+msgstr "~~~       Cette porte ne s'ouvre pas."
+
+#: MAIN2HDE.EXE 0x351F bias.11
+#. width: 39
+msgctxt "game"
+msgid "sha1:ca090b47ce0d3a3e"
+msgstr "~     Une voix sort du micro...~     \"Donne le mot de passe.\"~~        "
+
+#: MAIN2HDE.EXE 0x35A4 bias.12
+#. width: 39
+msgctxt "game"
+msgid "sha1:fb44cc1212c2d3cb"
+msgstr "___    Mauvais numero."
+
+#: MAIN2HDE.EXE 0x360C bias.10
+#. width: 39
+msgctxt "game"
+msgid "sha1:3d5383ba8f1d0dda"
+msgstr "~~~           Aie ! Tu heurtes un mur."
+
+#: MAIN2HDE.EXE 0x3846 shop.01
+#. width: 80
+msgctxt "game"
+msgid "sha1:f3ed0f985852a1dd"
+msgstr "- COMMAND -__ Acheter__ Vendre__ Inventaire__ Sortir"
+
+#: MAIN2HDE.EXE 0x38A9 shop.02
+#. width: 39
+msgctxt "game"
+msgid "sha1:f5bea85f52dc0937"
+msgstr "\".....Besoin de quelque chose ?_ Prends ton temps pour choisir.\""
+
+#: MAIN2HDE.EXE 0x3953 shop.04
+#. width: 39
+msgctxt "game"
+msgid "sha1:5052a0d58d791c5c"
+msgstr "\"Tu achetes ? Prends ton temps._ J'ai plein de trucs costauds !\"___     Tu as # credits."
+
+#: MAIN2HDE.EXE 0x3A07 shop.06
+#. width: 39
+msgctxt "game"
+msgid "sha1:d9f541688b37972f"
+msgstr "\"Tu prends celui-la ?\""
+
+#: MAIN2HDE.EXE 0x3A2D shop.07
+#. width: 39
+msgctxt "game"
+msgid "sha1:259b838c4bdaea5b"
+msgstr "Oui__Non"
+
+#: MAIN2HDE.EXE 0x3A9E shop.08
+#. width: 39
+msgctxt "game"
+msgid "sha1:24603818d53562e3"
+msgstr "\"He he he. Bien oblige._ Un plaisir de faire affaire.\""
+
+#: MAIN2HDE.EXE 0x3AF4 shop.09
+#. width: 39
+msgctxt "game"
+msgid "sha1:7be667934edccd68"
+msgstr "\"Autre chose ?\""
+
+#: MAIN2HDE.EXE 0x3B15 shop.10
+#. width: 39
+msgctxt "game"
+msgid "sha1:a8d523ccee24e3ec"
+msgstr "Oui__Non"
+
+#: MAIN2HDE.EXE 0x3B6A shop.05
+#. width: 39
+msgctxt "game"
+msgid "sha1:39b80f33b0a54ef4"
+msgstr "\"C'est trop cher pour toi, mon vieux._ Je ne peux pas te le vendre.\""
+
+#: MAIN2HDE.EXE 0x3BC4 shop.03
+#. width: 39
+msgctxt "game"
+msgid "sha1:4a3148a1e70f9ea2"
+msgstr "\"Tu ne peux plus rien porter.\""
+
+#: MAIN2HDE.EXE 0x3C29 shop.12
+#. width: 39
+msgctxt "game"
+msgid "sha1:ef37be00e1eeb099"
+msgstr "\"Lequel tu me vends...\""
+
+#: MAIN2HDE.EXE 0x3CA7 shop.13
+#. width: 39
+msgctxt "game"
+msgid "sha1:6a0fa72e75d9d0e1"
+msgstr "\"Je te le prends pour # credits._ Ca te va ?\""
+
+#: MAIN2HDE.EXE 0x3D8B shop.11
+#. width: 39
+msgctxt "game"
+msgid "sha1:dfdf71ffc251cdcf"
+msgstr "\"T'as rien du tout !!!\""
+
+#: MAIN2HDE.EXE 0x3E06 item.19
+#. width: 39
+msgctxt "game"
+msgid "sha1:c3b793c5c4cc5c64"
+msgstr "Empoisonne "
+
+#: MAIN2HDE.EXE 0x3E26 item.20
+#. width: 39
+msgctxt "game"
+msgid "sha1:0b85409ca2ef9570"
+msgstr " ramasse."
+
+#: MAIN2HDE.EXE 0x3E64 item.16
+#. width: 39
+msgctxt "game"
+msgid "sha1:059cf81c12e4cb8d"
+msgstr "___            Rien au sol."
+
+#: MAIN2HDE.EXE 0x3E9B item.17
+#. width: 39
+msgctxt "game"
+msgid "sha1:1d85b3ddb569eb71"
+msgstr "___            Tu ne peux plus porter."
+
+#: MAIN2HDE.EXE 0x3EEA shop.48
+#. width: 39
+msgctxt "game"
+msgid "sha1:19cc165a681d57b7"
+msgstr "        Parler a qui ?"
+
+#: MAIN2HDE.EXE 0x3F3A shop.47
+#. width: 39
+msgctxt "game"
+msgid "sha1:079b7c03d859bfea"
+msgstr "~~~        Il n'y a personne."
+
+#: MAIN2HDE.EXE 0x3F77 shop.49
+#. width: 39
+msgctxt "game"
+msgid "sha1:00bd1c0eb6e127b5"
+msgstr " \"Qu'est-ce que tu veux savoir ? Si je_ ne comprends pas, ou si j'ai pas_ envie, je reponds pas. Vas-y.\"__   \x02 "
+
+#: MAIN2HDE.EXE 0x401D shop.50
+#. width: 39
+msgctxt "game"
+msgid "sha1:7bda2e6781e0bbf2"
+msgstr "__      Moi aussi, je suis un pervers."
+
+#: MAIN2HDE.EXE 0x40CA shop.51
+#. width: 39
+msgctxt "game"
+msgid "sha1:5eee6194b029bd69"
+msgstr " \"De quoi tu parles ?\""
+
+#: MAIN2HDE.EXE 0x40FF shop.52
+#. width: 39
+msgctxt "game"
+msgid "sha1:1019e8380c56e043"
+msgstr " \".............\""
+
+#: MAIN2HDE.EXE 0x41A3 shop.14
+#. width: 39
+msgctxt "game"
+msgid "sha1:e7e4518b9647fe5a"
+msgstr "\"Tiens, bonjour. Ca va, petit ?_ T'as gagne des sous ? Montre ton FRD._ Je verifie ce que t'as gagne...~ Allez, vite. Tu sais ce que c'est,_ un FRD ? Un Fighting Recorder~ Device.\""
+
+#: MAIN2HDE.EXE 0x425C shop.15
+#. width: 80
+msgctxt "game"
+msgid "sha1:536ba2923fabce5d"
+msgstr "- COMMAND -~~ Montrer FRD~~ Prendre FRD~~ Capacites~~ Sortir"
+
+#: MAIN2HDE.EXE 0x42FC shop.18
+#. width: 39
+msgctxt "game"
+msgid "sha1:b3b862fbde88a321"
+msgstr "\"Voyons... pour ces beast points,_ la prime se monte a ceci.~ Tiens, tends la main.\""
+
+#: MAIN2HDE.EXE 0x435A shop.19
+#. width: 39
+msgctxt "game"
+msgid "sha1:b3ac32fb31920744"
+msgstr "Prime : # credits"
+
+#: MAIN2HDE.EXE 0x43D2 shop.20
+#. width: 39
+msgctxt "game"
+msgid "sha1:c0d9eb5b8b9bf3e4"
+msgstr "\"Encore # points avant ton HC.~ Va tuer des monstres coriaces !\""
+
+#: MAIN2HDE.EXE 0x444E shop.17
+#. width: 39
+msgctxt "game"
+msgid "sha1:30a4cd9abf75a761"
+msgstr "\"Reviens quand t'auras tue des_ monstres. Rien a faire ici ? Alors~ dehors !!\""
+
+#: MAIN2HDE.EXE 0x44C1 shop.16
+#. width: 39
+msgctxt "game"
+msgid "sha1:a1883e5843ef22a1"
+msgstr "\"T'as meme pas l'appareil !!_ Pas de prime pour les gens comme toi.\""
+
+#: MAIN2HDE.EXE 0x452D shop.22
+#. width: 39
+msgctxt "game"
+msgid "sha1:4ba640346303ac4b"
+msgstr "\"T'es passe Master Class,~ ta classe ne montera plus.\""
+
+#: MAIN2HDE.EXE 0x45B3 shop.24
+#. width: 39
+msgctxt "game"
+msgid "sha1:944d8780862a2076"
+msgstr "\"Voici un pendentif en souvenir.~ Prends-en bien soin.\""
+
+#: MAIN2HDE.EXE 0x4610 shop.23
+#. width: 39
+msgctxt "game"
+msgid "sha1:6bd7a8624db58c29"
+msgstr "\"Je te donnerais bien un souvenir,~ mais tu ne peux plus rien porter.~ Reviens quand tu seras allege.\""
+
+#: MAIN2HDE.EXE 0x469F shop.27
+#. width: 39
+msgctxt "game"
+msgid "sha1:c835b075fd8407d0"
+msgstr "\"Tiens, prends-le. Tu le sais sans~ doute, mais je t'explique. FRD veut~ dire Fighting Recorder Device. Une~ video qui enregistre tes combats.\""
+
+#: MAIN2HDE.EXE 0x4763 shop.28
+#. width: 39
+msgctxt "game"
+msgid "sha1:bd7b4b016801eb64"
+msgstr "\"Sans lui, tuer des monstres ne~ monte pas tes BP et ne paie rien.~ Porte-le toujours quand tu entres~ dans BIAS. Pas besoin de l'oter~ pour me le montrer.\""
+
+#: MAIN2HDE.EXE 0x4813 shop.25
+#. width: 39
+msgctxt "game"
+msgid "sha1:c87a5ac7b4385a87"
+msgstr "\"T'en as deja un. Me mens pas._ Alors, qu'est-ce que tu veux ?\""
+
+#: MAIN2HDE.EXE 0x487E shop.26
+#. width: 39
+msgctxt "game"
+msgid "sha1:fa61b1ce41531ba9"
+msgstr "\"Oh la, t'as les mains pleines._ Desole, je ne peux pas te le donner.\""
+
+#: MAIN2HDE.EXE 0x48F9 shop.21
+#. width: 39
+msgctxt "game"
+msgid "sha1:dd4a1eff27029c19"
+msgstr "\"He petit, ta classe a monte !~ Attends, je l'enregistre.\""
+
+#: MAIN2HDE.EXE 0x4AAA item.23
+#. width: 39
+msgctxt "game"
+msgid "sha1:7597c64bb7ac343e"
+msgstr "~~~        Rien de special ici."
+
+#: MAIN2HDE.EXE 0x4AFE item.21
+#. width: 39
+msgctxt "game"
+msgid "sha1:f4c084abb712336e"
+msgstr "___      Au sol se trouve "
+
+#: MAIN2HDE.EXE 0x4B21 item.22
+#. width: 39
+msgctxt "game"
+msgid "sha1:e52e8ed818b408ed"
+msgstr "."
+
+#: MAIN2HDE.EXE 0x4B47 item.24
+#. width: 39
+msgctxt "game"
+msgid "sha1:fb6c9d1870297853"
+msgstr "___  Ecrit sur le mur :_  \""
+
+#: MAIN2HDE.EXE 0x4B7C item.25
+#. width: 39
+msgctxt "game"
+msgid "sha1:0f84a01e493c3b1b"
+msgstr "\"."
+
+#: MAIN2HDE.EXE 0x4BC4 shop.29
+#. width: 39
+msgctxt "game"
+msgid "sha1:9fa7cda746345c79"
+msgstr "\"He, jeune homme, ca va pas ?_Les mignonnes de BIAS t'ont malmene,_hein. Montre-moi ou t'as mal.\""
+
+#: MAIN2HDE.EXE 0x4C47 shop.30
+#. width: 80
+msgctxt "game"
+msgid "sha1:cb5ff9dff00f6af7"
+msgstr "- COMMAND -__ Soigner HP__ Soigner Agl__ Soigner Pow__ Soigner IQ__ Soigner Tec__ Antidote__ Capacites__ Sortir"
+
+#: MAIN2HDE.EXE 0x4D71 shop.33
+#. width: 39
+msgctxt "game"
+msgid "sha1:6817c15658643ba9"
+msgstr "\"Bon, je te soigne. 1 point coute_5 credits. Combien tu paies ?\"~~"
+
+#: MAIN2HDE.EXE 0x4E5D shop.34
+#. width: 39
+msgctxt "game"
+msgid "sha1:e293615debea3ba1"
+msgstr "\"Voila, gueri. Autre chose ?\" "
+
+#: MAIN2HDE.EXE 0x4E9E shop.31
+#. width: 39
+msgctxt "game"
+msgid "sha1:780982493a958e3a"
+msgstr "Credits #  "
+
+#: MAIN2HDE.EXE 0x4F18 shop.36
+#. width: 39
+msgctxt "game"
+msgid "sha1:e521cbb95a1cb2b6"
+msgstr "\"Je vois. Empoisonne, hein ? Voyons..._Hum. Ca va te couter. On soigne ?\""
+
+#: MAIN2HDE.EXE 0x4F6C shop.37
+#. width: 39
+msgctxt "game"
+msgid "sha1:27e4a9500c7fa359"
+msgstr "Oui_Non"
+
+#: MAIN2HDE.EXE 0x4FCA shop.38
+#. width: 39
+msgctxt "game"
+msgid "sha1:9a90e0bae6e2c9ce"
+msgstr "Prix #"
+
+#: MAIN2HDE.EXE 0x5018 shop.39
+#. width: 39
+msgctxt "game"
+msgid "sha1:50dbba21924ee380"
+msgstr "\"Pas de soin, alors ? Bien. Mais si_tu fais que passer, je te revois plus.\""
+
+#: MAIN2HDE.EXE 0x50E1 shop.35
+#. width: 39
+msgctxt "game"
+msgid "sha1:cf00967e42a4bc31"
+msgstr "\"Tu te moques de moi ? T'es pas_empoisonne du tout !!!\""
+
+#: MAIN2HDE.EXE 0x5146 shop.32
+#. width: 39
+msgctxt "game"
+msgid "sha1:0ff207c279fc4783"
+msgstr "\"He ! Pas de paie, pas de soin !!!\""
+
+#: MAIN2HDE.EXE 0x5267 town.31
+#. width: 70
+msgctxt "game"
+msgid "sha1:29e3e0c38c408601"
+msgstr "           Tu es mort.~~ Mais Beast City attend un nouveau guerrier.~ Si tu es un vrai heros, appuie sur espace."
+
+#: MAIN2HDE.EXE 0x5344 end.01
+#. width: 39
+msgctxt "game"
+msgid "sha1:c92b7ee950935853"
+msgstr "    \"Pff... pff... Enfin, je l'ai eu.\""
+
+#: MAIN2HDE.EXE 0x53A9 end.02
+#. width: 39
+msgctxt "game"
+msgid "sha1:bdfaffd34b40f4ac"
+msgstr "\"A-attends.\""
+
+#: MAIN2HDE.EXE 0x5400 end.03
+#. width: 39
+msgctxt "game"
+msgid "sha1:043582d734eb2465"
+msgstr "\"Quoi !? Il vit encore ! Monstre !\""
+
+#: MAIN2HDE.EXE 0x5469 end.04
+#. width: 39
+msgctxt "game"
+msgid "sha1:9388c4b7f15e7321"
+msgstr "\"Non, non ! J'ai beau avoir cet air,~je suis humain ! Je t'en prie, ecoute.\""
+
+#: MAIN2HDE.EXE 0x54FB end.05
+#. width: 39
+msgctxt "game"
+msgid "sha1:86660a959ef45217"
+msgstr "         \"D'accord, parle.\""
+
+#: MAIN2HDE.EXE 0x555A end.06
+#. width: 39
+msgctxt "game"
+msgid "sha1:3e5443fc58261b4a"
+msgstr "\"En verite, malgre cet aspect, j'etais~le directeur de BIAS. Mais ces ordures~du gouvernement m'ont pousse a creer~cette drogue diabolique, et a la fin~ses essais m'ont rendu ainsi.\""
+
+#: MAIN2HDE.EXE 0x5638 end.07
+#. width: 39
+msgctxt "game"
+msgid "sha1:383466f4667a2dbf"
+msgstr "       \"Quelle drogue ?\""
+
+#: MAIN2HDE.EXE 0x5696 end.08
+#. width: 39
+msgctxt "game"
+msgid "sha1:44f315b3699ca2d1"
+msgstr "\"Une drogue qui fait des gens des armes~vivantes... Entre leurs mains, ce~serait un desastre. J'ai donc pris~BIAS pour la tenir loin d'eux.~Mais je m'arrete ici... Argh !\""
+
+#: MAIN2HDE.EXE 0x5758 end.09
+#. width: 39
+msgctxt "game"
+msgid "sha1:d52de6c609dca8a4"
+msgstr "\"Je t'en prie... emporte cette drogue~la ou ils ne pourront l'atteindre...\""
+
+#: MAIN2HDE.EXE 0x57C5 end.10
+#. width: 39
+msgctxt "game"
+msgid "sha1:be19aca68ff3d8ce"
+msgstr "   \"D'accord, je m'en charge. Qui~  aurait cru le tresor si sinistre ?\""
+
+#: MAIN2HDE.EXE 0x5846 end.11
+#. width: 39
+msgctxt "game"
+msgid "sha1:89ba7920725bb383"
+msgstr "\"J-je compte sur toi !\""
+
+#: MAIN2HDE.EXE 0x589A end.12
+#. width: 39
+msgctxt "game"
+msgid "sha1:62b92d390d2ad692"
+msgstr "Tu prends la drogue et cours dehors."
+
+#: MAIN2HDE.EXE 0x58FF end.13
+#. width: 39
+msgctxt "game"
+msgid "sha1:5ed10b451ed0062a"
+msgstr "En sortant de BIAS, tu trouves la~Police Blindee a l'affut !~~\"He he he, enfin dehors. He, petit !~Donne-nous ce que tu tiens la !\""
+
+#: MAIN2HDE.EXE 0x59AD end.14
+#. width: 39
+msgctxt "game"
+msgid "sha1:fd01b04b65b4099e"
+msgstr "\"Quoi !? Comment vous le savez ???\""
+
+#: MAIN2HDE.EXE 0x5A15 end.15
+#. width: 39
+msgctxt "game"
+msgid "sha1:de75d2d916c96f1a"
+msgstr "\"Le FRD sur ton epaule, petit.~C'est un emetteur. On sait toujours~ou vous etes, vous les Screamers.\""
+
+#: MAIN2HDE.EXE 0x5A9D end.16
+#. width: 39
+msgctxt "game"
+msgid "sha1:ecf143ada0874e23"
+msgstr "\"Un souvenir a emporter dans ta tombe.~Le systeme Screamer existe pour que des~idiots comme toi sortent de ce BIAS~fou ce que tu tiens la.\""
+
+#: MAIN2HDE.EXE 0x5B5E end.17
+#. width: 39
+msgctxt "game"
+msgid "sha1:49d91a44ab9056d4"
+msgstr "\"He he he... Je vois, je vois. C'est~donc ca. Compris !~Bien. Regardez bien. Je vais vous~montrer un truc amusant !\""
+
+#: MAIN2HDE.EXE 0x5BF3 end.18
+#. width: 39
+msgctxt "game"
+msgid "sha1:32bfdeebc9926f6d"
+msgstr "Tu t'injectes la drogue !"
+
+#: MAIN2HDE.EXE 0x5C56 end.19
+#. width: 39
+msgctxt "game"
+msgid "sha1:a05f6b19406a20f5"
+msgstr "\"A-arrete ! Idiot !! Feu ! Feu !\""
+
+#: MAIN2HDE.EXE 0x5CBB end.20
+#. width: 39
+msgctxt "game"
+msgid "sha1:8f97dede2e170e2a"
+msgstr "SHHING !!"
+
+#: MAIN2HDE.EXE 0x5CF1 end.21
+#. width: 39
+msgctxt "game"
+msgid "sha1:52934451cd701b24"
+msgstr "~~Grrrrr....."
+
+#: MAIN2HDE.EXE 0x5D28 end.22
+#. width: 39
+msgctxt "game"
+msgid "sha1:b012cceb4c4c2026"
+msgstr "\"Tirez !!\""
+
+#: MAIN2HDE.EXE 0x5D64 end.23
+#. width: 70
+msgctxt "game"
+msgid "sha1:aa3ea38d8d350ee2"
+msgstr "Et ainsi naquit une nouvelle legende."
+
+#: MAIN2HDE.EXE 0x61EF end.26
+#. width: 70
+msgctxt "game"
+msgid "sha1:52fa6665db8a5b81"
+msgstr "        ---    ASCII HSP ALL STUFF LIST    ---___Shuji Akimoto       Yukio Arisaka          Takehiko Ishiwata__Youichi Uekyou      Naoto Ooshima          Hideo Katou__Yasuhito Kawaoka    Shouko Kusunoki        Kouichi Kuno__Eiichi Saida        Masako Sakai           Satoru Satou__Gouhei Shinpo       Takeshi Sekino         Hiroyuki Sonobe__Atsushi Tokura      Yoshio Nishimoto       Sumihiko Hashimoto__Toshiyuki Horii     Chizuko Maki           Noriko Matsushige__Mitsuhiro Matsuda   Hiroshi Mita           Tsuneo Morita__Masaaki Yasuda      Kunio Yukinaga         Takuya Watanabe___ Nous ferons encore des choses amusantes, restez avec nous. _"
+
+#: MAIN2HDE.EXE 0x6462 shop.53
+#. width: 39
+msgctxt "game"
+msgid "sha1:4cafe4fb480ea18e"
+msgstr "          Donner a qui ?"
+
+#: MAIN2HDE.EXE 0x64F1 shop.54
+#. width: 39
+msgctxt "game"
+msgid "sha1:dca4d36e4c1e1083"
+msgstr "   Que vas-tu donner ?___              Or     Objet"
+
+#: MAIN2HDE.EXE 0x6551 shop.55
+#. width: 39
+msgctxt "game"
+msgid "sha1:ff653c606ff94f9d"
+msgstr "      Combien vas-tu donner ?"
+
+#: MAIN2HDE.EXE 0x65EF shop.57
+#. width: 39
+msgctxt "game"
+msgid "sha1:1ecd2e9839cd56ad"
+msgstr "~~~        Tu n'as pas autant."
+
+#: MAIN2HDE.EXE 0x6630 shop.56
+#. width: 39
+msgctxt "game"
+msgid "sha1:762b2cc25c4d7b92"
+msgstr "~~~        \".........\""
+
+#: MAIN2HDE.EXE 0x6676 shop.59
+#. width: 39
+msgctxt "game"
+msgid "sha1:0232930a822a2716"
+msgstr "    Donner quoi ? (ESC pour annuler)"
+
+#: MAIN2HDE.EXE 0x6723 shop.62
+#. width: 39
+msgctxt "game"
+msgid "sha1:0d0093992bced131"
+msgstr " recu."
+
+#: MAIN2HDE.EXE 0x6774 shop.58
+#. width: 39
+msgctxt "game"
+msgid "sha1:cd3e234d457d4ec7"
+msgstr "~~~     Tu n'as rien."
+
+#: MAIN2HDE.EXE 0x67AA shop.60
+#. width: 39
+msgctxt "game"
+msgid "sha1:db21ae8e155febe7"
+msgstr "~~~ \"Je te donnerais bien un truc, mais~ tu ne peux plus rien porter.\""
+
+#: MAIN2HDE.EXE 0x6836 shop.40
+#. width: 39
+msgctxt "game"
+msgid "sha1:e2f6b3b77174bdb7"
+msgstr "\"Oh, bienvenue, beau gosse. Ca paie ?_Bois un coup et detends-toi._A volonte pour 50 credits.\""
+
+#: MAIN2HDE.EXE 0x68BA shop.41
+#. width: 80
+msgctxt "game"
+msgid "sha1:8f94bcec2f57259c"
+msgstr "- COMMAND -__ Boire__ Capacites__ Sortir"
+
+#: MAIN2HDE.EXE 0x693F shop.43
+#. width: 39
+msgctxt "game"
+msgid "sha1:eed270e1d73807dd"
+msgstr "\"Quoi ? Grande gueule, et pas un sou !_ On ne fait pas credit ici._ Pas d'argent ? Alors dehors !!!\""
+
+#: MAIN2HDE.EXE 0x69D1 shop.44
+#. width: 80
+msgctxt "game"
+msgid "sha1:ee59b625c0e64649"
+msgstr "- COMMAND -__ Parler__ Donner__ Capacites__ Se lever"
+
+#: MAIN2HDE.EXE 0x6A3A shop.45
+#. width: 39
+msgctxt "game"
+msgid "sha1:3d366a28d27fefa5"
+msgstr "Tu paies et prends un siege._D'autres Screamers boivent et se_detendent autour de toi._Alors, que vas-tu faire ?"
+
+#: MAIN2HDE.EXE 0x6AEC shop.42
+#. width: 39
+msgctxt "game"
+msgid "sha1:dc239f1c23e4b576"
+msgstr "\"Tu pars deja ?\""
+
+#: MAIN2HDE.EXE 0x6BC7 bias.14
+#. width: 39
+msgctxt "game"
+msgid "sha1:fc584e18c37b4660"
+msgstr "___            Un monstre apparait !"
+
+#: MAIN2HDE.EXE 0x6C41 bias.15
+#. width: 39
+msgctxt "game"
+msgid "sha1:fabd44dd9ecf41cf"
+msgstr "__   Le monstre te parle !~"
+
+#: MAIN2HDE.EXE 0x6C81 bias.16
+#. width: 39
+msgctxt "game"
+msgid "sha1:cb3c297b9d861949"
+msgstr "~    \"Jamais je n'aurais cru qu'on~     viendrait si loin... Mais c'est~     la fin. Meurs, morveux !!\""
+
+#: MAIN2HDE.EXE 0x6D20 bias.17
+#. width: 39
+msgctxt "game"
+msgid "sha1:86b13dd14c9fe1a0"
+msgstr "___           Tu croises un chasseur."
+
+#: MAIN2HDE.EXE 0x71C6 bias.21
+#. width: 39
+msgctxt "game"
+msgid "sha1:201b55deea17b24a"
+msgstr " est a toi."
+
+#: MAIN2HDE.EXE 0x71FA bias.20
+#. width: 39
+msgctxt "game"
+msgid "sha1:f5f9bcb42ab223d1"
+msgstr "___     Tu ne peux plus porter."
+
+#: MAIN2HDE.EXE 0x73FB bias.18
+#. width: 39
+msgctxt "game"
+msgid "sha1:1fb03e06b672afcb"
+msgstr "__    He he he, pas si vite."
+
+#: MAIN2HDE.EXE 0x7568 item.30
+#. width: 39
+msgctxt "game"
+msgid "sha1:aacc6903b88ae759"
+msgstr "    Utiliser quoi ? (ESC pour annuler)"
+
+#: MAIN2HDE.EXE 0x75EE item.31
+#. width: 39
+msgctxt "game"
+msgid "sha1:546cabda2a7b0379"
+msgstr "___     Cet objet ne s'utilise pas."
+
+#: MAIN2HDE.EXE 0x762A item.29
+#. width: 39
+msgctxt "game"
+msgid "sha1:a8f08cf2109b3f93"
+msgstr "___          Tu n'as rien."
+
+#: MAIN2HDE.EXE 0x765E item.26
+#. width: 39
+msgctxt "game"
+msgid "sha1:89a3526140412914"
+msgstr "___          Il ne se passe rien."
+
+#: MAIN2HDE.EXE 0x7699 item.27
+#. width: 39
+msgctxt "game"
+msgid "sha1:5c7e07696a6cd9ed"
+msgstr "___              Sans effet au combat."
+
+#: MAIN2HDE.EXE 0x76DA item.28
+#. width: 39
+msgctxt "game"
+msgid "sha1:b539ffa00498f4ea"
+msgstr "___         Seulement au combat."
+
+#: MAIN2HDE.EXE 0x774F item.32
+#. width: 39
+msgctxt "game"
+msgid "sha1:d63031b200623139"
+msgstr "___        Power restauree."
+
+#: MAIN2HDE.EXE 0x7797 item.33
+#. width: 39
+msgctxt "game"
+msgid "sha1:19b8ed671c4409e4"
+msgstr "___        Agility restauree."
+
+#: MAIN2HDE.EXE 0x77E1 item.34
+#. width: 39
+msgctxt "game"
+msgid "sha1:412e89a138820c6a"
+msgstr "___        Etat restaure."
+
+#: MAIN2HDE.EXE 0x784A item.35
+#. width: 39
+msgctxt "game"
+msgid "sha1:5f674c7f3a895f7f"
+msgstr "___        H.P. restaures."
+
+#: MAIN2HDE.EXE 0x7891 item.36
+#. width: 39
+msgctxt "game"
+msgid "sha1:8078236a5500e767"
+msgstr "___        Tec. restauree."
+
+#: MAIN2HDE.EXE 0x78D8 item.37
+#. width: 39
+msgctxt "game"
+msgid "sha1:ef1d5062fe13e27d"
+msgstr "___        I.Q. restaure."
+
+#: MAIN2HDE.EXE 0x791F item.38
+#. width: 39
+msgctxt "game"
+msgid "sha1:4bb17c9ad44930f8"
+msgstr "___     Power augmente."
+
+#: MAIN2HDE.EXE 0x7963 item.39
+#. width: 39
+msgctxt "game"
+msgid "sha1:2be5a78a81a0c4e8"
+msgstr "___     I.Q. augmente."
+
+#: MAIN2HDE.EXE 0x79A6 item.40
+#. width: 39
+msgctxt "game"
+msgid "sha1:4a48355e43d14744"
+msgstr "___     Technique augmente."
+
+#: MAIN2HDE.EXE 0x79EE item.41
+#. width: 39
+msgctxt "game"
+msgid "sha1:b78219f228f80e15"
+msgstr "___     Agility augmente."
+
+#: MAIN2HDE.EXE 0x7ACC item.46
+#. width: 39
+msgctxt "game"
+msgid "sha1:161d8a62326ca021"
+msgstr "~Rapport ....~~"
+
+#: MAIN2HDE.EXE 0x7AF7 item.48
+#. width: 39
+msgctxt "game"
+msgid "sha1:396d327a991ff284"
+msgstr "   Reaction toxique ! Attention !~   Nettoyage necessaire.~   Toxine identifiee : "
+
+#: MAIN2HDE.EXE 0x7B5F item.47
+#. width: 39
+msgctxt "game"
+msgid "sha1:b23dba38836f0c13"
+msgstr "   Pas de reaction toxique."
+
+#: MAIN2HDE.EXE 0x7BA1 item.42
+#. width: 39
+msgctxt "game"
+msgid "sha1:4d5a0f0691017b4e"
+msgstr "~~~    Le Bacillus Cleaner a elimine~    le poison."
+
+#: MAIN2HDE.EXE 0x7C07 item.49
+#. width: 39
+msgctxt "game"
+msgid "sha1:68d0a6c60ad77ad0"
+msgstr "~Rapport ....~~   Etage No. #~"
+
+#: MAIN2HDE.EXE 0x7C43 item.50
+#. width: 39
+msgctxt "game"
+msgid "sha1:2c51cb95850413b5"
+msgstr "   Position actuelle : X=#"
+
+#: MAIN2HDE.EXE 0x7CCD item.52
+#. width: 39
+msgctxt "game"
+msgid "sha1:7827bed4f97be0e2"
+msgstr "  Trappe detectee devant ! Attention !"
+
+#: MAIN2HDE.EXE 0x7CF8 item.53
+#. width: 39
+msgctxt "game"
+msgid "sha1:f2869943abcb6057"
+msgstr "  Aucune trappe detectee."
+
+#: MAIN2HDE.EXE 0x7D47 item.43
+#. width: 39
+msgctxt "game"
+msgid "sha1:024c67d211811cbf"
+msgstr "~~~      La barriere sonore est levee."
+
+#: MAIN2HDE.EXE 0x7DB8 item.54
+#. width: 39
+msgctxt "game"
+msgid "sha1:7864fac732dd0e97"
+msgstr "   L'androide guide Junky apparait~   devant toi.~~     \"C'est vous qui avez utilise~     la Guest I.D Card ? Je vous guide~     jusqu'a la sortie.\""
+
+#: MAIN2HDE.EXE 0x7E65 item.55
+#. width: 39
+msgctxt "game"
+msgid "sha1:1d8aa25e44c8b093"
+msgstr "~~       Junky te guide jusqu'a la~      sortie de BIAS."
+
+#: MAIN2HDE.EXE 0x7F05 item.56
+#. width: 39
+msgctxt "game"
+msgid "sha1:c6463f566158962c"
+msgstr "~~~        Deverrouille."
+
+#: MAIN2HDE.EXE 0x7F42 item.57
+#. width: 39
+msgctxt "game"
+msgid "sha1:3d936301d101f27b"
+msgstr "Donnees du monstre"
+
+#: MAIN2HDE.EXE 0x8024 item.62
+#. width: 39
+msgctxt "game"
+msgid "sha1:f87c34d45b6f239c"
+msgstr "Entre les donnees de l'ennemi"
+
+#: MAIN2HDE.EXE 0x8118 item.66
+#. width: 39
+msgctxt "game"
+msgid "sha1:352ac017f326a1e5"
+msgstr "  O.K ! Circuit de bruit ON !"
+
+#: MAIN2HDE.EXE 0x8152 item.67
+#. width: 39
+msgctxt "game"
+msgid "sha1:4dec7f4a28421ae3"
+msgstr "   Reussi ! Le monstre n'attaque plus."
+
+#: MAIN2HDE.EXE 0x818E item.68
+#. width: 39
+msgctxt "game"
+msgid "sha1:6c4f754f0660e7f6"
+msgstr "Donnees insuffisantes ! Echec !!"
+
+#: MAIN2HDE.EXE 0x81D7 item.44
+#. width: 39
+msgctxt "game"
+msgid "sha1:d7366ef252b31320"
+msgstr "       Reussi ! Le monstre est fige !"
+
+#: MAIN2HDE.EXE 0x8233 item.45
+#. width: 39
+msgctxt "game"
+msgid "sha1:2b7b1bc75bf9fee0"
+msgstr "    Reussi ! Le monstre vise mal."
+
+#: MAIN2HDE.EXE 0x88DB shop.46
+#. width: 39
+msgctxt "game"
+msgid "sha1:d095862d6d31eafc"
+msgstr "Jipang     Second Killer_Jinx       Chief_Rat        Monster Murder_Nachi_Personne"
+
+#: MAIN2HDE.EXE 0x8979 event.10
+#. width: 39
+msgctxt "game"
+msgid "sha1:28e18d1ea0559ab4"
+msgstr "~~        Il y a un ascenseur qui monte.~           Le prendre ? "
+
+#: MAIN2HDE.EXE 0x8A23 event.11
+#. width: 39
+msgctxt "game"
+msgid "sha1:7220ee4eb69994e0"
+msgstr "~~      Il y a un ascenseur qui descend.~           Le prendre ? "
+
+#: MAIN2HDE.EXE 0x8B04 event.12
+#. width: 39
+msgctxt "game"
+msgid "sha1:3d304a44b803957e"
+msgstr "~~~     Le Road Defender t'a eu,~      tu perds de l'endurance."
+
+#: MAIN2HDE.EXE 0x8BA4 event.13
+#. width: 39
+msgctxt "game"
+msgid "sha1:6f29b8ae164366da"
+msgstr "~~~      Prenez l'anneau, je vous prie."
+
+#: MAIN2HDE.EXE 0x8E34 event.14
+#. width: 39
+msgctxt "game"
+msgid "sha1:d50564b704a3365f"
+msgstr "~~~          Un brouillard monte,~         et tu es empoisonne."
+
+#: MAIN2HDE.EXE 0x9079 event.16
+#. width: 39
+msgctxt "game"
+msgid "sha1:926abf8a182cea01"
+msgstr "~~~    Une balle perdue te frappe,~    tu perds de l'endurance."
+
+#: MAIN2HDE.EXE 0x9122 event.01
+#. width: 39
+msgctxt "game"
+msgid "sha1:a04d4e1e991e7d6d"
+msgstr "~~    Un bruit strident retentit,~      tu perds de l'endurance."
+
+#: MAIN2HDE.EXE 0x9185 event.02
+#. width: 39
+msgctxt "game"
+msgid "sha1:1f9be4035a9e6df3"
+msgstr "___          Tu tombes dans un trou."
+
+#: MAIN2HDE.EXE 0x91E5 event.03
+#. width: 39
+msgctxt "game"
+msgid "sha1:902c1d7eb3226732"
+msgstr "___     Tu sors du trou."
+
+#: MAIN2HDE.EXE 0x921F event.04
+#. width: 39
+msgctxt "game"
+msgid "sha1:9a11bb800dce26c3"
+msgstr "___               Un trou !"
+
+#: MAIN2HDE.EXE 0x9341 event.05
+#. width: 39
+msgctxt "game"
+msgid "sha1:772c2ff9dd9564f4"
+msgstr "___      Danger ! Un Thunder Road."
+
+#: MAIN2HDE.EXE 0x93A4 event.06
+#. width: 39
+msgctxt "game"
+msgid "sha1:0479241e565cb68e"
+msgstr "___      Tu perds de l'endurance."
+
+#: MAIN2HDE.EXE 0x944E event.07
+#. width: 39
+msgctxt "game"
+msgid "sha1:0d237934cb1cde4b"
+msgstr "___   Des flammes ! Tu t'affaiblis."
+
+#: MAIN2HDE.EXE 0x958F event.08
+#. width: 39
+msgctxt "game"
+msgid "sha1:2712a65e94b5361c"
+msgstr "___     Un escalier monte ici.~        Monter ? "
+
+#: MAIN2HDE.EXE 0x963D event.09
+#. width: 39
+msgctxt "game"
+msgid "sha1:936def2a2159aeed"
+msgstr "___     Un escalier descend ici.~        Descendre ? "
+
+#: MAIN2HDE.EXE 0x9808 fight.01
+#. width: 80
+msgctxt "game"
+msgid "sha1:f711641c38c708cd"
+msgstr "- COMMAND -~~ Utiliser~~ Capacites~~ Inventaire~~ Retirer~~ Equiper__"
+
+#: MAIN2HDE.EXE 0x98FC fight.12
+#. width: 39
+msgctxt "game"
+msgid "sha1:b0a83aefe7b099af"
+msgstr " Fin de la Squash Ball ! Il bouge."
+
+#: MAIN2HDE.EXE 0x9994 fight.13
+#. width: 39
+msgctxt "game"
+msgid "sha1:9edb71a6878ae04f"
+msgstr " Fin de la Noise Machine ! Il attaque !"
+
+#: MAIN2HDE.EXE 0x9A31 fight.14
+#. width: 39
+msgctxt "game"
+msgid "sha1:f49c9d725ba83360"
+msgstr " Fin de la Fog Ball ! Il vise juste."
+
+#: MAIN2HDE.EXE 0x9B63 fight.04
+#. width: 39
+msgctxt "game"
+msgid "sha1:9b3be245656a8549"
+msgstr "   ATTAQUE   "
+
+#: MAIN2HDE.EXE 0x9DBD fight.11
+#. width: 39
+msgctxt "game"
+msgid "sha1:c353e281e93950c8"
+msgstr "      Le monstre s'est enfui !"
+
+#: MAIN2HDE.EXE 0xA33B fight.02
+#. width: 39
+msgctxt "game"
+msgid "sha1:170fe5d2e5d360de"
+msgstr "              Echappe !             "
+
+#: MAIN2HDE.EXE 0xA3C9 fight.03
+#. width: 39
+msgctxt "game"
+msgid "sha1:bb59cba89aea9fde"
+msgstr "Mode commande."
+
+#: MAIN2HDE.EXE 0xA5F7 fight.08
+#. width: 39
+msgctxt "game"
+msgid "sha1:c0beb13b45cb3e14"
+msgstr "    PARADE   "
+
+#: MAIN2HDE.EXE 0xA6CA fight.10
+#. width: 39
+msgctxt "game"
+msgid "sha1:bd30599c6df34586"
+msgstr " EMPOISONNE !"
+
+#: MAIN2HDE.EXE 0xA83F fight.07
+#. width: 39
+msgctxt "game"
+msgid "sha1:99f22eec57654eff"
+msgstr "     RATE    "
+
+#: MAIN2HDE.EXE 0xA92B fight.16
+#. width: 39
+msgctxt "game"
+msgid "sha1:1ccc3eb3d28a881e"
+msgstr "Tu as vaincu le monstre !"
+
+#: MAIN2HDE.EXE 0xA975 fight.17
+#. width: 39
+msgctxt "game"
+msgid "sha1:66484909ce5001ca"
+msgstr "# beast points gagnes."
+
+#: MAIN2HDE.EXE 0x15970 (MAIN:0xAFD0)
+#. width: 39
+msgctxt "game"
+msgid "sha1:357b79cc97f8f7d5"
+msgstr "Traverse la foudre"
+
+#: MAIN2HDE.EXE 0x1597F (MAIN:0xAFDF)
+#. width: 39
+msgctxt "game"
+msgid "sha1:8b856343a77e7807"
+msgstr "Retire 1 a chaque nombre"
+
+#: MAIN2HDE.EXE 0x1599D (MAIN:0xAFFD)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7d000607b3f1b1d5"
+msgstr "Le chemin vers Beast City..."
+
+#: MAIN2HDE.EXE 0x159AF (MAIN:0xB00F)
+#. width: 39
+msgctxt "game"
+msgid "sha1:65e08ae2008a51b6"
+msgstr "Les pendentifs ont fait la legende"
+
+#: MAIN2HDE.EXE 0x159D0 (MAIN:0xB030)
+#. width: 39
+msgctxt "game"
+msgid "sha1:5190e63cd03fb612"
+msgstr "Rat a une Sound Barrier"
+
+#: MAIN2HDE.EXE 0x159E8 (MAIN:0xB048)
+#. width: 39
+msgctxt "game"
+msgid "sha1:95654957325fec80"
+msgstr "Junky te menera dehors"
+
+#: MAIN2HDE.EXE 0x159FE (MAIN:0xB05E)
+#. width: 39
+msgctxt "game"
+msgid "sha1:9c64347ff2633b0b"
+msgstr "nocilol nu tse ihcamiroS"
+
+#: MAIN2HDE.EXE 0x15A0E (MAIN:0xB06E)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a199391bd02e840e"
+msgstr "Au Samurai, un ornement rouge...."
+
+#: MAIN2HDE.EXE 0x15A24 (MAIN:0xB084)
+#. width: 39
+msgctxt "game"
+msgid "sha1:50a0bf45f27b656d"
+msgstr "Mot de passe : 4 chiffres ou lettres"
+
+#: MAIN2HDE.EXE 0x15A3E (MAIN:0xB09E)
+#. width: 39
+msgctxt "game"
+msgid "sha1:8380734dcba3c831"
+msgstr "Je tuerai Gadem"
+
+#: MAIN2HDE.EXE 0x15A51 (MAIN:0xB0B1)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1c0c8ab1b197ff6e"
+msgstr "L'enfer est au paradis"
+
+#: MAIN2HDE.EXE 0x15A64 (MAIN:0xB0C4)
+#. width: 39
+msgctxt "game"
+msgid "sha1:41056273f95fde13"
+msgstr "Laissez-moi mourir sur un tatami"
+
+#: MAIN2HDE.EXE 0x15A71 (MAIN:0xB0D1)
+#. width: 39
+msgctxt "game"
+msgid "sha1:61e0c53f105d3bb0"
+msgstr "De l'eau, pitie"
+
+#: MAIN2HDE.EXE 0x15A7B (MAIN:0xB0DB)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ffa6d5c649d973d9"
+msgstr "C'est fini....gare aux ombres"
+
+#: MAIN2HDE.EXE 0x15A93 (MAIN:0xB0F3)
+#. width: 39
+msgctxt "game"
+msgid "sha1:80bd3289d699e422"
+msgstr "Si seulement j'avais une carte...."
+
+#: MAIN2HDE.EXE 0x15AA4 (MAIN:0xB104)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7340b691dcb43da6"
+msgstr "Je veux rentrer chez moi"
+
+#: MAIN2HDE.EXE 0x15AB1 (MAIN:0xB111)
+#. width: 39
+msgctxt "game"
+msgid "sha1:475e8d735bae9d18"
+msgstr "Capris parle par l'anneau"
+
+#: MAIN2HDE.EXE 0x15AC6 (MAIN:0xB126)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7f5a152c1c6e6053"
+msgstr "Gare au Monster Stampede"
+
+#: MAIN2HDE.EXE 0x15AEB (MAIN:0xB14B)
+#. width: 39
+msgctxt "game"
+msgid "sha1:c0437bb2c92b75e1"
+msgstr "Tes HP : #"
+
+#: MAIN2HDE.EXE 0x15AF7 (MAIN:0xB157)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f4163422f7bbfd30"
+msgstr "Ton Agl : #"
+
+#: MAIN2HDE.EXE 0x15B04 (MAIN:0xB164)
+#. width: 39
+msgctxt "game"
+msgid "sha1:39e979442ccf8618"
+msgstr "Ton Pow : #"
+
+#: MAIN2HDE.EXE 0x15B11 (MAIN:0xB171)
+#. width: 39
+msgctxt "game"
+msgid "sha1:461a487c0230de3e"
+msgstr "Ton IQ : #"
+
+#: MAIN2HDE.EXE 0x15B1D (MAIN:0xB17D)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f50393fe10185216"
+msgstr "Ton Tec : #"
+
+#: MAIN2HDE.EXE 0x16548 (MAIN:0xBBA8)
+#. width: 39
+msgctxt "game"
+msgid "sha1:c3d9d605d3d07402"
+msgstr "___    Trace un double carre."
+
+#: MAIN2HDE.EXE 0x16564 (MAIN:0xBBC4)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7586f43b05c22326"
+msgstr "___    Pars du coin interieur haut gauche."
+
+#: MAIN2HDE.EXE 0x16583 (MAIN:0xBBE3)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ad9e9634104b5cf2"
+msgstr "___    Tourne vers la gauche."
+
+#: MAIN2HDE.EXE 0x16597 (MAIN:0xBBF7)
+#. width: 39
+msgctxt "game"
+msgid "sha1:d85011fde2aefe9c"
+msgstr "___    Une suite de 4 nombres."
+
+#: MAIN2HDE.EXE 0x165B3 (MAIN:0xBC13)
+#. width: 39
+msgctxt "game"
+msgid "sha1:98cebd854ac9932a"
+msgstr "Bacille type A"
+
+#: MAIN2HDE.EXE 0x165BD (MAIN:0xBC1D)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7273f9cd996fd95e"
+msgstr "Bacille type I"
+
+#: MAIN2HDE.EXE 0x165C7 (MAIN:0xBC27)
+#. width: 39
+msgctxt "game"
+msgid "sha1:cc1e9df24a8b5e8d"
+msgstr "Bacille type P"
+
+#: MAIN2HDE.EXE 0x165D1 (MAIN:0xBC31)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f08c61051f8b8632"
+msgstr "Bacille type T"
+
+#: MAIN2HDE.EXE 0x165DB (MAIN:0xBC3B)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ef5d94af762be852"
+msgstr "Bacille type H"
+
+#: MAIN2HDE.EXE 0x15B57 (MAIN:0xB1B7)
+#. width: 39
+msgctxt "game"
+msgid "sha1:8f2284b0aed9af68"
+msgstr "~    T'as de l'argent, hein ? Alors~    un tuyau : quelque part au 5F, le~    Samurai serait encore en vie."
+
+#: MAIN2HDE.EXE 0x15BB2 (MAIN:0xB212)
+#. width: 39
+msgctxt "game"
+msgid "sha1:6d943fb7f2a0a6e9"
+msgstr "~    Plein aux as, hein ? Si t'en as~    de trop, je prends toujours."
+
+#: MAIN2HDE.EXE 0x15BEE (MAIN:0xB24E)
+#. width: 39
+msgctxt "game"
+msgid "sha1:333aa4c2960dc775"
+msgstr "~    Il parait que personne n'est~    jamais revenu du 6F."
+
+#: MAIN2HDE.EXE 0x15C21 (MAIN:0xB281)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ae27eea328cf267e"
+msgstr "~    Merci. Je prends."
+
+#: MAIN2HDE.EXE 0x15C37 (MAIN:0xB297)
+#. width: 39
+msgctxt "game"
+msgid "sha1:932477270d1b0ed3"
+msgstr "~    Donne un Tec Drug a Rat et tu~    auras une Sound Barrier."
+
+#: MAIN2HDE.EXE 0x15C6D (MAIN:0xB2CD)
+#. width: 39
+msgctxt "game"
+msgid "sha1:2ca81e0111a26e9b"
+msgstr "~    Merci bien."
+
+#: MAIN2HDE.EXE 0x15C7C (MAIN:0xB2DC)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7a7eab5a40027555"
+msgstr "~    Les premiers chiffres des mots~    de passe des dernieres portes :~              6~              7~              8~              9~"
+
+#: MAIN2HDE.EXE 0x15CE5 (MAIN:0xB345)
+#. width: 39
+msgctxt "game"
+msgid "sha1:6947d7dbc806ddac"
+msgstr "~    Depense ton argent sagement. Et~    quand tu depenses, fonce. Inutile~    de mourir avec de l'argent."
+
+#: MAIN2HDE.EXE 0x15D35 (MAIN:0xB395)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a1d9996a5c48ad68"
+msgstr "~    Entre nous : pour aller au 6F,~    il faut ouvrir les 4 dernieres~    portes, a ce qu'on dit."
+
+#: MAIN2HDE.EXE 0x15D78 (MAIN:0xB3D8)
+#. width: 39
+msgctxt "game"
+msgid "sha1:953f4653f3c36bd3"
+msgstr "~    Desole, j'ai rien a vendre.~    Mais je prends ca."
+
+#: MAIN2HDE.EXE 0x15D9E (MAIN:0xB3FE)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ce1539cc691cd2ea"
+msgstr "~    Tu savais que BIAS a ete bati~    un 15/10 ?"
+
+#: MAIN2HDE.EXE 0x15DC2 (MAIN:0xB422)
+#. width: 39
+msgctxt "game"
+msgid "sha1:8df72f39937e6afe"
+msgstr "~    Tu veux m'acheter ? Mauvais~    client. Mais je prends ca."
+
+#: MAIN2HDE.EXE 0x15DF9 (MAIN:0xB459)
+#. width: 39
+msgctxt "game"
+msgid "sha1:6558f998cef15ef0"
+msgstr "~    C'est 8233."
+
+#: MAIN2HDE.EXE 0x15E06 (MAIN:0xB466)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ecd036bcde8e6fe1"
+msgstr "~    Te fais pas d'idees sur moi.~    Tu vas te bruler."
+
+#: MAIN2HDE.EXE 0x15E38 (MAIN:0xB498)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ecac803049e5602c"
+msgstr "~~~    \"Le Samurai voulait celui-ci.\""
+
+#: MAIN2HDE.EXE 0x15E55 (MAIN:0xB4B5)
+#. width: 39
+msgctxt "game"
+msgid "sha1:5d8541fe324eb61d"
+msgstr "~~~    \"Oh ! Pour moi ? Je le prends.\""
+
+#: MAIN2HDE.EXE 0x15E7C (MAIN:0xB4DC)
+#. width: 39
+msgctxt "game"
+msgid "sha1:036345bd3724a658"
+msgstr "~~~    \"Chief cherche celui-la.\""
+
+#: MAIN2HDE.EXE 0x15E96 (MAIN:0xB4F6)
+#. width: 39
+msgctxt "game"
+msgid "sha1:af283310b0d148da"
+msgstr "~~~    \"C'est genereux. Je le garde.\""
+
+#: MAIN2HDE.EXE 0x15EB1 (MAIN:0xB511)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1441b0e0aca91def"
+msgstr "~~~    \"Donne le pendentif a Jipang.\""
+
+#: MAIN2HDE.EXE 0x15ED8 (MAIN:0xB538)
+#. width: 39
+msgctxt "game"
+msgid "sha1:d1db6154bec06c1d"
+msgstr "~~~    \"Desole. J'ai rien a donner.\""
+
+#: MAIN2HDE.EXE 0x15EFC (MAIN:0xB55C)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ce84fe053e539b70"
+msgstr "~~~    \"Rat le veut, fais gaffe.\""
+
+#: MAIN2HDE.EXE 0x15F1A (MAIN:0xB57A)
+#. width: 39
+msgctxt "game"
+msgid "sha1:43ea843c0e46473c"
+msgstr "~~~    \"Merci.\""
+
+#: MAIN2HDE.EXE 0x15F2B (MAIN:0xB58B)
+#. width: 39
+msgctxt "game"
+msgid "sha1:2a23f8a332fd06f2"
+msgstr "~~~    \"Nachi sera contente.\""
+
+#: MAIN2HDE.EXE 0x15F44 (MAIN:0xB5A4)
+#. width: 39
+msgctxt "game"
+msgid "sha1:22888afd0527904f"
+msgstr "~~~    \"Desole. J'ai rien sur moi.\""
+
+#: MAIN2HDE.EXE 0x15F66 (MAIN:0xB5C6)
+#. width: 39
+msgctxt "game"
+msgid "sha1:5d74d47f17bc91c3"
+msgstr "~~~    \"Second Killer le cherche.\""
+
+#: MAIN2HDE.EXE 0x15F87 (MAIN:0xB5E7)
+#. width: 39
+msgctxt "game"
+msgid "sha1:55b82935c4cae17d"
+msgstr "~~~    \"Ca m'aide. Je te le rendrai.\""
+
+#: MAIN2HDE.EXE 0x15FA5 (MAIN:0xB605)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f8b3f42e2a901ad4"
+msgstr "~~~    \"Merci. Donne ca a Jinx,~    t'auras peut-etre un truc.\""
+
+#: MAIN2HDE.EXE 0x15FCE (MAIN:0xB62E)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7e5f46c0550c301e"
+msgstr "~~~    \"Un cadeau ? Merci.\""
+
+#: MAIN2HDE.EXE 0x15FEC (MAIN:0xB64C)
+#. width: 39
+msgctxt "game"
+msgid "sha1:00aebd1b053d33e4"
+msgstr "\"Oh ! Mon Master Pendant !~ Seul un Hunter Class 25 recoit~ ce pendentif souvenir :~ la medaille du Screamer, un tresor...~ Merci. Prends mon Samurai Blade.~ Il bat toute arme. Sers-t'en bien.\""
+
+#: MAIN2HDE.EXE 0x160CD (MAIN:0xB72D)
+#. width: 39
+msgctxt "game"
+msgid "sha1:c714b8caeb4a0859"
+msgstr "~~    \"Tu ne peux pas aller au 6F ainsi.~    Un conseil : reviens plus tard.\""
+
+#: MAIN2HDE.EXE 0x16102 (MAIN:0xB762)
+#. width: 39
+msgctxt "game"
+msgid "sha1:6152a14f098de836"
+msgstr "__    \"Le gaspille pas.\"_"
+
+#: MAIN2HDE.EXE 0x1611C (MAIN:0xB77C)
+#. width: 39
+msgctxt "game"
+msgid "sha1:c2576bac9f3644cd"
+msgstr "___    Oh ! Pour moi ? Je le prends."
+
+#: MAIN2HDE.EXE 0x16143 (MAIN:0xB7A3)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1fca9b06ae47475c"
+msgstr "__    \"Chief cherche celui-la.\"_"
+
+#: MAIN2HDE.EXE 0x16160 (MAIN:0xB7C0)
+#. width: 39
+msgctxt "game"
+msgid "sha1:2cfba0ffd777df70"
+msgstr "___    \"C'est genereux. Je le garde.\""
+
+#: MAIN2HDE.EXE 0x1617E (MAIN:0xB7DE)
+#. width: 39
+msgctxt "game"
+msgid "sha1:00221d350b3c262a"
+msgstr "__    \"C'est peu, mais prends-le.\"_"
+
+#: MAIN2HDE.EXE 0x1619D (MAIN:0xB7FD)
+#. width: 39
+msgctxt "game"
+msgid "sha1:445608dcc360e914"
+msgstr "___    \"Desole. J'ai rien a donner.\""
+
+#: MAIN2HDE.EXE 0x161C3 (MAIN:0xB823)
+#. width: 39
+msgctxt "game"
+msgid "sha1:81d694e0950c18c7"
+msgstr "__    \"Tiens, prends ca.\"_"
+
+#: MAIN2HDE.EXE 0x161D5 (MAIN:0xB835)
+#. width: 39
+msgctxt "game"
+msgid "sha1:6281f8ddc9c3c62e"
+msgstr "___    \"Merci !\""
+
+#: MAIN2HDE.EXE 0x161E8 (MAIN:0xB848)
+#. width: 39
+msgctxt "game"
+msgid "sha1:30067824f358e477"
+msgstr "__    \"Repasse quand tu en veux.\"_"
+
+#: MAIN2HDE.EXE 0x16201 (MAIN:0xB861)
+#. width: 39
+msgctxt "game"
+msgid "sha1:b21fa15641c20dc1"
+msgstr "___    \"Desole. J'ai rien la.\""
+
+#: MAIN2HDE.EXE 0x16223 (MAIN:0xB883)
+#. width: 39
+msgctxt "game"
+msgid "sha1:40548fe4ad52c93c"
+msgstr "__    \"Sers-t'en quand ca chauffe.\"_"
+
+#: MAIN2HDE.EXE 0x1623B (MAIN:0xB89B)
+#. width: 39
+msgctxt "game"
+msgid "sha1:05e2b93ba39412c7"
+msgstr "___    \"Ca m'aide. Je te le rendrai.\""
+
+#: MAIN2HDE.EXE 0x1625C (MAIN:0xB8BC)
+#. width: 39
+msgctxt "game"
+msgid "sha1:71abb2f33bb265f1"
+msgstr "__    \"Mieux que ceux du magasin.\"_"
+
+#: MAIN2HDE.EXE 0x1627B (MAIN:0xB8DB)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ac65f71e2445b38f"
+msgstr "___    \"Un cadeau ? Merci !\""
+
+#: item 1 name, MAIN:0x570C
+#. width: 16
+msgctxt "game"
+msgid "sha1:c2dc3ebbc39cbe56"
+msgstr "Poing de Fer   "
+
+#: item 2 name, MAIN:0x5724
+#. width: 16
+msgctxt "game"
+msgid "sha1:b2f2a5a4343a2986"
+msgstr "Ninja Shooter  "
+
+#: item 3 name, MAIN:0x573C
+#. width: 16
+msgctxt "game"
+msgid "sha1:efcab672909b68e7"
+msgstr "Spin Dagger    "
+
+#: item 5 name, MAIN:0x576C
+#. width: 16
+msgctxt "game"
+msgid "sha1:a6b867ab97b24d6b"
+msgstr "Main Bombe     "
+
+#: item 7 name, MAIN:0x579C
+#. width: 16
+msgctxt "game"
+msgid "sha1:3f528795dc909a95"
+msgstr "Gas Blade      "
+
+#: item 8 name, MAIN:0x57B4
+#. width: 16
+msgctxt "game"
+msgid "sha1:384d42169630602c"
+msgstr "Fouet de Fer   "
+
+#: item 10 name, MAIN:0x57E4
+#. width: 16
+msgctxt "game"
+msgid "sha1:0ed2a5dcb96b5147"
+msgstr "Epee Jumelle   "
+
+#: item 11 name, MAIN:0x57FC
+#. width: 16
+msgctxt "game"
+msgid "sha1:17a85cec6bf17014"
+msgstr "Hache Chaude   "
+
+#: item 12 name, MAIN:0x5814
+#. width: 16
+msgctxt "game"
+msgid "sha1:8e4390bcbb965549"
+msgstr "Jet Lancer     "
+
+#: item 15 name, MAIN:0x585C
+#. width: 16
+msgctxt "game"
+msgid "sha1:7e68206188da5dbc"
+msgstr "Jet Bow        "
+
+#: item 16 name, MAIN:0x5874
+#. width: 16
+msgctxt "game"
+msgid "sha1:fe5dc212f47963ff"
+msgstr "Spark Gun      "
+
+#: item 18 name, MAIN:0x58A4
+#. width: 16
+msgctxt "game"
+msgid "sha1:c18161e50d38592a"
+msgstr "Needle Gun     "
+
+#: item 20 name, MAIN:0x58D4
+#. width: 16
+msgctxt "game"
+msgid "sha1:4308bbbb97b830fb"
+msgstr "Hand Cannon    "
+
+#: item 22 name, MAIN:0x5904
+#. width: 16
+msgctxt "game"
+msgid "sha1:4dd105bf30630a67"
+msgstr "Hyper Magnum   "
+
+#: item 23 name, MAIN:0x591C
+#. width: 16
+msgctxt "game"
+msgid "sha1:89c25fc3ba0b3378"
+msgstr "Napalm Gun     "
+
+#: item 24 name, MAIN:0x5934
+#. width: 16
+msgctxt "game"
+msgid "sha1:51a3ae260efd241f"
+msgstr "Laser Launcher "
+
+#: item 25 name, MAIN:0x594C
+#. width: 16
+msgctxt "game"
+msgid "sha1:e2a61ca78b8ced71"
+msgstr "Samurai Blade  "
+
+#: item 26 name, MAIN:0x5964
+#. width: 16
+msgctxt "game"
+msgid "sha1:6ab19d090f0b6a4e"
+msgstr "Pump Head      "
+
+#: item 27 name, MAIN:0x597C
+#. width: 16
+msgctxt "game"
+msgid "sha1:558b7ace5af8bc46"
+msgstr "Face Gel       "
+
+#: item 28 name, MAIN:0x5994
+#. width: 16
+msgctxt "game"
+msgid "sha1:e6d7f913ec9a6675"
+msgstr "Echarpe        "
+
+#: item 29 name, MAIN:0x59AC
+#. width: 16
+msgctxt "game"
+msgid "sha1:406abfe123e600d3"
+msgstr "Bonnet C       "
+
+#: item 30 name, MAIN:0x59C4
+#. width: 16
+msgctxt "game"
+msgid "sha1:055aee41066f7619"
+msgstr "Corset         "
+
+#: item 31 name, MAIN:0x59DC
+#. width: 16
+msgctxt "game"
+msgid "sha1:a82144218ea82d01"
+msgstr "Epauliere      "
+
+#: item 32 name, MAIN:0x59F4
+#. width: 16
+msgctxt "game"
+msgid "sha1:d9d2a9e3bb4e5101"
+msgstr "Bouclier Bras  "
+
+#: item 33 name, MAIN:0x5A0C
+#. width: 16
+msgctxt "game"
+msgid "sha1:941f877fe47df2e7"
+msgstr "Gant Garde     "
+
+#: item 34 name, MAIN:0x5A24
+#. width: 16
+msgctxt "game"
+msgid "sha1:03a42ff97b892f6f"
+msgstr "Pancake        "
+
+#: item 35 name, MAIN:0x5A3C
+#. width: 16
+msgctxt "game"
+msgid "sha1:6a4641afacd7ae40"
+msgstr "Bear Foot      "
+
+#: item 36 name, MAIN:0x5A54
+#. width: 16
+msgctxt "game"
+msgid "sha1:bad25dd2f36bb43d"
+msgstr "Fura Dancer    "
+
+#: item 37 name, MAIN:0x5A6C
+#. width: 16
+msgctxt "game"
+msgid "sha1:73a430f903b49e07"
+msgstr "Genouillere    "
+
+#: item 38 name, MAIN:0x5A84
+#. width: 16
+msgctxt "game"
+msgid "sha1:931f09455a4d7f6c"
+msgstr "Casque X-tra   "
+
+#: item 39 name, MAIN:0x5A9C
+#. width: 16
+msgctxt "game"
+msgid "sha1:cc480762eee4740b"
+msgstr "Armure X-tra   "
+
+#: item 40 name, MAIN:0x5AB4
+#. width: 16
+msgctxt "game"
+msgid "sha1:00096d16b8ce367f"
+msgstr "Brassard X-tra "
+
+#: item 41 name, MAIN:0x5ACC
+#. width: 16
+msgctxt "game"
+msgid "sha1:ed67d248cf6e2b4c"
+msgstr "Jambiere X-tra "
+
+#: item 51 name, MAIN:0x5BBC
+#. width: 16
+msgctxt "game"
+msgid "sha1:d30b8c56bd7097a9"
+msgstr "Pow Drug       "
+
+#: item 52 name, MAIN:0x5BD4
+#. width: 16
+msgctxt "game"
+msgid "sha1:d2a053938545f4fa"
+msgstr "Ag Drug        "
+
+#: item 53 name, MAIN:0x5BEC
+#. width: 16
+msgctxt "game"
+msgid "sha1:0adc1350afe655d4"
+msgstr "Hyper Drug     "
+
+#: item 54 name, MAIN:0x5C04
+#. width: 16
+msgctxt "game"
+msgid "sha1:19de9219dc487e69"
+msgstr "H.P Drug       "
+
+#: item 55 name, MAIN:0x5C1C
+#. width: 16
+msgctxt "game"
+msgid "sha1:08ccd6da54a764df"
+msgstr "Tec Drug       "
+
+#: item 56 name, MAIN:0x5C34
+#. width: 16
+msgctxt "game"
+msgid "sha1:8d1f152b53046152"
+msgstr "I.Q Drug       "
+
+#: item 57 name, MAIN:0x5C4C
+#. width: 16
+msgctxt "game"
+msgid "sha1:68c6c205ce995d0f"
+msgstr "Samson Drug    "
+
+#: item 58 name, MAIN:0x5C64
+#. width: 16
+msgctxt "game"
+msgid "sha1:b118058b335505fb"
+msgstr "Brain Upper    "
+
+#: item 59 name, MAIN:0x5C7C
+#. width: 16
+msgctxt "game"
+msgid "sha1:474cb3d81736e0c5"
+msgstr "Tec Upper      "
+
+#: item 60 name, MAIN:0x5C94
+#. width: 16
+msgctxt "game"
+msgid "sha1:34c2e56f740ec838"
+msgstr "Responser      "
+
+#: item 61 name, MAIN:0x5CAC
+#. width: 16
+msgctxt "game"
+msgid "sha1:84f48fa5de92507e"
+msgstr "Anneau Revelat."
+
+#: item 62 name, MAIN:0x5CC4
+#. width: 16
+msgctxt "game"
+msgid "sha1:cb6e2ba72eafb370"
+msgstr "Bacillus Sensor"
+
+#: item 63 name, MAIN:0x5CDC
+#. width: 16
+msgctxt "game"
+msgid "sha1:8fb6c1a35193ec7f"
+msgstr "Bacillus Cleaner"
+
+#: item 64 name, MAIN:0x5CF4
+#. width: 16
+msgctxt "game"
+msgid "sha1:6e07e78e4fac638c"
+msgstr "Wide Mapper    "
+
+#: item 65 name, MAIN:0x5D0C
+#. width: 16
+msgctxt "game"
+msgid "sha1:39ad319122962dae"
+msgstr "XRAY Searcher  "
+
+#: item 66 name, MAIN:0x5D24
+#. width: 16
+msgctxt "game"
+msgid "sha1:e718eb080544fc6e"
+msgstr "Lampe          "
+
+#: item 67 name, MAIN:0x5D3C
+#. width: 16
+msgctxt "game"
+msgid "sha1:045ad02395c65c31"
+msgstr "Sound Barrier  "
+
+#: item 68 name, MAIN:0x5D54
+#. width: 16
+msgctxt "game"
+msgid "sha1:dbdf69d5e89f8e1e"
+msgstr "Guest I.D Card "
+
+#: item 69 name, MAIN:0x5D6C
+#. width: 16
+msgctxt "game"
+msgid "sha1:dddd891e6ee843f4"
+msgstr "EX Card        "
+
+#: item 70 name, MAIN:0x5D84
+#. width: 16
+msgctxt "game"
+msgid "sha1:5c59009c11b1690e"
+msgstr "Bio Searcher   "
+
+#: item 71 name, MAIN:0x5D9C
+#. width: 16
+msgctxt "game"
+msgid "sha1:7e9c2c50506dd292"
+msgstr "Noise Machine  "
+
+#: item 72 name, MAIN:0x5DB4
+#. width: 16
+msgctxt "game"
+msgid "sha1:14d58af6f5910129"
+msgstr "Squash Ball    "
+
+#: item 73 name, MAIN:0x5DCC
+#. width: 16
+msgctxt "game"
+msgid "sha1:abec490cfcc9417f"
+msgstr "Fog Ball       "
+
+#: item 74 name, MAIN:0x5DE4
+#. width: 16
+msgctxt "game"
+msgid "sha1:790967f7272ce7e7"
+msgstr "Pendentif Blanc"
+
+#: item 75 name, MAIN:0x5DFC
+#. width: 16
+msgctxt "game"
+msgid "sha1:7dadac81a5200272"
+msgstr "Pendentif Jaune"
+
+#: item 76 name, MAIN:0x5E14
+#. width: 16
+msgctxt "game"
+msgid "sha1:1ec1c89705ae5cad"
+msgstr "Pendentif Vert "
+
+#: item 77 name, MAIN:0x5E2C
+#. width: 16
+msgctxt "game"
+msgid "sha1:c9815d801d942990"
+msgstr "Pendentif Rose "
+
+#: item 78 name, MAIN:0x5E44
+#. width: 16
+msgctxt "game"
+msgid "sha1:90cf8656b80a1071"
+msgstr "Pendentif Noir "
+
+#: item 79 name, MAIN:0x5E5C
+#. width: 16
+msgctxt "game"
+msgid "sha1:08ad20fe67f3ff99"
+msgstr "Pendentif Bleu "
+
+#: item 80 name, MAIN:0x5E74
+#. width: 16
+msgctxt "game"
+msgid "sha1:9725751c96100ba0"
+msgstr "Pendentif Mauve"
+
+#: item 81 name, MAIN:0x5E8C
+#. width: 16
+msgctxt "game"
+msgid "sha1:f9543c2712dfe858"
+msgstr "Pendentif Rouge"
+
+#: item 85 name, MAIN:0x5EEC
+#. width: 16
+msgctxt "game"
+msgid "sha1:7eeef9cddf833124"
+msgstr "Arme Cassee    "
+
+#: item 86 name, MAIN:0x5F04
+#. width: 16
+msgctxt "game"
+msgid "sha1:c797e2b361d420be"
+msgstr "Armure Cassee  "
+
+#: item 87 name, MAIN:0x5F1C
+#. width: 16
+msgctxt "game"
+msgid "sha1:5821e6f98af01b3b"
+msgstr "Outil Casse    "
+
+#: monster 1 name, G01 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:2ab326efeaa91f0b"
+msgstr "Sphinx         "
+
+#: monster 2 name, G02 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:b737ef8521c63498"
+msgstr "Fatman         "
+
+#: monster 3 name, G03 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:0cdd6adc6130d7f2"
+msgstr "Curly          "
+
+#: monster 4 name, G04 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:d71f91a5afdf21bc"
+msgstr "Twin Runner    "
+
+#: monster 5 name, G05 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:0f7dc9d382f5abd5"
+msgstr "Burst Ball     "
+
+#: monster 6 name, G06 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:b167e4e0a64ac3f8"
+msgstr "Bite Eye       "
+
+#: monster 7 name, G07 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:946c4c914a952a4e"
+msgstr "Big Jumper     "
+
+#: monster 8 name, G08 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:cabb26ff88176a09"
+msgstr "Hell Angel     "
+
+#: monster 9 name, G09 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:d7a112ab10753b0f"
+msgstr "Firebird       "
+
+#: monster 10 name, G10 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:470a88b588502bc7"
+msgstr "Golgoda Shadow "
+
+#: monster 11 name, G11 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:1846d2aca888e4f3"
+msgstr "Acid Slime     "
+
+#: monster 12 name, G12 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:41fc1aa177c9ba85"
+msgstr "Sword Bat      "
+
+#: monster 13 name, G13 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:b65ec81df75c03dd"
+msgstr "J-Boy          "
+
+#: monster 14 name, G14 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:14c70007da6ea5bf"
+msgstr "Junky          "
+
+#: monster 15 name, G15 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:cf15e0c502bed7a1"
+msgstr "Raid Buster    "
+
+#: monster 16 name, G16 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:efefccd621fc22a6"
+msgstr "Centaurus      "
+
+#: monster 17 name, G17 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:ef31a233ce20367d"
+msgstr "Standing Blade "
+
+#: monster 18 name, G18 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:a96446bd5aa60c3a"
+msgstr "Armor Leo      "
+
+#: monster 19 name, G19 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:cb2dfc3c8be463fe"
+msgstr "Protect Snake  "
+
+#: monster 20 name, G20 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:9cb72c3f3f25f659"
+msgstr "Dark Dog       "
+
+#: monster 21 name, G21 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:93810ff9ef656cb2"
+msgstr "Big Mouth      "
+
+#: monster 22 name, G22 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:0adc91b984407997"
+msgstr "Rollinger      "
+
+#: monster 23 name, G23 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:3f20f05cfdd26b3f"
+msgstr "Carry Baby     "
+
+#: monster 24 name, G24 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:6c32b4f24221ed25"
+msgstr "Moving Defender"
+
+#: monster 25 name, G25 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:2c77f7fe59533fbf"
+msgstr "Neck Hanger    "
+
+#: monster 26 name, G26 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:66f2ef52d34db601"
+msgstr "Cutter Rat     "
+
+#: monster 27 name, G27 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:974f2c4235a0578a"
+msgstr "Duck Kong      "
+
+#: monster 28 name, G28 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:ccb614e8c0c2763f"
+msgstr "Fireball       "
+
+#: monster 29 name, G29 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:b94b418d58831d8b"
+msgstr "Red Head       "
+
+#: monster 30 name, G30 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:d24c59eedd1ace93"
+msgstr "Big Horn       "
+
+#: monster 31 name, G31 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:08e5c84752ff5826"
+msgstr "Bitch Horse    "
+
+#: monster 32 name, G32 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:ac0d4678705cde36"
+msgstr "Torch Worm     "
+
+#: monster 33 name, G33 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:9cda65ca66de10b9"
+msgstr "No-Head Dragon "
+
+#: monster 34 name, G34 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:ab2b232c2eb19c84"
+msgstr "Gorgon         "
+
+#: monster 35 name, G35 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:cde176f5444370e2"
+msgstr "Baby Sitter    "
+
+#: monster 36 name, G36 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:2f8c9c0554b43867"
+msgstr "Battle Bee     "
+
+#: monster 37 name, G37 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:4f9645c593057618"
+msgstr "Night Taps     "
+
+#: monster 38 name, G38 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:e365e594202042a8"
+msgstr "Hover Flower   "
+
+#: monster 39 name, G39 0x1770
+#. width: 16
+msgctxt "game"
+msgid "sha1:6ea48f5524dc03ce"
+msgstr "Guardian       "
+
+#: B01 0x23B9 (reply 1 to keyword 1)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a91ab37a506067ef"
+msgstr "Une drogue qui augmente ta Power."
+
+#: B01 0x23CF (reply 2 to keyword 1)
+#. width: 39
+msgctxt "game"
+msgid "sha1:c951b168db8f5620"
+msgstr "Prends-la et ton attaque monte."
+
+#: B01 0x23EB (reply 3 to keyword 1)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a6107816a957cf53"
+msgstr "Ca s'appelle Pratramycine._Prends-la et t'as 100% de ta POW."
+
+#: B01 0x2420 (reply 1 to keyword 2)
+#. width: 39
+msgctxt "game"
+msgid "sha1:4ae3dee71c06c937"
+msgstr "Prends-la et tu bouges plus vite."
+
+#: B01 0x2438 (reply 2 to keyword 2)
+#. width: 39
+msgctxt "game"
+msgid "sha1:6eda7985574c3459"
+msgstr "Quoi, tu sais meme pas ca ?"
+
+#: B01 0x244A (reply 3 to keyword 2)
+#. width: 39
+msgctxt "game"
+msgid "sha1:6bb65785721c7230"
+msgstr "Un antibiotique, l'Ossadomycine."
+
+#: B01 0x2395 (reply 1 to keyword 3)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f99518be3cf181f5"
+msgstr "Un genre de Lipovitan."
+
+#: B01 0x23A9 (reply 2 to keyword 3)
+#. width: 39
+msgctxt "game"
+msgid "sha1:9c946ae455b1f3b0"
+msgstr "Ca renforce ton endurance."
+
+#: B01 0x2373 (reply 1 to keyword 4)
+#. width: 39
+msgctxt "game"
+msgid "sha1:fb74a5143ef667e6"
+msgstr "Ca ameliore ta visee."
+
+#: B01 0x2387 (reply 2 to keyword 4)
+#. width: 39
+msgctxt "game"
+msgid "sha1:121d96ae52abcc92"
+msgstr "J'en sais trop rien moi-meme."
+
+#: B01 0x234E (reply 1 to keyword 5)
+#. width: 39
+msgctxt "game"
+msgid "sha1:aec993d82d9e6ec2"
+msgstr "T'as un truc aussi bien ?"
+
+#: B01 0x2361 (reply 2 to keyword 5)
+#. width: 39
+msgctxt "game"
+msgid "sha1:932c5019bfa2900e"
+msgstr "Prends ca et t'es imbattable."
+
+#: B01 0x2326 (reply 1 to keyword 6)
+#. width: 39
+msgctxt "game"
+msgid "sha1:94020c5ba017897c"
+msgstr "Un remede contre la betise ?"
+
+#: B01 0x2339 (reply 2 to keyword 6)
+#. width: 39
+msgctxt "game"
+msgid "sha1:68af0511c31b27b4"
+msgstr "Fais-en prendre aux pontes du_gouvernement."
+
+#: B01 0x230A (reply 1 to keyword 7)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f3e106ff85e17ab2"
+msgstr "La drogue des gros bras."
+
+#: B01 0x2319 (reply 2 to keyword 7)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7f5dbcfe648e773b"
+msgstr "Hum, jamais entendu parler."
+
+#: B01 0x22DF (reply 1 to keyword 8)
+#. width: 39
+msgctxt "game"
+msgid "sha1:106da4cabe9f20e6"
+msgstr "Permet de lire l'illisible."
+
+#: B01 0x22F6 (reply 2 to keyword 8)
+#. width: 39
+msgctxt "game"
+msgid "sha1:d943482b744f3c8c"
+msgstr "Juste ce qu'il te faut."
+
+#: B01 0x22AF (reply 1 to keyword 9)
+#. width: 39
+msgctxt "game"
+msgid "sha1:08e2cff64cacdced"
+msgstr "Quoi, tu sais meme pas ca ?"
+
+#: B01 0x22C2 (reply 2 to keyword 9)
+#. width: 39
+msgctxt "game"
+msgid "sha1:4e53e69209b07a56"
+msgstr "Prends-la face a un sale monstre."
+
+#: B01 0x228F (reply 1 to keyword 10)
+#. width: 39
+msgctxt "game"
+msgid "sha1:83b612896ad6f33a"
+msgstr "Prends-la et tu bouges vite."
+
+#: B01 0x22A5 (reply 2 to keyword 10)
+#. width: 39
+msgctxt "game"
+msgid "sha1:0d6595156e5ecdbd"
+msgstr "Hum, aucune idee."
+
+#: B01 0x225C (reply 1 to keyword 11)
+#. width: 39
+msgctxt "game"
+msgid "sha1:78f63731a0433d89"
+msgstr "J'en ai entendu parler, sans plus."
+
+#: B01 0x227A (reply 2 to keyword 11)
+#. width: 39
+msgctxt "game"
+msgid "sha1:5bdd0c03a90d592e"
+msgstr "Je peux pas t'en parler. Desole."
+
+#: B01 0x2234 (reply 1 to keyword 12)
+#. width: 39
+msgctxt "game"
+msgid "sha1:233d1397752a48b0"
+msgstr "Un appareil qui detecte le poison."
+
+#: B01 0x2246 (reply 2 to keyword 12)
+#. width: 39
+msgctxt "game"
+msgid "sha1:6cf3aa27d7ae1391"
+msgstr "Achetes-en un et essaie donc."
+
+#: B01 0x2204 (reply 1 to keyword 13)
+#. width: 39
+msgctxt "game"
+msgid "sha1:3108d115ce04d5b1"
+msgstr "Un hopital portatif."
+
+#: B01 0x2216 (reply 2 to keyword 13)
+#. width: 39
+msgctxt "game"
+msgid "sha1:923bba0975dc172f"
+msgstr "Tu sais pas ca ? Incroyable que_tu sois encore en vie."
+
+#: B01 0x21CC (reply 1 to keyword 14)
+#. width: 39
+msgctxt "game"
+msgid "sha1:85eb051561d27f0e"
+msgstr "Sans lui, t'es perdu, c'est sur."
+
+#: B01 0x2191 (reply 1 to keyword 15)
+#. width: 39
+msgctxt "game"
+msgid "sha1:34b1df41754188a3"
+msgstr "Il te dit ou sont les trous."
+
+#: B01 0x21B1 (reply 2 to keyword 15)
+#. width: 39
+msgctxt "game"
+msgid "sha1:d822b58faf993885"
+msgstr "Vois ca comme une sorte de radar."
+
+#: B01 0x216A (reply 1 to keyword 16)
+#. width: 39
+msgctxt "game"
+msgid "sha1:69ec8a69f08c98e0"
+msgstr "Une lampe. Juste une lampe."
+
+#: B01 0x2181 (reply 2 to keyword 16)
+#. width: 39
+msgctxt "game"
+msgid "sha1:b03fef92d9025092"
+msgstr "Ca, tu peux le deviner, non ?"
+
+#: B01 0x2145 (reply 1 to keyword 17)
+#. width: 39
+msgctxt "game"
+msgid "sha1:0eb5ea35bf286f5e"
+msgstr "C'est quoi ?"
+
+#: B01 0x214F (reply 2 to keyword 17)
+#. width: 39
+msgctxt "game"
+msgid "sha1:738d310c8bc0ab23"
+msgstr "Ah, quelqu'un en avait une..."
+
+#: B01 0x2108 (reply 1 to keyword 18)
+#. width: 39
+msgctxt "game"
+msgid "sha1:88c2f9d8dab832a4"
+msgstr "Tu sais pas ca ? Incroyable."
+
+#: B01 0x2122 (reply 2 to keyword 18)
+#. width: 39
+msgctxt "game"
+msgid "sha1:56e0bdf1e237f492"
+msgstr "Avec ca, tu peux toujours sortir_de BIAS."
+
+#: B01 0x20CE (reply 1 to keyword 19)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ce7a1595a9c34366"
+msgstr "Comme une cle pour les portes._Prends-en bien soin."
+
+#: B01 0x20F3 (reply 2 to keyword 19)
+#. width: 39
+msgctxt "game"
+msgid "sha1:bf6775f8e51e4fa7"
+msgstr "Quoi, tu sais meme pas ca ?"
+
+#: B01 0x20A9 (reply 1 to keyword 20)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f10f54cbbdda4303"
+msgstr "Montre les donnees d'un monstre."
+
+#: B01 0x20C1 (reply 2 to keyword 20)
+#. width: 39
+msgctxt "game"
+msgid "sha1:3d679eab1e7fdeae"
+msgstr "Demande a quelqu'un d'autre."
+
+#: B01 0x206F (reply 1 to keyword 21)
+#. width: 39
+msgctxt "game"
+msgid "sha1:d7ab9d31f3983c6e"
+msgstr "Une tete de citrouille. Ha ha ha ha !"
+
+#: B01 0x2086 (reply 2 to keyword 21)
+#. width: 39
+msgctxt "game"
+msgid "sha1:97efe9ceb7ed815c"
+msgstr "C'est un casque. Sans lui, tu vivras_pas longtemps."
+
+#: B01 0x204B (reply 1 to keyword 22)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f21652059dc245b4"
+msgstr "T'es enrhume ? Mets-le."
+
+#: B01 0x205F (reply 2 to keyword 22)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ae5991f91fea69c8"
+msgstr "C'est comme un masque."
+
+#: B01 0x2032 (reply 1 to keyword 23)
+#. width: 39
+msgctxt "game"
+msgid "sha1:b06a3a95719143e1"
+msgstr "Porte-la si tu veux pas te faire_briser le cou."
+
+#: B01 0x2004 (reply 1 to keyword 24)
+#. width: 39
+msgctxt "game"
+msgid "sha1:427fdc433ee418bd"
+msgstr "Porte pas ca en ville. On te prendra_pour un travesti."
+
+#: B01 0x2028 (reply 2 to keyword 24)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a2cdc00e4e1e1240"
+msgstr "C'est quoi ?"
+
+#: B01 0x1FE1 (reply 1 to keyword 25)
+#. width: 39
+msgctxt "game"
+msgid "sha1:b7ed214c6358df6e"
+msgstr "Pour proteger ton ventre."
+
+#: B01 0x1FF2 (reply 2 to keyword 25)
+#. width: 39
+msgctxt "game"
+msgid "sha1:329ee34a63d91925"
+msgstr "La ceinture du Screamer."
+
+#: B01 0x1FAD (reply 1 to keyword 26)
+#. width: 39
+msgctxt "game"
+msgid "sha1:9ac632e39fc82af2"
+msgstr "Une protection de football_americain."
+
+#: B01 0x1FCC (reply 2 to keyword 26)
+#. width: 39
+msgctxt "game"
+msgid "sha1:0f2f7eaa8c8e3db0"
+msgstr "Lourde, mais solide."
+
+#: B01 0x1F7A (reply 1 to keyword 27)
+#. width: 39
+msgctxt "game"
+msgid "sha1:95e5d65854399371"
+msgstr "Il te le faut pour te battre a mains_nues."
+
+#: B01 0x1F99 (reply 2 to keyword 27)
+#. width: 39
+msgctxt "game"
+msgid "sha1:85c1d5f3bd6eb0d5"
+msgstr "Quoi, tu sais meme pas ca ?"
+
+#: B01 0x1F44 (reply 1 to keyword 28)
+#. width: 39
+msgctxt "game"
+msgid "sha1:9f959e64ea702ecd"
+msgstr "Des gants ordinaires."
+
+#: B01 0x1F52 (reply 2 to keyword 28)
+#. width: 39
+msgctxt "game"
+msgid "sha1:154b26254679f268"
+msgstr "L'acheter, c'est pour te rassurer._Laisse tomber."
+
+#: B01 0x1F1E (reply 1 to keyword 29)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1b301b2f75bed71f"
+msgstr "Des coudieres."
+
+#: B01 0x1F29 (reply 2 to keyword 29)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f513966cea4b8cb9"
+msgstr "Si tu tombes souvent, ca vaut le coup."
+
+#: B01 0x1EE6 (reply 1 to keyword 30)
+#. width: 39
+msgctxt "game"
+msgid "sha1:813ec51c3cacf092"
+msgstr "Des pieds d'ours. Pas comestibles."
+
+#: B01 0x1EFB (reply 2 to keyword 30)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a6030edf39f30c09"
+msgstr "Vois-les comme des chaussures de_securite."
+
+#: B01 0x1EA0 (reply 1 to keyword 31)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f83fd1682f9dcc15"
+msgstr "Protege le bien le plus precieux_d'un homme. Porte-le si tu y tiens."
+
+#: B01 0x1ED4 (reply 2 to keyword 31)
+#. width: 39
+msgctxt "game"
+msgid "sha1:34a80a91b89d5533"
+msgstr "Le pagne du Screamer."
+
+#: B01 0x1E6F (reply 1 to keyword 32)
+#. width: 39
+msgctxt "game"
+msgid "sha1:3b00cfa8e881197e"
+msgstr "Des genouilleres."
+
+#: B01 0x1E78 (reply 2 to keyword 32)
+#. width: 39
+msgctxt "game"
+msgid "sha1:aed4150ecd033969"
+msgstr "Elles gardent tes genoux, mais pas_avec les Bear Foot."
+
+#: B01 0x1E38 (reply 1 to keyword 33)
+#. width: 39
+msgctxt "game"
+msgid "sha1:21227493cc1af7dc"
+msgstr "Avec ca, tu peux aller assez loin."
+
+#: B01 0x1E5A (reply 2 to keyword 33)
+#. width: 39
+msgctxt "game"
+msgid "sha1:4915083af9ae879c"
+msgstr "Une armure terriblement chere."
+
+#: B01 0x1E0D (reply 1 to keyword 34)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f07162ee204538e7"
+msgstr "L'armurier en est fier."
+
+#: B01 0x1E24 (reply 2 to keyword 34)
+#. width: 39
+msgctxt "game"
+msgid "sha1:82d9383b00d5fca1"
+msgstr "Il te la fera payer une fortune."
+
+#: B01 0x1DCE (reply 1 to keyword 35)
+#. width: 39
+msgctxt "game"
+msgid "sha1:3494954b15291c4d"
+msgstr "C'est le Louis Vuitton des armures."
+
+#: B01 0x1DE5 (reply 2 to keyword 35)
+#. width: 39
+msgctxt "game"
+msgid "sha1:261ee954ed89f9e2"
+msgstr "Dorure a la feuille, peut-etre ?_Trop cher pour moi."
+
+#: B01 0x1DAE (reply 1 to keyword 36)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1279303284fd261d"
+msgstr "Les meilleures bottes. Cheres."
+
+#: B01 0x1D8E (reply 1 to keyword 37)
+#. width: 39
+msgctxt "game"
+msgid "sha1:3cd40845c6338f47"
+msgstr "Des gants a pointes."
+
+#: B01 0x1D9F (reply 2 to keyword 37)
+#. width: 39
+msgctxt "game"
+msgid "sha1:3e22a1bb3a9722a8"
+msgstr "Inutile."
+
+#: B01 0x1D62 (reply 1 to keyword 38)
+#. width: 39
+msgctxt "game"
+msgid "sha1:e474525e07b454ae"
+msgstr "Pense shuriken et t'as compris."
+
+#: B01 0x1D7E (reply 2 to keyword 38)
+#. width: 39
+msgctxt "game"
+msgid "sha1:5d2d92482d12962c"
+msgstr "Pas tres puissant."
+
+#: B01 0x1D25 (reply 1 to keyword 39)
+#. width: 39
+msgctxt "game"
+msgid "sha1:6835006bb8a54483"
+msgstr "Un anneau garni de lames."
+
+#: B01 0x1D3B (reply 2 to keyword 39)
+#. width: 39
+msgctxt "game"
+msgid "sha1:86198d9905b1b16c"
+msgstr "Ca tourne, gare a pas te couper."
+
+#: B01 0x1D03 (reply 1 to keyword 40)
+#. width: 39
+msgctxt "game"
+msgid "sha1:3f7bb3ef061f9026"
+msgstr "Un genre de massue."
+
+#: B01 0x1D11 (reply 2 to keyword 40)
+#. width: 39
+msgctxt "game"
+msgid "sha1:8cb92635ec7b83d0"
+msgstr "Lance-la sur l'ennemi."
+
+#: B01 0x1CDC (reply 1 to keyword 41)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f297b2d0ad5cc83c"
+msgstr "Un fouet electrique."
+
+#: B01 0x1CE8 (reply 2 to keyword 41)
+#. width: 39
+msgctxt "game"
+msgid "sha1:e49bbec8ca5741d2"
+msgstr "Demande a Nachi pour celui-la."
+
+#: B01 0x1CC5 (reply 1 to keyword 42)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ac3b7d8840da8763"
+msgstr "Une epee avec une lame a gaz."
+
+#: B01 0x1C9A (reply 1 to keyword 43)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7643b39f1b42d5e7"
+msgstr "Une double epee. Plutot efficace."
+
+#: B01 0x1CB6 (reply 2 to keyword 43)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7da39e1e8e6e7221"
+msgstr "Tu regretteras pas de l'avoir."
+
+#: B01 0x1C75 (reply 1 to keyword 44)
+#. width: 39
+msgctxt "game"
+msgid "sha1:fc492873470dda64"
+msgstr "Une hache electrique. Bonne arme."
+
+#: B01 0x1C66 (reply 1 to keyword 45)
+#. width: 39
+msgctxt "game"
+msgid "sha1:719146ca73ea4623"
+msgstr "Un arc a ogives."
+
+#: B01 0x1C42 (reply 1 to keyword 46)
+#. width: 39
+msgctxt "game"
+msgid "sha1:0931342e509f6797"
+msgstr "Certains l'appellent fusil foudre."
+
+#: B01 0x1C54 (reply 2 to keyword 46)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a79f82c5b2055023"
+msgstr "C'est un pistolet electrique."
+
+#: B01 0x1C15 (reply 1 to keyword 47)
+#. width: 39
+msgctxt "game"
+msgid "sha1:e07f005ca62c04fe"
+msgstr "Un fusil qui tire 500 petits clous_d'un coup."
+
+#: B01 0x1BF2 (reply 1 to keyword 48)
+#. width: 39
+msgctxt "game"
+msgid "sha1:fc0d20e3e1ea2a2f"
+msgstr "Un petit bazooka."
+
+#: B01 0x1C03 (reply 2 to keyword 48)
+#. width: 39
+msgctxt "game"
+msgid "sha1:af28c286034b50ad"
+msgstr "Assez puissant, celui-la."
+
+#: B01 0x1BC6 (reply 1 to keyword 49)
+#. width: 39
+msgctxt "game"
+msgid "sha1:adcd51cfbdac227e"
+msgstr "Pense lance-flammes."
+
+#: B01 0x1BE0 (reply 2 to keyword 49)
+#. width: 39
+msgctxt "game"
+msgid "sha1:0ab97e6f930fb7d2"
+msgstr "Cher, mais bonne arme."
+
+#: B01 0x1B95 (reply 1 to keyword 50)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f0689dda7c83886c"
+msgstr "Un canon a haute energie en pistolet."
+
+#: B01 0x1BB3 (reply 2 to keyword 50)
+#. width: 39
+msgctxt "game"
+msgid "sha1:668c07d3df61a3d6"
+msgstr "Fort pour sa taille."
+
+#: B01 0x1B7D (reply 1 to keyword 51)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ec48875131ab1f56"
+msgstr "La meilleure arme du magasin."
+
+#: B01 0x1B5C (reply 1 to keyword 52)
+#. width: 39
+msgctxt "game"
+msgid "sha1:264227d1f7fb1c4d"
+msgstr "C'est l'epee legendaire."
+
+#: B01 0x1B71 (reply 2 to keyword 52)
+#. width: 39
+msgctxt "game"
+msgid "sha1:fbc1ab64155dd946"
+msgstr "Hum, jamais vue."
+
+#: B01 0x1B36 (reply 1 to keyword 53)
+#. width: 39
+msgctxt "game"
+msgid "sha1:5c2fbfaedd26aa0c"
+msgstr "Comme un tas de chair flasque."
+
+#: B01 0x1B4E (reply 2 to keyword 53)
+#. width: 39
+msgctxt "game"
+msgid "sha1:30782f9529e5e537"
+msgstr "Moins fort qu'il en a l'air."
+
+#: B01 0x1B1C (reply 1 to keyword 54)
+#. width: 39
+msgctxt "game"
+msgid "sha1:fca03bf15b2d227c"
+msgstr "Deux cous, comme une autruche."
+
+#: B01 0x1AFC (reply 1 to keyword 55)
+#. width: 39
+msgctxt "game"
+msgid "sha1:0fee3a0a7e11f94b"
+msgstr "On dirait un marimo, mais sois_distrait et il t'aura."
+
+#: B01 0x1AEE (reply 1 to keyword 56)
+#. width: 39
+msgctxt "game"
+msgid "sha1:36acc8e3cb5180a9"
+msgstr "Un fantome globe oculaire."
+
+#: B01 0x1AE0 (reply 1 to keyword 57)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1a1dd435804d8ecf"
+msgstr "Un enorme toutou."
+
+#: B01 0x1AD3 (reply 1 to keyword 58)
+#. width: 39
+msgctxt "game"
+msgid "sha1:0a6db8e709167306"
+msgstr "Un babouin volant..."
+
+#: B01 0x1AA6 (reply 1 to keyword 59)
+#. width: 39
+msgctxt "game"
+msgid "sha1:b48d4e87f4e5ea4a"
+msgstr "Pas la voiture. Un homme-oiseau rare."
+
+#: B01 0x1AC4 (reply 2 to keyword 59)
+#. width: 39
+msgctxt "game"
+msgid "sha1:d23bb6408f787ebb"
+msgstr "Si t'en vois un, dis-le-moi."
+
+#: B01 0x1A7D (reply 1 to keyword 60)
+#. width: 39
+msgctxt "game"
+msgid "sha1:50546cb6fc5264ec"
+msgstr "Un enorme monstre qui vit dans le noir."
+
+#: B01 0x1A99 (reply 2 to keyword 60)
+#. width: 39
+msgctxt "game"
+msgid "sha1:750ef6d73270fab1"
+msgstr "Assez coriace."
+
+#: B01 0x1A58 (reply 1 to keyword 61)
+#. width: 39
+msgctxt "game"
+msgid "sha1:0893f1c0747182fd"
+msgstr "Comme de la gelee, mais crache de_l'acide."
+
+#: B01 0x1A34 (reply 1 to keyword 62)
+#. width: 39
+msgctxt "game"
+msgid "sha1:5d6f6c000745afe9"
+msgstr "Le maitre de la Dark Zone."
+
+#: B01 0x1A45 (reply 2 to keyword 62)
+#. width: 39
+msgctxt "game"
+msgid "sha1:0a8cdb2cb23ae88e"
+msgstr "Gare a toi dans le noir."
+
+#: B01 0x1A1F (reply 1 to keyword 63)
+#. width: 39
+msgctxt "game"
+msgid "sha1:153e40c3d29757c9"
+msgstr "Un robot d'une force folle."
+
+#: B01 0x19FE (reply 1 to keyword 64)
+#. width: 39
+msgctxt "game"
+msgid "sha1:56c3fdd9d2ab8217"
+msgstr "Un type pratique. Selon l'usage."
+
+#: B01 0x1A14 (reply 2 to keyword 64)
+#. width: 39
+msgctxt "game"
+msgid "sha1:21ee7c2c6c31f163"
+msgstr "Hum, jamais vu."
+
+#: B01 0x19E3 (reply 1 to keyword 65)
+#. width: 39
+msgctxt "game"
+msgid "sha1:e7017cbfb1a822e7"
+msgstr "Un robot de police de patrouille,_petit."
+
+#: B01 0x19B2 (reply 1 to keyword 66)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ad32352759df06f8"
+msgstr "Un satyre. Mieux vaut fuir."
+
+#: B01 0x19CB (reply 2 to keyword 66)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1944a5f4153417ba"
+msgstr "Tres fort. Fais attention."
+
+#: B01 0x1990 (reply 1 to keyword 67)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f2d92ed1835fb27e"
+msgstr "Comme un calmar. Assez fort."
+
+#: B01 0x19A8 (reply 2 to keyword 67)
+#. width: 39
+msgctxt "game"
+msgid "sha1:41ab1cefece93a58"
+msgstr "C'est quoi ?"
+
+#: B01 0x1980 (reply 1 to keyword 68)
+#. width: 39
+msgctxt "game"
+msgid "sha1:542c58b314824fad"
+msgstr "Un lion a ecailles."
+
+#: B01 0x1971 (reply 1 to keyword 69)
+#. width: 39
+msgctxt "game"
+msgid "sha1:be70d48be3147f1a"
+msgstr "Un monstre scorpion."
+
+#: B01 0x1954 (reply 1 to keyword 70)
+#. width: 39
+msgctxt "game"
+msgid "sha1:57dab947763e76df"
+msgstr "Le chef des palourdes geantes._Peut-etre bon a manger."
+
+#: B01 0x1932 (reply 1 to keyword 71)
+#. width: 39
+msgctxt "game"
+msgid "sha1:9b6e5cd41a9a887f"
+msgstr "Le chef des moisissures. Il est_toxique, fais gaffe."
+
+#: B01 0x1912 (reply 1 to keyword 72)
+#. width: 39
+msgctxt "game"
+msgid "sha1:6f9644d8bef5beda"
+msgstr "Un genre de zombie."
+
+#: B01 0x1921 (reply 2 to keyword 72)
+#. width: 39
+msgctxt "game"
+msgid "sha1:d643a5db9d617e64"
+msgstr "Terriblement coriace."
+
+#: B01 0x18F8 (reply 1 to keyword 73)
+#. width: 39
+msgctxt "game"
+msgid "sha1:6890bad9fc70ba80"
+msgstr "Un des robots de defense."
+
+#: B01 0x18D1 (reply 1 to keyword 74)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ea413b98d3b6165c"
+msgstr "C'est une limace. Jamais vu ?"
+
+#: B01 0x18E6 (reply 2 to keyword 74)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a7f2bef9eb437825"
+msgstr "Tu sais meme pas ca ?"
+
+#: B01 0x189E (reply 1 to keyword 75)
+#. width: 39
+msgctxt "game"
+msgid "sha1:cc5c0596ea59a312"
+msgstr "Un rat geant. Rien a craindre."
+
+#: B01 0x18B8 (reply 2 to keyword 75)
+#. width: 39
+msgctxt "game"
+msgid "sha1:babc1efcf48be518"
+msgstr "Tu sais pas ca ? Incroyable."
+
+#: B01 0x1873 (reply 1 to keyword 76)
+#. width: 39
+msgctxt "game"
+msgid "sha1:21f48f7da5734cd0"
+msgstr "Le chef des gorilles. Un costaud."
+
+#: B01 0x1895 (reply 2 to keyword 76)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7b7141e326915881"
+msgstr "Jamais vu."
+
+#: B01 0x1851 (reply 1 to keyword 77)
+#. width: 39
+msgctxt "game"
+msgid "sha1:76051bbdfa4f29ce"
+msgstr "Un fantome boule de feu. Au debut,_c'est une proie facile."
+
+#: B01 0x1825 (reply 1 to keyword 78)
+#. width: 39
+msgctxt "game"
+msgid "sha1:cda3acb62f2c0310"
+msgstr "Un poulpe ! Vraiment un poulpe."
+
+#: B01 0x1839 (reply 2 to keyword 78)
+#. width: 39
+msgctxt "game"
+msgid "sha1:314d9c50b29d54ef"
+msgstr "Y avait un Screamer comme ca..."
+
+#: B01 0x17FC (reply 1 to keyword 79)
+#. width: 39
+msgctxt "game"
+msgid "sha1:9b9601f300a6d71a"
+msgstr "Mary avait un petit agneau."
+
+#: B01 0x1815 (reply 2 to keyword 79)
+#. width: 39
+msgctxt "game"
+msgid "sha1:027dd85021f77309"
+msgstr "Un mouton. Juste un mouton."
+
+#: B01 0x17E8 (reply 1 to keyword 80)
+#. width: 39
+msgctxt "game"
+msgid "sha1:3e474e1c5935e0a6"
+msgstr "Hum, une chenille geante."
+
+#: B01 0x17C5 (reply 1 to keyword 81)
+#. width: 39
+msgctxt "game"
+msgid "sha1:c76fcf10dfa6fb60"
+msgstr "Un ver ordinaire, a ce qu'on dit."
+
+#: B01 0x17DA (reply 2 to keyword 81)
+#. width: 39
+msgctxt "game"
+msgid "sha1:35f9e60fcb80b124"
+msgstr "T'en as jamais vu ?"
+
+#: B01 0x1798 (reply 1 to keyword 82)
+#. width: 39
+msgctxt "game"
+msgid "sha1:aa7ecc48ac6832ba"
+msgstr "Le plus fort, au fond de la tour."
+
+#: B01 0x176C (reply 1 to keyword 83)
+#. width: 39
+msgctxt "game"
+msgid "sha1:bc4abd5ac055cfa3"
+msgstr "Va dans la tour et tu verras."
+
+#: B01 0x1780 (reply 2 to keyword 83)
+#. width: 39
+msgctxt "game"
+msgid "sha1:8ed168bcfa7eee5e"
+msgstr "Tu sais pas ca ? Incroyable."
+
+#: B01 0x174C (reply 1 to keyword 84)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1d29c8cf8d5db8bf"
+msgstr "\"Un dragon avec ses petits.\""
+
+#: B01 0x175E (reply 2 to keyword 84)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7cbbe02cff6a5b8c"
+msgstr "\"Hum, jamais vu.\""
+
+#: B01 0x1736 (reply 1 to keyword 85)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1859434d9b764b23"
+msgstr "\"Un frelon monstre.\""
+
+#: B01 0x170E (reply 1 to keyword 86)
+#. width: 39
+msgctxt "game"
+msgid "sha1:01e2caca4224ccac"
+msgstr "Une enorme araignee venimeuse. On_dirait un crabe, mais ca se mange pas."
+
+#: B01 0x16C7 (reply 1 to keyword 88)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a8318f3645695976"
+msgstr "C'est pas un tourbillon ?"
+
+#: B01 0x16D2 (reply 2 to keyword 88)
+#. width: 39
+msgctxt "game"
+msgid "sha1:2d450f2b8ed7ffdd"
+msgstr "Sans degats, mais surveille ta_boussole ou tu te perdras."
+
+#: B01 0x1682 (reply 1 to keyword 89)
+#. width: 39
+msgctxt "game"
+msgid "sha1:18d0a565e22fe625"
+msgstr "Mauvais signe quand il apparait._Quand tu le vois, t'es deja touche."
+
+#: B01 0x16AD (reply 2 to keyword 89)
+#. width: 39
+msgctxt "game"
+msgid "sha1:89560fcb802a462b"
+msgstr "Mefie-toi dans les salles closes !"
+
+#: B01 0x1636 (reply 1 to keyword 90)
+#. width: 39
+msgctxt "game"
+msgid "sha1:78689d03cc64707b"
+msgstr "Des microbes. Qui sait quelles_saletes trainent dans BIAS. En_general le charlatan te soigne."
+
+#: B01 0x15FD (reply 1 to keyword 91)
+#. width: 39
+msgctxt "game"
+msgid "sha1:22649d75ffd51b60"
+msgstr "Juste le noir. Ca te fait peur ?_Alors t'es pas un Screamer."
+
+#: B01 0x162D (reply 2 to keyword 91)
+#. width: 39
+msgctxt "game"
+msgid "sha1:62fffcf491825ace"
+msgstr "T'es idiot ?"
+
+#: B01 0x15BC (reply 1 to keyword 92)
+#. width: 39
+msgctxt "game"
+msgid "sha1:05446c79530f2d8f"
+msgstr "Un robot de defense. Il attend_derriere les portes."
+
+#: B01 0x15DF (reply 2 to keyword 92)
+#. width: 39
+msgctxt "game"
+msgid "sha1:07cbadf462fff44f"
+msgstr "Vu ? Il sort d'une porte."
+
+#: B01 0x1590 (reply 1 to keyword 93)
+#. width: 39
+msgctxt "game"
+msgid "sha1:ad17db7379204cbe"
+msgstr "La foudre. T'as peur, hein ?"
+
+#: B01 0x15A6 (reply 2 to keyword 93)
+#. width: 39
+msgctxt "game"
+msgid "sha1:56926f9d27b4f303"
+msgstr "Protege ton nombril."
+
+#: B01 0x154D (reply 1 to keyword 94)
+#. width: 39
+msgctxt "game"
+msgid "sha1:50ed2db47f639340"
+msgstr "Il parait qu'il y a un endroit_comme ca au 5F."
+
+#: B01 0x1572 (reply 2 to keyword 94)
+#. width: 39
+msgctxt "game"
+msgid "sha1:819e3993abc1d41c"
+msgstr "La ou les monstres deferlent."
+
+#: B01 0x1524 (reply 1 to keyword 95)
+#. width: 39
+msgctxt "game"
+msgid "sha1:13463b52fef765b1"
+msgstr "Les cris des Screamers morts."
+
+#: B01 0x153D (reply 2 to keyword 95)
+#. width: 39
+msgctxt "game"
+msgid "sha1:bb01b41b7f412f66"
+msgstr "Un son qu'on veut pas entendre."
+
+#: B01 0x14F8 (reply 1 to keyword 96)
+#. width: 39
+msgctxt "game"
+msgid "sha1:4b8835e896697436"
+msgstr "Un type renfrogne."
+
+#: B01 0x1504 (reply 2 to keyword 96)
+#. width: 39
+msgctxt "game"
+msgid "sha1:37948d7e814a556c"
+msgstr "Fort, oui, mais trop gentil pour_son bien."
+
+#: B01 0x14CB (reply 1 to keyword 97)
+#. width: 39
+msgctxt "game"
+msgid "sha1:e4cb7217c3797a7e"
+msgstr "Un punk cingle. Impossible de_savoir ce qu'il fera."
+
+#: B01 0x14EC (reply 2 to keyword 97)
+#. width: 39
+msgctxt "game"
+msgid "sha1:0a7433a98b14417a"
+msgstr "Un gamin d'extreme droite."
+
+#: B01 0x1497 (reply 1 to keyword 98)
+#. width: 39
+msgctxt "game"
+msgid "sha1:d7b567f172cdcff4"
+msgstr "Une femme hommasse. Pas une once de_sex-appeal."
+
+#: B01 0x14BB (reply 2 to keyword 98)
+#. width: 39
+msgctxt "game"
+msgid "sha1:638ec6f8fd739dd0"
+msgstr "C'est peut-etre un travesti."
+
+#: B01 0x1477 (reply 1 to keyword 99)
+#. width: 39
+msgctxt "game"
+msgid "sha1:e5b85561e31cb1c2"
+msgstr "Un avorton et un radin."
+
+#: B01 0x148B (reply 2 to keyword 99)
+#. width: 39
+msgctxt "game"
+msgid "sha1:61d9b513cb97cdf9"
+msgstr "Je supporte pas ce type."
+
+#: B01 0x143E (reply 1 to keyword 100)
+#. width: 39
+msgctxt "game"
+msgid "sha1:5d2005ba5fc5760f"
+msgstr "Personne sait ce qu'il pense."
+
+#: B01 0x1452 (reply 2 to keyword 100)
+#. width: 39
+msgctxt "game"
+msgid "sha1:23b0d216a3efad18"
+msgstr "Toujours dans la lune. Personne a_vu son visage."
+
+#: B01 0x1414 (reply 1 to keyword 101)
+#. width: 39
+msgctxt "game"
+msgid "sha1:97d2bc050edc0cd8"
+msgstr "J'en sais peu, mais tous disent_que c'est le Screamer legendaire."
+
+#: B01 0x13ED (reply 1 to keyword 102)
+#. width: 39
+msgctxt "game"
+msgid "sha1:35ffb4ca8fadfc15"
+msgstr "Un vieux idiot."
+
+#: B01 0x13F9 (reply 2 to keyword 102)
+#. width: 39
+msgctxt "game"
+msgid "sha1:07536ee583cc00dc"
+msgstr "Le boucher des Screamers."
+
+#: B01 0x13BC (reply 1 to keyword 103)
+#. width: 39
+msgctxt "game"
+msgid "sha1:5ea15a367b473130"
+msgstr "Un sale type. Faible, mais grande_gueule."
+
+#: B01 0x13DD (reply 2 to keyword 103)
+#. width: 39
+msgctxt "game"
+msgid "sha1:cb6ea5b2ef76f891"
+msgstr "Fais pas attention a lui."
+
+#: B01 0x1391 (reply 1 to keyword 104)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f143ff395f4c2152"
+msgstr "La tour, evidemment. A quoi tu_penses ?"
+
+#: B01 0x13AF (reply 2 to keyword 104)
+#. width: 39
+msgctxt "game"
+msgid "sha1:e7100aace17ea46b"
+msgstr "Rentre te coucher."
+
+#: B01 0x1350 (reply 1 to keyword 105)
+#. width: 39
+msgctxt "game"
+msgid "sha1:dcb693ad7eb75550"
+msgstr "C'est toi, non, monsieur !"
+
+#: B01 0x1366 (reply 2 to keyword 105)
+#. width: 39
+msgctxt "game"
+msgid "sha1:2aad405ce8deb578"
+msgstr "Les monstres sont plus malins que_toi. Ca va pas ?"
+
+#: B01 0x1338 (reply 1 to keyword 106)
+#. width: 39
+msgctxt "game"
+msgid "sha1:c7558153dca6e747"
+msgstr "Va dans la tour. Y en a_partout."
+
+#: B01 0x12FB (reply 1 to keyword 107)
+#. width: 39
+msgctxt "game"
+msgid "sha1:aa93fabe92783d38"
+msgstr "Tant que t'y es pas tombe, t'es_pas un vrai Screamer."
+
+#: B01 0x1324 (reply 2 to keyword 107)
+#. width: 39
+msgctxt "game"
+msgid "sha1:9cb21312e04ce755"
+msgstr "Va voir par toi-meme."
+
+#: B01 0x12F2 (reply 1 to keyword 108)
+#. width: 39
+msgctxt "game"
+msgid "sha1:dad97ebbd573b8aa"
+msgstr "Tu veux dire des medicaments."
+
+#: B01 0x12E1 (reply 1 to keyword 109)
+#. width: 39
+msgctxt "game"
+msgid "sha1:03babe47b3c0321b"
+msgstr "Ca veut dire des drogues."
+
+#: B01 0x12B5 (reply 1 to keyword 110)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f47cc4b611270063"
+msgstr "Y a qu'une sortie."
+
+#: B01 0x12C5 (reply 2 to keyword 110)
+#. width: 39
+msgctxt "game"
+msgid "sha1:d6cb5fc91e40e2d7"
+msgstr "La sortie, c'est l'entree, idiot."
+
+#: B01 0x1298 (reply 1 to keyword 111)
+#. width: 39
+msgctxt "game"
+msgid "sha1:e1960c4202ddf2e4"
+msgstr "Comme si je pouvais te le dire."
+
+#: B01 0x12A7 (reply 2 to keyword 111)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a33703053865e578"
+msgstr "Hum, j'en ai jamais mange."
+
+#: B01 0x1282 (reply 1 to keyword 112)
+#. width: 39
+msgctxt "game"
+msgid "sha1:5ee4c5f338a944ab"
+msgstr "Y en avait une au bar..."
+
+#: B01 0x1272 (reply 1 to keyword 113)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f92cf410cd4556eb"
+msgstr "Tu veux dire l'armement."
+
+#: B01 0x1264 (reply 1 to keyword 114)
+#. width: 39
+msgctxt "game"
+msgid "sha1:91708d3a7be19a87"
+msgstr "Tu veux dire la protection."
+
+#: B01 0x125A (reply 1 to keyword 115)
+#. width: 39
+msgctxt "game"
+msgid "sha1:11bcd373da5a0ee1"
+msgstr "Ca veut dire armure."
+
+#: B01 0x123E (reply 1 to keyword 116)
+#. width: 39
+msgctxt "game"
+msgid "sha1:06db5522a3990926"
+msgstr "On appelle ca PIT. Un des pieges."
+
+#: B01 0x121D (reply 1 to keyword 117)
+#. width: 39
+msgctxt "game"
+msgid "sha1:9d02bb559d09c340"
+msgstr "T'as peur du noir ?"
+
+#: B01 0x122B (reply 2 to keyword 117)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1cdee9a33c6a5a29"
+msgstr "Prends une Lampe."
+
+#: B01 0x11E4 (reply 1 to keyword 118)
+#. width: 39
+msgctxt "game"
+msgid "sha1:49f54dfd6891507b"
+msgstr "La ou le feu jaillit du labyrinthe."
+
+#: B01 0x1201 (reply 2 to keyword 118)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1ea951f318687fe2"
+msgstr "On l'arrete pas. Traverse en courant."
+
+#: B01 0x119C (reply 1 to keyword 119)
+#. width: 39
+msgctxt "game"
+msgid "sha1:e85a468b6a18ce4b"
+msgstr "Environ 4 par etage. Retiens_ou ils sont."
+
+#: B01 0x11CB (reply 2 to keyword 119)
+#. width: 39
+msgctxt "game"
+msgid "sha1:d7e80193801c3b6d"
+msgstr "Trouve-les par toi-meme."
+
+#: B01 0x1189 (reply 1 to keyword 120)
+#. width: 39
+msgctxt "game"
+msgid "sha1:33cdb0e9478af650"
+msgstr "Il parait qu'il est la-haut..."
+
+#: B01 0x1153 (reply 1 to keyword 121)
+#. width: 39
+msgctxt "game"
+msgid "sha1:241aa2c9bbfbe878"
+msgstr "Certaines veulent un mot de passe,_mais une carte les ouvre souvent."
+
+#: B01 0x1145 (reply 1 to keyword 122)
+#. width: 39
+msgctxt "game"
+msgid "sha1:b920d55a69f1ce77"
+msgstr "Le brouillard toxique, tu veux dire..."
+
+#: B01 0x111F (reply 1 to keyword 123)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1dca13eda57e8168"
+msgstr "Quand il sort, c'est trop tard._File droit a l'hopital."
+
+#: B01 0x1105 (reply 1 to keyword 124)
+#. width: 39
+msgctxt "game"
+msgid "sha1:8707f2b8b793961f"
+msgstr "Les amateurs devraient pas y toucher."
+
+#: B01 0x10F4 (reply 1 to keyword 125)
+#. width: 39
+msgctxt "game"
+msgid "sha1:aafad17d306cb779"
+msgstr "Faut voir un docteur."
+
+#: B01 0x10C9 (reply 1 to keyword 126)
+#. width: 39
+msgctxt "game"
+msgid "sha1:4c40a20edab14fe2"
+msgstr "Va voir un docteur, prends un remede,_ou utilise un Bacillus Cleaner."
+
+#: B01 0x10B4 (reply 1 to keyword 127)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a36c24e42a45591a"
+msgstr "Tout le monde sauf toi."
+
+#: B01 0x1088 (reply 1 to keyword 128)
+#. width: 39
+msgctxt "game"
+msgid "sha1:b272cea0f38bb3ab"
+msgstr "Pas de gros monstres, alors au_debut, reste par la."
+
+#: B01 0x1075 (reply 1 to keyword 129)
+#. width: 39
+msgctxt "game"
+msgid "sha1:5b25529eb8570f6a"
+msgstr "A partir d'ici, gare au poison."
+
+#: B01 0x1056 (reply 1 to keyword 130)
+#. width: 39
+msgctxt "game"
+msgid "sha1:211b8835e36f9beb"
+msgstr "Ouvre les portes a la legere par ici_et tu vas te faire mal."
+
+#: B01 0x1039 (reply 1 to keyword 131)
+#. width: 39
+msgctxt "game"
+msgid "sha1:3079b5275605fdcb"
+msgstr "Les monstres de cet etage sont durs."
+
+#: B01 0x1005 (reply 1 to keyword 132)
+#. width: 39
+msgctxt "game"
+msgid "sha1:6029441e19193d82"
+msgstr "Monster Stampede et tout. Tres dur._Pas un endroit ou aller a la legere."
+
+#: B01 0xFD0 (reply 1 to keyword 133)
+#. width: 39
+msgctxt "game"
+msgid "sha1:65bd0ff5ea062d9c"
+msgstr "Le Samurai y est-il alle ou non..._En tout cas, personne n'est revenu."
+
+#: B01 0xF94 (reply 1 to keyword 134)
+#. width: 39
+msgctxt "game"
+msgid "sha1:6243e6b0f30ee922"
+msgstr "Inutile de porter toujours pareil._Prends des choses qui servent a tout."
+
+#: B01 0xF80 (reply 1 to keyword 136)
+#. width: 39
+msgctxt "game"
+msgid "sha1:36a8802bf73e86dd"
+msgstr "Epees, lances, ce genre de choses."
+
+#: B01 0xF72 (reply 1 to keyword 137)
+#. width: 39
+msgctxt "game"
+msgid "sha1:656c9fb2a34944f6"
+msgstr "Les armes de jet."
+
+#: B01 0xF65 (reply 1 to keyword 138)
+#. width: 39
+msgctxt "game"
+msgid "sha1:56ed4d9b3933ab56"
+msgstr "Ca veut dire armure."
+
+#: B01 0xF3B (reply 1 to keyword 139)
+#. width: 39
+msgctxt "game"
+msgid "sha1:eee3eabf4fae5103"
+msgstr "L'interieur de la tour est un dedale."
+
+#: B01 0xF54 (reply 2 to keyword 139)
+#. width: 39
+msgctxt "game"
+msgid "sha1:53157c0db1d46f76"
+msgstr "Trouve ton chemin."
+
+#: B01 0xF1F (reply 1 to keyword 140)
+#. width: 39
+msgctxt "game"
+msgid "sha1:380f061b0d819a42"
+msgstr "Des nouvelles ? Rien de bon."
+
+#: B01 0xEE3 (reply 1 to keyword 141)
+#. width: 39
+msgctxt "game"
+msgid "sha1:c8b162b89fe12d2f"
+msgstr "Y a 4 sortes de microbes dans la_tour. Chacun frappe ailleurs."
+
+#: B01 0xEB5 (reply 1 to keyword 142)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a84ec05ed6831915"
+msgstr "Les cadavres, ca te plait ?"
+
+#: B01 0xECE (reply 2 to keyword 142)
+#. width: 39
+msgctxt "game"
+msgid "sha1:9c2c361d7ec1b7db"
+msgstr "Fouille-les tant que tu veux, y a_rien a trouver."
+
+#: B01 0xE9A (reply 1 to keyword 143)
+#. width: 39
+msgctxt "game"
+msgid "sha1:5e1ac30bec608110"
+msgstr "C'est pour ca que vit un Screamer."
+
+#: B01 0xE8B (reply 1 to keyword 144)
+#. width: 39
+msgctxt "game"
+msgid "sha1:3eab6b9ab2e2b0d5"
+msgstr "Frappe-les avant qu'ils te frappent."
+
+#: B01 0xE62 (reply 1 to keyword 145)
+#. width: 39
+msgctxt "game"
+msgid "sha1:13a1d3971abbd922"
+msgstr "Le rang d'un Screamer. Monte a 25."
+
+#: B01 0xE24 (reply 1 to keyword 146)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7955503b6d6466e4"
+msgstr "Comme une prime sur un monstre. Les_forts valent plus, ou paient gros."
+
+#: B01 0xDFE (reply 1 to keyword 149)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7426d688cd81e580"
+msgstr "Les objets ? Si tu les connais pas,_tu vivras pas longtemps."
+
+#: B01 0xDEF (reply 1 to keyword 150)
+#. width: 39
+msgctxt "game"
+msgid "sha1:e794674ca2d3019c"
+msgstr "Va a l'hopital."
+
+#: B01 0xDC0 (reply 1 to keyword 151)
+#. width: 39
+msgctxt "game"
+msgid "sha1:99c69510de831942"
+msgstr "Une porte qui s'ouvre pas ? Cherche un_mot de passe ou une EX card."
+
+#: B01 0xDAA (reply 1 to keyword 152)
+#. width: 39
+msgctxt "game"
+msgid "sha1:31aa5ec828411c4a"
+msgstr "Pas de cles, mais y a des cartes."
+
+#: B01 0xD9A (reply 1 to keyword 153)
+#. width: 39
+msgctxt "game"
+msgid "sha1:b10b909fd9978af7"
+msgstr "L'entree, c'est la sortie."
+
+#: B01 0xD3A (reply 1 to keyword 154)
+#. width: 39
+msgctxt "game"
+msgid "sha1:479a0b62503c1d11"
+msgstr "Enregistre tes combats de monstres._Rapporte-le au Bureau FRD pour l'argent_et la Hunter Class. Sert aussi de_pack d'energie."
+
+#: B01 0xD17 (reply 1 to keyword 156)
+#. width: 39
+msgctxt "game"
+msgid "sha1:c25d06151e97e997"
+msgstr "Ca veut dire agilite, oui."
+
+#: B01 0xD28 (reply 2 to keyword 156)
+#. width: 39
+msgctxt "game"
+msgid "sha1:cc2d1ec74240388f"
+msgstr "La rapidite, quoi."
+
+#: B01 0xCF9 (reply 1 to keyword 157)
+#. width: 39
+msgctxt "game"
+msgid "sha1:d40d9803eba161c3"
+msgstr "Technique : la precision d'attaque."
+
+#: B01 0xCB6 (reply 1 to keyword 158)
+#. width: 39
+msgctxt "game"
+msgid "sha1:321076ed1a4066fd"
+msgstr "Il parait que ca existe la-haut,_mais je sais pas a quoi ca sert."
+
+#: B01 0xCDD (reply 2 to keyword 158)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a7a2a35f630a2ea2"
+msgstr "Un ordinateur, je crois. A quoi bon ?"
+
+#: B01 0xCAE (reply 1 to keyword 159)
+#. width: 39
+msgctxt "game"
+msgid "sha1:f079e96b232584f7"
+msgstr "C'est quoi ?"
+
+#: B01 0xC97 (reply 1 to keyword 160)
+#. width: 39
+msgctxt "game"
+msgid "sha1:eebacd7c34cc21fd"
+msgstr "Le porte-bonheur du Screamer."
+
+#: B01 0xC5B (reply 1 to keyword 162)
+#. width: 39
+msgctxt "game"
+msgid "sha1:27d4a71b3601bc58"
+msgstr "On sait pas quand, mais le bout des_longs couloirs est dangereux."
+
+#: B01 0xC37 (reply 1 to keyword 163)
+#. width: 39
+msgctxt "game"
+msgid "sha1:2b8ccb0179827e5a"
+msgstr "L'electricite sort du sol."
+
+#: B01 0xC47 (reply 2 to keyword 163)
+#. width: 39
+msgctxt "game"
+msgid "sha1:2fb3096d6815599d"
+msgstr "Si tu marches dedans, cours."
+
+#: B01 0xC2A (reply 1 to keyword 164)
+#. width: 39
+msgctxt "game"
+msgid "sha1:de4961235ac51bea"
+msgstr "Le couloir de feu."
+
+#: B01 0xC11 (reply 1 to keyword 165)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1276fbcb4745400e"
+msgstr "Cette bande de voyous ? Aucune idee_de ce qu'ils sont devenus."
+
+#: B01 0xC00 (reply 1 to keyword 167)
+#. width: 39
+msgctxt "game"
+msgid "sha1:726e1a0e96839763"
+msgstr "Ha ha ha, tu regardes les etoiles ?"
+
+#: B01 0xBED (reply 1 to keyword 168)
+#. width: 39
+msgctxt "game"
+msgid "sha1:9934d1228a70012d"
+msgstr "La tour en grouille."
+
+#: B01 0xBAB (reply 1 to keyword 169)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7d5fc3276831b3ba"
+msgstr "Des robots gerent l'endroit. On est_tous des intrus pour eux."
+
+#: B01 0xB84 (reply 1 to keyword 170)
+#. width: 39
+msgctxt "game"
+msgid "sha1:c4a241db45bcfa2d"
+msgstr "Tu veux dire la tour de TOKIO ?"
+
+#: B01 0xB9A (reply 2 to keyword 170)
+#. width: 39
+msgctxt "game"
+msgid "sha1:a4c6b32c5990f364"
+msgstr "BIAS, bien sur."
+
+#: B01 0xB79 (reply 1 to keyword 171)
+#. width: 39
+msgctxt "game"
+msgid "sha1:09ae68b122395106"
+msgstr "Ca veut dire armure."
+
+#: B01 0xB55 (reply 1 to keyword 172)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1b648ca9163a6be4"
+msgstr "Ca veut dire les armes. Y a des_movers et des joinders."
+
+#: B01 0xB20 (reply 1 to keyword 173)
+#. width: 39
+msgctxt "game"
+msgid "sha1:30de0c6fc6bcb37f"
+msgstr "Bien utilisee, le monstre peut_plus attaquer."
+
+#: B01 0xAF6 (reply 1 to keyword 174)
+#. width: 39
+msgctxt "game"
+msgid "sha1:b3669a9e0184b11a"
+msgstr "Une sale bande. Impossible de_savoir ce qu'ils trament."
+
+#: B01 0xADE (reply 1 to keyword 175)
+#. width: 39
+msgctxt "game"
+msgid "sha1:b55b66ac408078e1"
+msgstr "Le foyer spirituel des Screamers."
+
+#: B01 0xAB8 (reply 1 to keyword 176)
+#. width: 39
+msgctxt "game"
+msgid "sha1:2bfc757148a8d7eb"
+msgstr "Peux pas te le dire."
+
+#: B01 0xAC0 (reply 2 to keyword 176)
+#. width: 39
+msgctxt "game"
+msgid "sha1:0ac628d7652fab93"
+msgstr "Demande a un autre."
+
+#: B01 0xACE (reply 3 to keyword 176)
+#. width: 39
+msgctxt "game"
+msgid "sha1:aa5597a814970c61"
+msgstr "Fais le tien."
+
+#: B01 0xA99 (reply 1 to keyword 178)
+#. width: 39
+msgctxt "game"
+msgid "sha1:256f25b7c4144632"
+msgstr "Ca existe pas, mais le FRD fait_pareil."
+
+#: B01 0xA5B (reply 1 to keyword 179)
+#. width: 39
+msgctxt "game"
+msgid "sha1:e8acb9618d597e77"
+msgstr "Un systeme de defense. Sans degats,_mais il te fait tourner. Gare."
+
+#: B01 0xA00 (reply 1 to keyword 180)
+#. width: 39
+msgctxt "game"
+msgid "sha1:9d7f6ed47e5a6af0"
+msgstr "Y a 4 brouillards dans BIAS, chacun_frappe ailleurs. Quand il monte,_regarde vite ce qu'il a touche."
+
+#: B01 0x9EB (reply 1 to keyword 181)
+#. width: 39
+msgctxt "game"
+msgid "sha1:0d6d7cdf22c51877"
+msgstr "Ah, tu veux dire Monster Murder."
+
+#: B01 0x9D5 (reply 1 to keyword 182)
+#. width: 39
+msgctxt "game"
+msgid "sha1:7c05e99b07b9a51b"
+msgstr "Tout le monde ici est un phenomene."
+
+#: B01 0x98B (reply 1 to keyword 183)
+#. width: 39
+msgctxt "game"
+msgid "sha1:1fe6ecbbc2530b08"
+msgstr "A propos, quelqu'un avait un robot_de la foire scientifique. Ca vaut_cher, comme antiquite."
+
+#: B01 0x95F (reply 1 to keyword 184)
+#. width: 39
+msgctxt "game"
+msgid "sha1:fe612d2cc2e89930"
+msgstr "Les trappes ? Prends un XRAY Searcher_et tu sauras ou elles sont."
+
+#: DEMO2HDE.EXE 0xA3C (DEMO:0xC)
+#. width: 80
+msgctxt "demo"
+msgid "sha1:8012fddd95f533cb"
+msgstr "Nom       : Jipang      __Age       : 28          __Sexe      : homme       __Caractere : brutal      __"
+
+#: DEMO2HDE.EXE 0xAA5 (DEMO:0x75)
+#. width: 80
+msgctxt "demo"
+msgid "sha1:d0a4ee324bc464af"
+msgstr "Nom       : Second Killer__Age       : 20          __Sexe      : homme       __Caractere : nerveux     __"
+
+#: DEMO2HDE.EXE 0xB0E (DEMO:0xDE)
+#. width: 80
+msgctxt "demo"
+msgid "sha1:7024e857afa88ed5"
+msgstr "Nom       : Jinx        __Age       : 40          __Sexe      : homme       __Caractere : taciturne   __"
+
+#: DEMO2HDE.EXE 0xB77 (DEMO:0x147)
+#. width: 80
+msgctxt "demo"
+msgid "sha1:3fe33f540c68b563"
+msgstr "Nom       : Chief       __Age       : 25          __Sexe      : homme       __Caractere : puissant    __"
+
+#: DEMO2HDE.EXE 0xBE0 (DEMO:0x1B0)
+#. width: 80
+msgctxt "demo"
+msgid "sha1:76cfde0037a39ee3"
+msgstr "Nom       : Rat         __Age       : 12          __Sexe      : homme       __Caractere : vif         __"
+
+#: DEMO2HDE.EXE 0xC49 (DEMO:0x219)
+#. width: 80
+msgctxt "demo"
+msgid "sha1:6cc6e87938e1bb2f"
+msgstr "Nom       : M. Murder   __Age       : 22          __Sexe      : homme       __Caractere : froid       __"
+
+#: DEMO2HDE.EXE 0xCB2 (DEMO:0x282)
+#. width: 80
+msgctxt "demo"
+msgid "sha1:0554e8b21acfb50b"
+msgstr "Nom       : Nachi       __Age       : 24          __Sexe      : femme       __Caractere : capricieuse __"
+
+#: DEMO2HDE.EXE 0xD1B (DEMO:0x2EB)
+#. width: 80
+msgctxt "demo"
+msgid "sha1:6b2c732c9e338ad9"
+msgstr "Nom       : Samurai     __Age       : 38          __Sexe      : homme       __Caractere : mysterieux  __"
+
+#: MAIN2HDE.EXE 0x1577F (shops_password)
+#. what the player may type instead of the password
+msgctxt "password"
+msgid "sha1:35641873b187ba1a"
+msgstr "je suis un pervers"
+
+#: B01 0x0 (keyword 1)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:10f4001351287418"
+msgstr "pow drug|drogue force"
+
+#: B01 0xF (keyword 2)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:5e653444c5a6f94b"
+msgstr "ag drug|drogue agilite"
+
+#: B01 0x1D (keyword 3)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:b2e8440f92bd570b"
+msgstr "hp drug|drogue vie"
+
+#: B01 0x2B (keyword 4)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:2f7705e1a659927f"
+msgstr "tec drug|drogue technique"
+
+#: B01 0x3A (keyword 5)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:811c1a45ff25a193"
+msgstr "hyper drug"
+
+#: B01 0x4B (keyword 6)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:4d627969b5f8b7e9"
+msgstr "iq drug|drogue qi"
+
+#: B01 0x59 (keyword 7)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:25b70d627aa60ed4"
+msgstr "samson drug|samson"
+
+#: B01 0x69 (keyword 8)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:c03b05965b121011"
+msgstr "brain upper"
+
+#: B01 0x79 (keyword 9)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:e70c272305aaf08c"
+msgstr "tec upper"
+
+#: B01 0x87 (keyword 10)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:d91daef52b4e6d54"
+msgstr "responser"
+
+#: B01 0x94 (keyword 11)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:885e10d5b4373622"
+msgstr "anneau|revelation ring|revelation"
+
+#: B01 0xA6 (keyword 12)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:cf57dd89da7bb454"
+msgstr "bacillus sensor|detecteur"
+
+#: B01 0xB5 (keyword 13)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:0b3b91990db640a7"
+msgstr "bacillus cleaner|nettoyeur"
+
+#: B01 0xC5 (keyword 14)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:51a02893bd844f02"
+msgstr "wide mapper|carte"
+
+#: B01 0xD4 (keyword 15)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:b57e90d27f8d68de"
+msgstr "xray searcher|xray|radar"
+
+#: B01 0xE3 (keyword 16)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:ef15ad82b7cdc50c"
+msgstr "lampe|hand light|lumiere"
+
+#: B01 0xF0 (keyword 17)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:655a279989841e8a"
+msgstr "sound barrier|barriere"
+
+#: B01 0xFF (keyword 18)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:ad752c8f474e2edb"
+msgstr "guest id card|guest card|carte id"
+
+#: B01 0x10F (keyword 19)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:8f759e4419de85fb"
+msgstr "ex card|carte ex"
+
+#: B01 0x11B (keyword 20)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:a3b0ebfd38e5aedf"
+msgstr "bio searcher|biological searcher"
+
+#: B01 0x12F (keyword 21)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:8245402be0eac73d"
+msgstr "pump head|citrouille"
+
+#: B01 0x140 (keyword 22)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:fba03bb49522d236"
+msgstr "face gel"
+
+#: B01 0x14E (keyword 23)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:26997d4a8dbe40ce"
+msgstr "echarpe|muffler"
+
+#: B01 0x158 (keyword 24)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:22a1a32013c3e2d3"
+msgstr "bonnet c|c cup"
+
+#: B01 0x163 (keyword 25)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:49d6c8ab228f9037"
+msgstr "corset"
+
+#: B01 0x16E (keyword 26)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:e693777fc5893a24"
+msgstr "epauliere|shoulder guard"
+
+#: B01 0x17F (keyword 27)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:16512839862d6e53"
+msgstr "bouclier bras|arm shield"
+
+#: B01 0x18D (keyword 28)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:03d32835acbcc899"
+msgstr "gant garde|fist guard"
+
+#: B01 0x19C (keyword 29)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:9f1ba19d525e6313"
+msgstr "pancake"
+
+#: B01 0x1A8 (keyword 30)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:894037b20678368f"
+msgstr "bear foot"
+
+#: B01 0x1B4 (keyword 31)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:752b9914d9a81730"
+msgstr "fura dancer"
+
+#: B01 0x1C1 (keyword 32)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:8601f215e21b8f52"
+msgstr "genouillere|knee locker"
+
+#: B01 0x1CD (keyword 33)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:9d436468281ac289"
+msgstr "casque x-tra|extra head armor|x-tra head armor"
+
+#: B01 0x1E0 (keyword 34)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:268875d89408b787"
+msgstr "armure x-tra|extra body armor|x-tra body armor"
+
+#: B01 0x1F4 (keyword 35)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:c943319f4aa93744"
+msgstr "brassard x-tra|extra arm armor|x-tra arm armor"
+
+#: B01 0x206 (keyword 36)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:788a53880db93e4a"
+msgstr "jambiere x-tra|extra leg armor|x-tra leg armor"
+
+#: B01 0x219 (keyword 37)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:8ed65c38c79a663c"
+msgstr "poing de fer|iron fist"
+
+#: B01 0x227 (keyword 38)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:1a347556d6b16109"
+msgstr "ninja shooter"
+
+#: B01 0x237 (keyword 39)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:1dc1cfc17db90cce"
+msgstr "spin dagger"
+
+#: B01 0x246 (keyword 40)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:052a03f41b6a01fa"
+msgstr "main bombe|hand bomb|bombe"
+
+#: B01 0x253 (keyword 41)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:7bbfa0c40e50991d"
+msgstr "fouet de fer|iron whip|fouet"
+
+#: B01 0x262 (keyword 42)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:ae0516aef1629a5d"
+msgstr "gas blade"
+
+#: B01 0x271 (keyword 43)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:45d46107b37674ef"
+msgstr "epee jumelle|twin sword"
+
+#: B01 0x27E (keyword 44)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:ecdfbf89ddba9a3d"
+msgstr "hache chaude|heat axe|hache"
+
+#: B01 0x28B (keyword 45)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:85065f3e7a10cd08"
+msgstr "jet bow|arc"
+
+#: B01 0x299 (keyword 46)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:2fa6eee100a75284"
+msgstr "spark gun"
+
+#: B01 0x2A7 (keyword 47)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:4bf6431528855a94"
+msgstr "needle gun"
+
+#: B01 0x2B5 (keyword 48)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:837cabd68c0e0ff8"
+msgstr "hand cannon|canon"
+
+#: B01 0x2C3 (keyword 49)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:2d423090d00e5f64"
+msgstr "napalm gun|napalm"
+
+#: B01 0x2D1 (keyword 50)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:bd2c1bbd730f5c96"
+msgstr "hyper magnum|magnum"
+
+#: B01 0x2E1 (keyword 51)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:6571c9f5fdba99c3"
+msgstr "laser launcher|laser"
+
+#: B01 0x2F1 (keyword 52)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:f908ecc831f1c728"
+msgstr "samurai blade|sabre"
+
+#: B01 0x301 (keyword 53)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:b5c184d70c856ea6"
+msgstr "fatman"
+
+#: B01 0x30D (keyword 54)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:8507c8b4d0d34f87"
+msgstr "twin runner"
+
+#: B01 0x31A (keyword 55)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:7f183daaf74ff2fb"
+msgstr "burst ball"
+
+#: B01 0x329 (keyword 56)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:e537176adb5114a2"
+msgstr "bite eye"
+
+#: B01 0x335 (keyword 57)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:f3653a55663845f7"
+msgstr "dark dog"
+
+#: B01 0x344 (keyword 58)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:081e89535bf4387e"
+msgstr "hell angel"
+
+#: B01 0x352 (keyword 59)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:8e80a84ef0830abb"
+msgstr "firebird"
+
+#: B01 0x362 (keyword 60)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:43da31108a66efa9"
+msgstr "golgoda shadow|golgoda"
+
+#: B01 0x374 (keyword 61)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:24bce943d32618ce"
+msgstr "acid slime|slime"
+
+#: B01 0x383 (keyword 62)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:5b8ddb9397107c3b"
+msgstr "sword bat"
+
+#: B01 0x391 (keyword 63)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:71f3c2cbd4fcbd0e"
+msgstr "j-boy"
+
+#: B01 0x39C (keyword 64)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:2bf267547f30ac96"
+msgstr "junky"
+
+#: B01 0x3A8 (keyword 65)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:8418f2d9cab95ef9"
+msgstr "raid buster"
+
+#: B01 0x3B7 (keyword 66)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:d229c51d97a0bc2d"
+msgstr "centaurus|centaure"
+
+#: B01 0x3C3 (keyword 67)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:ef31a233ce20367d"
+msgstr "standing blade"
+
+#: B01 0x3D8 (keyword 68)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:a540a668c9d04a6b"
+msgstr "armor leo"
+
+#: B01 0x3E4 (keyword 69)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:6d7474501c88e4e9"
+msgstr "protect snake"
+
+#: B01 0x3F4 (keyword 70)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:58c3bb8739849bb5"
+msgstr "big mouth"
+
+#: B01 0x402 (keyword 71)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:3034ba33eb808f22"
+msgstr "rollinger"
+
+#: B01 0x40F (keyword 72)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:d9fff0df8ccce451"
+msgstr "carry baby"
+
+#: B01 0x41F (keyword 73)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:6c32b4f24221ed25"
+msgstr "moving defender"
+
+#: B01 0x434 (keyword 74)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:36202723fe608d5e"
+msgstr "neck hanger"
+
+#: B01 0x442 (keyword 75)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:ca534373a343dad6"
+msgstr "cutter rat"
+
+#: B01 0x44F (keyword 76)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:d26916550286e8dc"
+msgstr "duck kong"
+
+#: B01 0x45D (keyword 77)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:0df5a2286810b3fa"
+msgstr "fireball|boule de feu"
+
+#: B01 0x46C (keyword 78)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:52e47a01096dc652"
+msgstr "red head"
+
+#: B01 0x47A (keyword 79)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:4233449741506d88"
+msgstr "big horn"
+
+#: B01 0x488 (keyword 80)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:c88c77f43b95694b"
+msgstr "bitch horse"
+
+#: B01 0x495 (keyword 81)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:70d0710340187d36"
+msgstr "torch worm"
+
+#: B01 0x4A1 (keyword 82)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:7bca2b451c08d6c9"
+msgstr "no-head dragon"
+
+#: B01 0x4B3 (keyword 83)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:52dc074a03d5533a"
+msgstr "hover flower"
+
+#: B01 0x4C1 (keyword 84)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:ac2e1a23f95be69c"
+msgstr "baby sitter"
+
+#: B01 0x4D0 (keyword 85)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:72fe1812fee41548"
+msgstr "battle bee"
+
+#: B01 0x4DD (keyword 86)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:3537ba38214a20da"
+msgstr "night taps"
+
+#: B01 0x4EB (keyword 87)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:dcc037dd6c5f53b3"
+msgstr "gorgon|gorgone"
+
+#: B01 0x4F7 (keyword 88)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:8367afa4a93c69b7"
+msgstr "bias tornado"
+
+#: B01 0x508 (keyword 89)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:3e52a3de2b01296e"
+msgstr "bias fog"
+
+#: B01 0x518 (keyword 90)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:138f13e3fbd34a13"
+msgstr "bacille|bacillus"
+
+#: B01 0x523 (keyword 91)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:44ddade907b096dd"
+msgstr "dark zone|zone noire"
+
+#: B01 0x531 (keyword 92)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:c1a6b4e296a66344"
+msgstr "road defender"
+
+#: B01 0x543 (keyword 93)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:3b7c5dbf503427e1"
+msgstr "bias thunder|tonnerre"
+
+#: B01 0x553 (keyword 94)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:3a13a709a1496900"
+msgstr "monster stampede|stampede"
+
+#: B01 0x565 (keyword 95)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:154f19109d8bb5e7"
+msgstr "bias lullaby|berceuse"
+
+#: B01 0x575 (keyword 96)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:7a5491077c63b489"
+msgstr "jinx"
+
+#: B01 0x581 (keyword 97)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:36e7b10b405cf252"
+msgstr "jipang"
+
+#: B01 0x58E (keyword 98)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:6c9c8d372920b305"
+msgstr "nachi"
+
+#: B01 0x596 (keyword 99)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:e9ff0ba0a64e807a"
+msgstr "rat"
+
+#: B01 0x59F (keyword 100)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:35338d1ec793a56a"
+msgstr "monster murder"
+
+#: B01 0x5AF (keyword 101)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:cf34e5cf1aae39ad"
+msgstr "samurai"
+
+#: B01 0x5B9 (keyword 102)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:4b36f2b65e8ac574"
+msgstr "chief|chef"
+
+#: B01 0x5C2 (keyword 103)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:32134414daa371d3"
+msgstr "second killer"
+
+#: B01 0x5D0 (keyword 104)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:fa035948508ae012"
+msgstr "bias"
+
+#: B01 0x5DB (keyword 105)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:50bf24545fbe652b"
+msgstr "screamer"
+
+#: B01 0x5E7 (keyword 106)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:21096ad1a22efbd8"
+msgstr "monstre|monstres|monster"
+
+#: B01 0x5F2 (keyword 107)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:a656bbf0539a660c"
+msgstr "piege|pieges|trap"
+
+#: B01 0x5FD (keyword 108)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:0054693fca44970f"
+msgstr "drogue|drogues|drug"
+
+#: B01 0x609 (keyword 109)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:d5861447f09b1f8b"
+msgstr "medicament|medicaments"
+
+#: B01 0x612 (keyword 110)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:0d81c29e27dac825"
+msgstr "sortie"
+
+#: B01 0x61D (keyword 111)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:d027e8771e7e4d1b"
+msgstr "mot de passe|mots de passe|password"
+
+#: B01 0x62A (keyword 112)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:0c987ceb202bbc60"
+msgstr "creature|creature mysterieuse"
+
+#: B01 0x635 (keyword 113)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:7ba8b55a14f0eb25"
+msgstr "arme|armes"
+
+#: B01 0x63E (keyword 114)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:e497ba5c0720e7a8"
+msgstr "armure"
+
+#: B01 0x647 (keyword 115)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:0d3d2ef743a10aae"
+msgstr "armures"
+
+#: B01 0x651 (keyword 116)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:cbfc9d11cadd8c04"
+msgstr "trappe|trappes"
+
+#: B01 0x65C (keyword 117)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:c9659da2e3f80e90"
+msgstr "obscurite|noir"
+
+#: B01 0x666 (keyword 118)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:f93ebc02b7fe1002"
+msgstr "couloir de feu|couloir en feu"
+
+#: B01 0x673 (keyword 119)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:b92fd8fc5ab88278"
+msgstr "escalier|escaliers"
+
+#: B01 0x67E (keyword 120)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:c97bdb763f9e44c9"
+msgstr "ascenseur|ascenseurs"
+
+#: B01 0x68B (keyword 121)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:b49e54f184148d9a"
+msgstr "porte|portes"
+
+#: B01 0x695 (keyword 122)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:d2b6e26d590dfac6"
+msgstr "brume"
+
+#: B01 0x69D (keyword 123)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:25cb031e20f6e819"
+msgstr "brouillard toxique|gaz toxique|poison"
+
+#: B01 0x6A9 (keyword 124)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:5f263ba04cb1692f"
+msgstr "produits chimiques|chimie"
+
+#: B01 0x6B3 (keyword 125)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:eb12028a9242d753"
+msgstr "traitement|soin"
+
+#: B01 0x6BD (keyword 126)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:4288c79034b7782f"
+msgstr "guerison|comment guerir"
+
+#: B01 0x6C8 (keyword 127)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:382f73261bdc4881"
+msgstr "ennemi|ennemis"
+
+#: B01 0x6D0 (keyword 128)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:f9536518feb16ccc"
+msgstr "1f|etage 1"
+
+#: B01 0x6D9 (keyword 129)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:caf8f6f3242cbe27"
+msgstr "2f|etage 2"
+
+#: B01 0x6E2 (keyword 130)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:d126c39bc23e1ab1"
+msgstr "3f|etage 3"
+
+#: B01 0x6EB (keyword 131)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:0eb736a570a5d383"
+msgstr "4f|etage 4"
+
+#: B01 0x6F4 (keyword 132)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:8f5faa1c6142433d"
+msgstr "5f|etage 5"
+
+#: B01 0x6FD (keyword 133)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:74a02cde2a9b40c0"
+msgstr "6f|etage 6"
+
+#: B01 0x706 (keyword 134)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:2abdbf30e89b63ea"
+msgstr "affaires|inventaire"
+
+#: B01 0x710 (keyword 135)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:cde2dbf7cae488bf"
+msgstr "objet|objets"
+
+#: B01 0x71A (keyword 136)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:0c43945228416092"
+msgstr "mover|movers"
+
+#: B01 0x725 (keyword 137)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:26f538633e8d5523"
+msgstr "joinder|joinders"
+
+#: B01 0x731 (keyword 138)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:2b5e1cc695a922c3"
+msgstr "equipement|protection"
+
+#: B01 0x73C (keyword 139)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:cb07283afb90f98b"
+msgstr "labyrinthe|dedale"
+
+#: B01 0x745 (keyword 140)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:6bca8892e1349737"
+msgstr "nouvelles|actualites"
+
+#: B01 0x74F (keyword 141)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:3eec68b61dc8eb82"
+msgstr "microbe|microbes"
+
+#: B01 0x75A (keyword 142)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:cf1c22e367b4eb5b"
+msgstr "cadavre|cadavres|corps"
+
+#: B01 0x763 (keyword 143)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:67d0c716b65f5efa"
+msgstr "combat|combats|bataille"
+
+#: B01 0x76D (keyword 144)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:bf579c9aae04a583"
+msgstr "comment combattre|tactique"
+
+#: B01 0x779 (keyword 145)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:a49ec2def1b47865"
+msgstr "hunter class|classe"
+
+#: B01 0x786 (keyword 146)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:bb6a2210a5ee0d28"
+msgstr "beast point|beast points"
+
+#: B01 0x796 (keyword 147)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:549368d07edbd45c"
+msgstr "hc"
+
+#: B01 0x79E (keyword 148)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:03b8a126d8f0c1f3"
+msgstr "bp"
+
+#: B01 0x7A6 (keyword 149)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:3f9776bcce3ebf90"
+msgstr "outil|outils"
+
+#: B01 0x7B1 (keyword 150)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:3936248ba11eddfc"
+msgstr "recuperation|soigner"
+
+#: B01 0x7BB (keyword 151)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:6c0723538c71065c"
+msgstr "code|porte verrouillee"
+
+#: B01 0x7C4 (keyword 152)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:7ab3734d7ef2eda2"
+msgstr "cle|cles"
+
+#: B01 0x7CD (keyword 153)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:11d01e86c4708583"
+msgstr "entree"
+
+#: B01 0x7D8 (keyword 154)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:62f473004461bd38"
+msgstr "fighting recorder|fighting recorder device|enregistreur"
+
+#: B01 0x7EC (keyword 155)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:954d464661d67fdf"
+msgstr "frd"
+
+#: B01 0x7F5 (keyword 156)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:dfe0174126498a4d"
+msgstr "ag|agilite"
+
+#: B01 0x7FD (keyword 157)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:df2a1c90f806f347"
+msgstr "tech|technique|tec"
+
+#: B01 0x807 (keyword 158)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:97e4e4da76db6d98"
+msgstr "capris"
+
+#: B01 0x812 (keyword 159)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:88ef6618cad4375b"
+msgstr "niveau"
+
+#: B01 0x81C (keyword 160)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:bd2c10f8a02359c3"
+msgstr "pendentif|pendentifs"
+
+#: B01 0x829 (keyword 161)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:5ae86dc87284db28"
+msgstr "guardian|gardien"
+
+#: B01 0x837 (keyword 162)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:4aa5df495a5b11f9"
+msgstr "balle perdue|balles perdues"
+
+#: B01 0x844 (keyword 163)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:dd7ac88b8dc18abf"
+msgstr "thunder road"
+
+#: B01 0x853 (keyword 164)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:b0f02a19c6a3a242"
+msgstr "fire road"
+
+#: B01 0x862 (keyword 165)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:43aa43655ee048ea"
+msgstr "gaia"
+
+#: B01 0x86C (keyword 166)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:b8e7370190caab6d"
+msgstr "freres gaia|gaia brothers"
+
+#: B01 0x87D (keyword 167)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:4b9b965b3a1bfe94"
+msgstr "lunette|starlight scope"
+
+#: B01 0x88E (keyword 168)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:818ef6f6c07077f6"
+msgstr "androide|androides"
+
+#: B01 0x89C (keyword 169)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:36de778d259748dc"
+msgstr "systeme de defense|defense"
+
+#: B01 0x8AC (keyword 170)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:94e61fc962807488"
+msgstr "tour"
+
+#: B01 0x8B5 (keyword 171)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:1178a4a5baf86cbd"
+msgstr "protecteur|protecteurs"
+
+#: B01 0x8C2 (keyword 172)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:b596454d2d06d6e7"
+msgstr "armement"
+
+#: B01 0x8CD (keyword 173)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:8f372491e96158a4"
+msgstr "noise machine|machine a bruit"
+
+#: B01 0x8DB (keyword 174)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:9c2560037226806b"
+msgstr "police blindee|police"
+
+#: B01 0x8EB (keyword 175)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:fc9533ca9076de98"
+msgstr "bar|bistrot"
+
+#: B01 0x8FC (keyword 176)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:8064b3a5bbc435ce"
+msgstr "plan|plans"
+
+#: B01 0x906 (keyword 177)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:f416232ce6e5c976"
+msgstr "carte d'etage|plan d'etage"
+
+#: B01 0x90F (keyword 178)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:ccd0dae29f0d5874"
+msgstr "pack d'energie|energie"
+
+#: B01 0x91F (keyword 179)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:170d8b2c805a8b73"
+msgstr "tornade|tornades"
+
+#: B01 0x92B (keyword 180)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:d518e1c9eea2e0df"
+msgstr "brouillard|brouillards"
+
+#: B01 0x936 (keyword 181)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:4a3a8927b85daa16"
+msgstr "mm"
+
+#: B01 0x93E (keyword 182)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:e33634283905e932"
+msgstr "monstre de foire|phenomene"
+
+#: B01 0x949 (keyword 183)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:f12a7c6c637037d6"
+msgstr "robot|robots"
+
+#: B01 0x954 (keyword 184)
+#. what the player may type for this keyword, forms separated by |
+msgctxt "keyword"
+msgid "sha1:21725587b1e7ba06"
+msgstr "trou|trous|pit"
+

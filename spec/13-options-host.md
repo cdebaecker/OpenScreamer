@@ -107,13 +107,34 @@ The original keeps only the roster (`CHAR`), written as in chapter 5. The engine
 
 ## Translations
 
-The engine plays in the original Japanese by default, with the game's own font. A translation is a separate
-file (gettext PO) that the player adds: for each message of chapter 4 (by its identifier), the translated
-text with the same markup; for the conversation keywords, the words a player may type instead. A translation
-of the game's text is a derivative of the original's text and is not part of OpenScreamer.
+The game's text can be shown in the original Japanese or through a translation pack. Packs for English and
+French are in [`translations/`](../translations/README.md), under their own (non-GPL) terms. The language
+setting offers Japanese plus each pack found there or in the user data folder; the default is English
+when that pack is present. The game's logic and its random numbers are the same in every language.
 
-A translated string is printed in place of the original, so the game's logic and its random numbers are
-unchanged.
+**Keys.** A pack's key for a string is `sha1:` followed by the first 16 hexadecimal digits of the SHA-1 of the
+string's bytes: the bytes the game is about to print, up to (not including) the zero byte.
 
-The engine's own interface (settings, help, notice) is translated the same way, and its English and Japanese
-versions ship with it.
+**Printing.** Whenever the game prints a string (printing, raw printing, typewriter printing, and the numbers
+printed by `#`), the engine first looks up the string's bytes in the pack's `game` context. If found, it prints
+the translation's bytes (ASCII) instead, with the same markup rules, in the same mode. Otherwise it prints the
+original. The demo does the same with its `demo` context.
+
+The translation is looked up by the *whole* string as the original would print it. Strings put together from
+pieces (a name, then a message) are translated piece by piece. Item and monster names in a pack are already
+padded to the original's width.
+
+**Typing words.** When the player talks (chapter 6) in a translated language, after typing the line and
+before removing its spaces: normalise the typed line (lower case, keep only `a`-`z` and `0`-`9`), and look for it
+among the `keyword` entries' forms (each form normalised the same way). If one matches, the typed line becomes
+that keyword's original bytes. If none matches but the line matches the `password` entry's form, the typed line
+becomes the password's original bytes (`shops_password`). Japanese mode takes the typed katakana as they are.
+
+**The Noise machine** (chapter 8) also accepts, as the monster's name, its translated name (normalised as
+above, and not empty).
+
+**Fonts.** The game's own 8 x 8 font has ASCII, so translations are written without accents. The modern font
+option (Noto Sans) shows the same characters.
+
+The engine's own interface (settings, help, notice) is translated the same way, and its English, French and
+Japanese versions ship with it.
