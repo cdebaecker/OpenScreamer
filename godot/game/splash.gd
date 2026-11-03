@@ -3,17 +3,16 @@
 class_name Splash
 extends Mod
 
-## Who holds the rights to the original game (shown on the splash screen).
-const RIGHTS_HOLDER := "Magical Zoo / ASCII Corporation"
-
 ## OpenScreamer's logo (our own lettering, made by tools/openscreamer_spec/make_logo.py in the private
 ## repository), 560 x 84 board pixels, at the top
 const LOGO := preload("res://assets/logo.png")
 
+## the notice's lines, in the interface's language when the game's font can show it (French, with
+## its accents; not Japanese, which stays in English)
 const LINES := [
 	# [row, text, colour]
 	[11, "plays THE SCREAMER  (PC-9801, 1986)", Screen.GREEN | Screen.BLUE],
-	[13, "Original game (C) 1985 " + RIGHTS_HOLDER + ".", Screen.WHITE],
+	[13, "Original game (C) 1985 Magical Zoo / ASCII Corporation.", Screen.WHITE],
 	[15, "This port contains nothing of the original game:", Screen.WHITE],
 	[16, "its graphics, text, maps and data are read from", Screen.WHITE],
 	[17, "your own copy of the original disk.", Screen.WHITE],
@@ -25,14 +24,24 @@ const LINES := [
 ]
 
 
+## a line in the interface's language, if the game's font has all its letters
+func _shown(s: String) -> String:
+	var t := UiText.t(s)
+	for i in t.length():
+		var c := t.unicode_at(i)
+		if (c < 0x20 or c > 0x7e) and Accents.code(t[i]) < 0:
+			return s
+	return t
+
+
 func show() -> void:
 	screen.reset_palette()
 	screen.clear_screen()
 	screen.draw(LOGO, Vector2i((640 - LOGO.get_width()) / 2, 2), false)
 	for l in LINES:
-		var s: String = l[1]
-		for i in s.length():
-			screen.text.put((80 - s.length()) / 2 + i, l[0], s.unicode_at(i), l[2])
+		var g := GameText.glyphs(_shown(l[1]), true)
+		for i in g.size():
+			screen.text.put((80 - g.size()) / 2 + i, l[0], g[i], l[2])
 	keys.flush()
 	# wait for SPACE (or give up after ~12 s so the notice can't be skipped instantly by a held key)
 	await sys.advance(1500000)

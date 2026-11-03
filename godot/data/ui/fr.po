@@ -99,6 +99,36 @@ msgstr "Images disque"
 msgid "Reading %s…"
 msgstr "Lecture de %s…"
 
+msgid "plays THE SCREAMER  (PC-9801, 1986)"
+msgstr "joue THE SCREAMER  (PC-9801, 1986)"
+
+msgid "Original game (C) 1985 Magical Zoo / ASCII Corporation."
+msgstr "Jeu original (C) 1985 Magical Zoo / ASCII Corporation."
+
+msgid "This port contains nothing of the original game:"
+msgstr "Ce portage ne contient rien du jeu original :"
+
+msgid "its graphics, text, maps and data are read from"
+msgstr "ses images, textes, cartes et données sont lus"
+
+msgid "your own copy of the original disk."
+msgstr "dans votre exemplaire de la disquette originale."
+
+msgid "This is an UNOFFICIAL FAN PROJECT."
+msgstr "C'est un PROJET DE FANS NON OFFICIEL."
+
+msgid "It is not affiliated with, nor endorsed by,"
+msgstr "Il n'est ni affilié aux détenteurs des droits"
+
+msgid "the copyright holders of THE SCREAMER."
+msgstr "de THE SCREAMER, ni approuvé par eux."
+
+msgid "Non-commercial: not for sale, no ads, no donations."
+msgstr "Non commercial : ni vente, ni pub, ni dons."
+
+msgid "PRESS SPACE KEY"
+msgstr "APPUYEZ SUR ESPACE"
+
 msgid "BIAS  floor %d"
 msgstr "BIAS  étage %d"
 

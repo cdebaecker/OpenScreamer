@@ -134,6 +134,46 @@ msgstr ""
 msgid "Reading %s…"
 msgstr ""
 
+#: game/splash.gd LINES
+msgid "plays THE SCREAMER  (PC-9801, 1986)"
+msgstr ""
+
+#: game/splash.gd LINES
+msgid "Original game (C) 1985 Magical Zoo / ASCII Corporation."
+msgstr ""
+
+#: game/splash.gd LINES
+msgid "This port contains nothing of the original game:"
+msgstr ""
+
+#: game/splash.gd LINES
+msgid "its graphics, text, maps and data are read from"
+msgstr ""
+
+#: game/splash.gd LINES
+msgid "your own copy of the original disk."
+msgstr ""
+
+#: game/splash.gd LINES
+msgid "This is an UNOFFICIAL FAN PROJECT."
+msgstr ""
+
+#: game/splash.gd LINES
+msgid "It is not affiliated with, nor endorsed by,"
+msgstr ""
+
+#: game/splash.gd LINES
+msgid "the copyright holders of THE SCREAMER."
+msgstr ""
+
+#: game/splash.gd LINES
+msgid "Non-commercial: not for sale, no ads, no donations."
+msgstr ""
+
+#: game/splash.gd LINES
+msgid "PRESS SPACE KEY"
+msgstr ""
+
 #: host/automap.gd
 msgid "BIAS  floor %d"
 msgstr ""

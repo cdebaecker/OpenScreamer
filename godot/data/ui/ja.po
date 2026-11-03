@@ -100,6 +100,36 @@ msgstr "ディスクイメージ"
 msgid "Reading %s…"
 msgstr "%s を読み込み中…"
 
+msgid "plays THE SCREAMER  (PC-9801, 1986)"
+msgstr "plays THE SCREAMER  (PC-9801, 1986)"
+
+msgid "Original game (C) 1985 Magical Zoo / ASCII Corporation."
+msgstr "Original game (C) 1985 Magical Zoo / ASCII Corporation."
+
+msgid "This port contains nothing of the original game:"
+msgstr "This port contains nothing of the original game:"
+
+msgid "its graphics, text, maps and data are read from"
+msgstr "its graphics, text, maps and data are read from"
+
+msgid "your own copy of the original disk."
+msgstr "your own copy of the original disk."
+
+msgid "This is an UNOFFICIAL FAN PROJECT."
+msgstr "This is an UNOFFICIAL FAN PROJECT."
+
+msgid "It is not affiliated with, nor endorsed by,"
+msgstr "It is not affiliated with, nor endorsed by,"
+
+msgid "the copyright holders of THE SCREAMER."
+msgstr "the copyright holders of THE SCREAMER."
+
+msgid "Non-commercial: not for sale, no ads, no donations."
+msgstr "Non-commercial: not for sale, no ads, no donations."
+
+msgid "PRESS SPACE KEY"
+msgstr "PRESS SPACE KEY"
+
 msgid "BIAS  floor %d"
 msgstr "BIAS  %d階"
 
