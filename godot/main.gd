@@ -15,7 +15,7 @@ const HELP := [
 	["Typing", "names end with Space; Right types a space.\nTo talk to people, type a word to ask about: in a translation plain words work (in English e.g. drug, FRD, password, a monster's name).  In Japanese mode they only understand katakana: press ` (or the KANA button) and type romaji, e.g. doraggu gives ﾄﾞﾗｯｸﾞ.\nWith a gamepad, an on-screen keyboard comes up (also the Keyboard button): A types, B deletes, X space, LB/RB page (ABC, abc, katakana), Start OK."],
 	["Port", "F6 quick save (in the town's menu or standing in BIAS),  F7 quick load\nF8 or M map of the floor (in BIAS; gamepad R3),  J journal (gamepad L3),  F9 fast-forward (RT)\nF10 / Start settings: language, font, display, sound, accessibility, saves, controls, roster\nF11 full screen,  F12 this help\nSaving, and going back a few steps on death: the Modern difficulty (settings: Game; Original plays as in 1985).\nOn a touch screen, touch it: buttons come up beside the picture (settings: Access)."],
 ]
-const HELP_NOTICE := "THE SCREAMER — original game © 1985 Magical Zoo / ASCII Corporation, used with permission. This is an unofficial, non-commercial fan port, not affiliated with or endorsed by the copyright holders. It may not be sold or monetised in any way."
+const HELP_NOTICE := "THE SCREAMER — original game © 1985 Magical Zoo / ASCII Corporation. This is an unofficial, non-commercial fan project: it contains nothing of the original game, which it reads from your own copy. It is not affiliated with or endorsed by the copyright holders, and may not be sold or monetised in any way."
 
 
 var game: Game

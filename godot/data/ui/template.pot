@@ -111,7 +111,7 @@ msgid "F6 quick save (in the town's menu or standing in BIAS),  F7 quick load\nF
 msgstr ""
 
 #: main.gd HELP_NOTICE
-msgid "THE SCREAMER — original game © 1985 Magical Zoo / ASCII Corporation, used with permission. This is an unofficial, non-commercial fan port, not affiliated with or endorsed by the copyright holders. It may not be sold or monetised in any way."
+msgid "THE SCREAMER — original game © 1985 Magical Zoo / ASCII Corporation. This is an unofficial, non-commercial fan project: it contains nothing of the original game, which it reads from your own copy. It is not affiliated with or endorsed by the copyright holders, and may not be sold or monetised in any way."
 msgstr ""
 
 #: boot.gd

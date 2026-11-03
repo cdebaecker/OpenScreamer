@@ -8,8 +8,8 @@ const RIGHTS_HOLDER := "Magical Zoo / ASCII Corporation"
 
 const LINES := [
 	# [row, text, colour]
-	[2, "THE SCREAMER", Screen.WHITE],
-	[3, "PC-9801  1986", Screen.GREEN | Screen.BLUE],
+	[2, "OpenScreamer", Screen.WHITE],
+	[3, "plays THE SCREAMER  (PC-9801, 1986)", Screen.GREEN | Screen.BLUE],
 	[6, "Original game (C) 1985 " + RIGHTS_HOLDER + ".", Screen.WHITE],
 	[8, "This port contains nothing of the original game:", Screen.WHITE],
 	[9, "its graphics, text, maps and data are read from", Screen.WHITE],
