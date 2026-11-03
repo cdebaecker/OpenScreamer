@@ -29,14 +29,14 @@ func _init() -> void:
 func _ready() -> void:
 	var img := Import.image("font")
 	if img != null:
-		_font = ImageTexture.create_from_image(img)
+		_font = ImageTexture.create_from_image(Accents.extend_font(img))
 	queue_redraw()
 
 
 func put(col: int, row: int, glyph: int, colour: int) -> void:
 	if col < 0 or col >= COLS or row < 0 or row >= ROWS:
 		return
-	_glyph[row * COLS + col] = (glyph & 0xff) + 1
+	_glyph[row * COLS + col] = (glyph & 0x1ff) + 1
 	_colour[row * COLS + col] = colour & 7
 	_changed()
 

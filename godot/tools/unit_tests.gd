@@ -117,7 +117,33 @@ func test_text() -> void:
 	check(GameText.encode(GameText.decode(all)) == all, "text: bytes -> Unicode -> bytes")
 	check(GameText.decode(PackedByteArray([0xb1, 0xdd, 0xa1, 0xdf])) == "ｱﾝ｡ﾟ", "text: half-width katakana")
 	check(GameText.encode("ｶﾅ ABC") == PackedByteArray([0xb6, 0xc5, 0x20, 0x41, 0x42, 0x43]), "text: encode")
+	# a translation's accented letters get their own glyphs; the original's bytes 80h..FFh never do
+	check(GameText.glyphs("é", true) == PackedInt32Array([Accents.FIRST + 3]) and GameText.glyphs("é", false) == PackedInt32Array([0xe9]),
+			"text: accents only in translated text")
+	check(Accents.CHARS.length() == 16 and Accents.BASES.length() == 16 and Accents.MARKS.length() == 16
+			and ModernText.CHARS[Accents.FIRST + 3] == "é" and Accents.char_of(Accents.FIRST + 15) == "ç", "text: the accented letters")
+	check(GameData.for_font("Élève, cœur, déjà") == "Elève, coeur, déjà", "text: accented capitals and ligatures reduced for the font")
+	var plain := Import.image("font")
+	var font := Accents.extend_font(plain)
+	var same_body := true  # é is the font's e, with the accent above it
+	for y in range(2, 8):
+		for x in 8:
+			if font.get_pixel(3 * 8 + x, 128 + y).a != plain.get_pixel((0x65 % 16) * 8 + x, (0x65 / 16) * 8 + y).a:
+				same_body = false
+	check(font.get_height() == 136 and same_body and font.get_pixel(3 * 8 + 4, 128).a > 0.5, "text: accented glyphs made from the font")
 
+	# disk images: an Anex86 FDI is a header (its size at 8, the image's at 12, the sector size at 16), then the sectors
+	var raw := PackedByteArray()
+	raw.resize(Import.RAW_SIZE)
+	raw[0] = 0xeb
+	var fdi := PackedByteArray()
+	fdi.resize(4096)
+	fdi.encode_u32(8, 4096)
+	fdi.encode_u32(12, Import.RAW_SIZE)
+	fdi.encode_u32(16, 1024)
+	fdi.append_array(raw)
+	check(Import.disk_sectors(fdi) == raw and Import.disk_sectors(raw) == raw and Import.disk_sectors(PackedByteArray([1, 2, 3])).is_empty(),
+			"disk images: raw and FDI read, anything else refused")
 
 func test_parse_number() -> void:
 	# spaces around a number are fine, anything else (or more than 65535) is not
@@ -946,9 +972,11 @@ func test_translations() -> void:
 	var d := GameData.new()
 	check(d.languages() == ["en", "fr", "ja"] and d.language_name("en") == "English" and d.language_name("ja") == "Japanese (original)",
 			"translations: the packs (English, French), and the original (%s)" % str(d.languages()))
-	for code in ["en", "fr"]:
+	# (French also has the original's own English words: Yes / No, the abilities' labels, the demo's intro...)
+	for c in [["en", 672, 8], ["fr", 698, 12]]:
+		var code: String = c[0]
 		var l: Dictionary = d._langs[code]
-		check(l["game"].size() == 672 and l["demo"].size() == 8 and l["password"].size() == 1,
+		check(l["game"].size() == c[1] and l["demo"].size() == c[2] and l["password"].size() == 1,
 				"translations: %s.po has every message (%d, %d)" % [code, l["game"].size(), l["demo"].size()])
 	var kw: String = d.talk[0]["keyword"]
 	d.lang = "en"
@@ -968,9 +996,10 @@ func test_translations() -> void:
 	f.close()
 	var xx := d.read_po(path)
 	check(xx["name"] == "Testish", "translations: the language's name from the header")
+	check(GameData._po_unquote("\"a \\x02 b\\n\"") == "a " + char(2) + " b\n", "translations: \\x escapes (the game's arrow) and \\n read")
 	d._langs["xx"] = xx
 	d.lang = "xx"
-	check(d.translate("ｱｲｳｴｵ") == "L'ecran \"crie\" - ?Que?", "translations: escapes read, accents dropped for the font (%s)" % d.translate("ｱｲｳｴｵ"))
+	check(d.translate("ｱｲｳｴｵ") == "L'écran \"crié\" - ?Qué?", "translations: escapes read, accents kept where the font has them (%s)" % d.translate("ｱｲｳｴｵ"))
 	check(d.translate("ｶｷｸｹｺ") == "ｶｷｸｹｺ", "translations: untranslated messages stay Japanese")
 	check(d.translate_demo("ｻｼｽｾｿ") == "two lines", "translations: strings over several lines")
 	check(d.keyword_for("MEDICAMENT") == kw and d.keyword_for("drogue") == kw and d.keyword_for("drug") == "",
@@ -1454,8 +1483,8 @@ func test_ui_translation() -> void:
 					left[line[i]] = true
 	check(left.keys() == [] or left.keys().all(func(c: String) -> bool: return c in "◀▶"),
 			"interface: the PC-98 font (with DotGothic16) has the Japanese (left to the modern font: %s)" % str(left.keys()))
-	check(pixel.has_char("A".unicode_at(0)) and pixel.has_char(0xff71) and not pixel.has_char("あ".unicode_at(0)),
-			"interface: the game's glyphs for ASCII and half-width katakana only")
+	check(pixel.has_char("A".unicode_at(0)) and pixel.has_char(0x20) and pixel.has_char("é".unicode_at(0)) and pixel.has_char(0xff71) and not pixel.has_char("あ".unicode_at(0)),
+			"interface: the game's glyphs for ASCII (the space too), the accents and half-width katakana only")
 	check(UiFont.font().fallbacks.size() == 2, "interface: the PC-98 font falls back to DotGothic16, then Noto")
 	UiFont.pixel = false
 	UiText.use("en")

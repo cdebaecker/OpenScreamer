@@ -25,7 +25,7 @@ original string is.
 
 | Context | Key | Text |
 |---|---|---|
-| `game` | a string of MAIN2HDE.EXE, B01, or a monster's name in `Gnn` | the translation, with the game's markup (`_` or `~` new line, `#` a number), ASCII only |
+| `game` | a string of MAIN2HDE.EXE, B01, or a monster's name in `Gnn` | the translation, with the game's markup (`_` or `~` new line, `#` a number), in ASCII and the accented lowercase letters the game's font gets (à â ä é è ê ë î ï ô ö ù û ü ÿ ç; accented capitals are shown plain) |
 | `demo` | a string of DEMO2HDE.EXE | the same; it keeps the original's number of line breaks |
 | `keyword` | a conversation keyword in B01 | the words a player may type for it, separated by `\|` |
 | `password` | the bar's password | what a player may type instead |

@@ -20,8 +20,8 @@ EXPORT = os.path.join(ROOT, 'export')
 README = """OpenScreamer {version} - plays THE SCREAMER (NEC PC-9801, 1986) from your own copy
 
 OpenScreamer contains nothing from the original game. The first time you start
-it, it asks for a disk image of the PC-9801 version of THE SCREAMER (.fdd, .hdm,
-.xdf, .tfd, .d88, .d98, or a .zip holding one): choose it, or drop it on the
+it, it asks for a disk image of the PC-9801 version of THE SCREAMER (.fdd, .fdi,
+.hdm, .xdf, .tfd, .d88, .d98, or a .zip holding one): choose it, or drop it on the
 window. It is read once and kept in OpenScreamer's data folder:
   {data}
 {start}

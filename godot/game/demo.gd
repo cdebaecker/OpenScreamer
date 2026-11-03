@@ -37,7 +37,8 @@ func _print(off: int) -> void:
 	txt.hi_mode = 0
 	txt.kana_mode = 0
 	var s: String = data.demo_strings["0x%x" % off]
-	for ch in GameText.encode(data.translate_demo(s)):
+	var t := data.translate_demo(s)
+	for ch in GameText.glyphs(t, t != s):
 		if ch == 0x7b or ch == 0x7d:
 			txt.kana_mode ^= 0xff
 		elif ch == 0x7c:

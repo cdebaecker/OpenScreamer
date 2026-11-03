@@ -34,6 +34,30 @@ static func encode(s: String) -> PackedByteArray:
 	return out
 
 
+## the glyph codes to print for a string: as encode(), but a translation's accented letters get
+## their own glyphs (Accents); the original's text never does (its 80h..FFh are other glyphs)
+static func glyphs(s: String, translated: bool) -> PackedInt32Array:
+	var out := PackedInt32Array()
+	for i in s.length():
+		var c := s.unicode_at(i)
+		var a := Accents.code(s[i]) if translated and c > 0x7f else -1
+		if a >= 0:
+			out.append(a)
+		elif c <= 0xff:
+			out.append(c)
+		elif c >= 0xff61 and c <= 0xff9f:
+			out.append(c - 0xff61 + 0xa1)
+		else:
+			push_error("no glyph for %s in %s" % [s[i], s])
+	return out
+
+
+## what to print for an original string: its translation (with accents) or itself
+func _shown(s: String) -> PackedInt32Array:
+	var t := data.translate(s)
+	return glyphs(t, t != s)
+
+
 static func decode(b: PackedByteArray) -> String:
 	var s := ""
 	for c in b:
@@ -50,6 +74,8 @@ func at(c: int, r: int, m: int = -1) -> void:
 
 ## the glyph for a character code, applying the '|' and '{}' modes
 func _glyph(ch: int) -> int:
+	if ch >= Accents.FIRST:
+		return ch
 	if hi_mode != 0 and ch != 0x20:
 		ch |= 0x80
 	if kana_mode != 0 and ch >= 0xa5:
@@ -82,7 +108,7 @@ func _end_string() -> void:
 
 ## print a string with the game's markup (translated when playing in English)
 func puts(s: String) -> void:
-	for ch in encode(data.translate(s)):
+	for ch in _shown(s):
 		if ch == 0:
 			break
 		match ch:
@@ -108,7 +134,7 @@ func puts(s: String) -> void:
 func print_raw(s: String) -> void:
 	kana_mode = 0
 	hi_mode = 0
-	for ch in encode(data.translate(s)):
+	for ch in _shown(s):
 		put_char(ch)
 
 
@@ -122,7 +148,7 @@ func _slow_char(c: int) -> void:
 ## "typewriter" print with a block cursor
 func print_slow(s: String) -> void:
 	sys.hurry += 1
-	for ch in encode(data.translate(s)):
+	for ch in _shown(s):
 		if ch == 0:
 			break
 		match ch:

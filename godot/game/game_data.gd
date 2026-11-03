@@ -203,6 +203,16 @@ const _ACCENTED := "ÀÁÂÃÄÅàáâãäåÇçÈÉÊËèéêëÌÍÎÏìíîï
 const _PLAIN := "AAAAAAaaaaaaCcEEEEeeeeIIIIiiiiNnOOOOOoooooUUUUuuuuYyyAaAaAaCcCcDdEeEeEeGgIiIiNnNnOoOoRrSsSsSsTtUuUuUuZzZzZz"
 
 
+## a translation's text as the game's font can show it: the accented letters it has (Accents) kept,
+## accented capitals and other letters reduced
+static func for_font(s: String) -> String:
+	var out := ""
+	for i in s.length():
+		var c := s[i]
+		out += c if Accents.CHARS.contains(c) else String(Accents.FOLD.get(c, fold(c)))
+	return out
+
+
 static func fold(s: String) -> String:
 	var out := ""
 	for i in s.length():
@@ -260,9 +270,24 @@ func _po_entry(out: Dictionary, e: Dictionary) -> void:
 			if norm(w) != "":
 				out["password"][norm(w)] = true
 	else:
-		out[ctxt][id] = fold(s)
+		out[ctxt][id] = for_font(s)
 
 
 static func _po_unquote(q: String) -> String:
 	var s := q.substr(1, q.length() - 2)
-	return s.c_unescape() if s.contains("\\") else s
+	if not s.contains("\\"):
+		return s
+	# \xNN (a byte the game prints as a symbol, e.g. its arrow) first: c_unescape() leaves it as it is
+	var out := ""
+	var i := 0
+	while i < s.length():
+		if s[i] == "\\" and i + 3 < s.length() and s[i + 1] == "x" and s.substr(i + 2, 2).is_valid_hex_number():
+			out += char(s.substr(i + 2, 2).hex_to_int())
+			i += 4
+		elif s[i] == "\\" and i + 1 < s.length():
+			out += s.substr(i, 2).c_unescape()
+			i += 2
+		else:
+			out += s[i]
+			i += 1
+	return out

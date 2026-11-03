@@ -1,5 +1,5 @@
 ## The original game's files, read from the player's own disk image (nothing of the original is
-## shipped).  `from_image()` reads a PC-98 disk image (raw, Virtual98 .fdd, D88, or a .zip holding one),
+## shipped).  `from_image()` reads a PC-98 disk image (raw, Virtual98 .fdd, Anex86 .fdi, D88, or a .zip holding one),
 ## finds the files in its FAT12 file system, checks each against res://data/disk.json, and writes what
 ## the game uses into user://import:
 ##   game.json   the tables (items, monsters, floors, conversations, the roster, the catalogues'
@@ -59,7 +59,7 @@ static func from_image(file: String) -> String:
 			return "The zip file holds no disk image."
 	var raw := disk_sectors(bytes)
 	if raw.is_empty():
-		return "This isn't a PC-98 disk image (raw, .fdd or .d88)."
+		return "This isn't a PC-98 disk image (raw, .fdd, .fdi or .d88)."
 	var files := fat12(raw)
 	if files.is_empty():
 		return "The disk image has no file system that can be read."
@@ -88,6 +88,9 @@ static func disk_sectors(d: PackedByteArray) -> PackedByteArray:
 		return _vfd(d)
 	if d.size() == RAW_SIZE:
 		return d
+	# Anex86 FDI: a header (its size at 8, the image's at 12, the sector size at 16), then the raw sectors
+	if d.size() > 32 and d.decode_u32(8) + d.decode_u32(12) == d.size() and d.decode_u32(16) in [256, 512, 1024]:
+		return d.slice(d.decode_u32(8))
 	if d.size() > 0x2b0 and d.decode_u32(0x1c) == d.size():
 		return _d88(d)
 	return PackedByteArray()
@@ -473,11 +476,13 @@ static func _messages(files: Dictionary) -> Dictionary:
 # ------------------------------------------------------------------ the interface's pixel font
 
 ## the game's own 8x8 glyphs as an interface font: each drawn 8 x 16 (lines doubled), one dot per
-## pixel at 16 px; only the half-width characters (see ModernText.CHARS), and no-break space as space
+## pixel at 16 px; only the half-width characters (see ModernText.CHARS) and the accented letters made
+## for the translations (Accents), and no-break space as space
 static func pixel_font() -> FontFile:
-	var img := image("font")
-	if img == null:
+	var plain := image("font")
+	if plain == null:
 		return null
+	var img := Accents.extend_font(plain)  # (with the translations' accented letters, codes 100h..)
 	var lit := func(code: int, x: int, y: int) -> bool:
 		return img.get_pixel((code % 16) * 8 + x, (code / 16) * 8 + y).a > 0.5
 	var base_row := 0
@@ -486,8 +491,8 @@ static func pixel_font() -> FontFile:
 			if lit.call(0x41, x, y):
 				base_row = y + 1
 	var ascent := base_row * 2
-	var atlas := Image.create_empty(16 * 8, 16 * 16, false, Image.FORMAT_LA8)
-	for code in 256:
+	var atlas := Image.create_empty(16 * 8, 17 * 16, false, Image.FORMAT_LA8)
+	for code in Accents.FIRST + 16:
 		for y in 16:
 			for x in 8:
 				if lit.call(code, x, y / 2):
@@ -507,6 +512,7 @@ static func pixel_font() -> FontFile:
 		var u := ch.unicode_at(0)
 		if u < 0x2000 or (u >= 0xff61 and u <= 0xff9f):
 			map[u] = code
+	map[0x20] = 0x20  # (the space, full width like the other glyphs)
 	map[0xa0] = 0x20
 	for u: int in map:
 		var code: int = map[u]

@@ -49,7 +49,7 @@ func _ready() -> void:
 	_dialog.file_mode = FileDialog.FILE_MODE_OPEN_FILE
 	_dialog.access = FileDialog.ACCESS_FILESYSTEM
 	_dialog.use_native_dialog = true
-	_dialog.filters = PackedStringArray(["*.fdd, *.hdm, *.xdf, *.tfd, *.d88, *.d98, *.zip ; " + tr("Disk images")])
+	_dialog.filters = PackedStringArray(["*.fdd, *.fdi, *.hdm, *.xdf, *.tfd, *.d88, *.d98, *.zip ; " + tr("Disk images")])
 	_dialog.file_selected.connect(_import)
 	add_child(_dialog)
 	get_window().files_dropped.connect(func(files: PackedStringArray) -> void: _import(files[0]))

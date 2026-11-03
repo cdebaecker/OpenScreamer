@@ -16,6 +16,9 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAIN_DS = 0xA9A0  # file offset of MAIN2HDE's data segment (spec chapter 2)
+# beyond ASCII: the accented letters the game's font gets (godot/game/accents.gd), and the capitals it
+# shows as their plain letter
+FONT_EXTRA = 'àâäéèêëîïôöùûüÿçÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŸ'
 
 
 def unpo(s):
@@ -95,8 +98,9 @@ def main():
                 bad.append(f'{lang}: {where}: place not understood')
             elif digest(orig) != key:
                 bad.append(f'{lang}: {where}: key {key} is not the original string there ({digest(orig)})')
-            if ctx in ('game', 'demo') and any(ord(ch) > 0x7e or ch in '|`' for ch in text if ch != '\x02'):
-                bad.append(f'{lang}: {where}: character outside the game font\'s ASCII')
+            if ctx in ('game', 'demo') and any((ord(ch) > 0x7e and ch not in FONT_EXTRA) or ch in '|`'
+                                               for ch in text if ch != '\x02'):
+                bad.append(f'{lang}: {where}: a character the game\'s font doesn\'t have')
             if ctx in ('game', 'demo'):
                 for ln in re.split('[_~]', text):
                     if width and len(ln) > width:
@@ -105,12 +109,11 @@ def main():
                 if len(re.findall(b'[_~]', orig)) != len(re.findall('[_~]', text)):
                     bad.append(f'{lang}: {where}: not the original\'s number of line breaks')
         print(f'{lang}: {len(es)} entries')
-    langs = sorted(keys)
-    for a in langs:
-        for b in langs:
-            missing = keys[a] - keys[b]
-            if missing:
-                bad.append(f'{b} lacks {len(missing)} entries that {a} has')
+    # every pack covers what the English one does (a pack may have more: the original's own English words)
+    for b in sorted(keys):
+        missing = keys.get('en', set()) - keys[b]
+        if missing:
+            bad.append(f'{b} lacks {len(missing)} entries that en has')
 
     # the messages of chapter 4 that no pack translates
     spec = open(os.path.join(ROOT, 'spec', '04-data.md'), encoding='utf-8').read()

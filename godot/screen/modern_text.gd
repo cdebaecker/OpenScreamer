@@ -54,6 +54,8 @@ static func _chars() -> Dictionary:
 	hira = "たちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわん"
 	for i in hira.length():
 		m[0xe0 + i] = hira[i]
+	for i in Accents.CHARS.length():  # the translations' accented letters
+		m[Accents.FIRST + i] = Accents.CHARS[i]
 	return m
 
 

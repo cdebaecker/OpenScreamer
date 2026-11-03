@@ -1,4 +1,4 @@
-"""Read the files of a PC-98 disk image: raw, Virtual98 (.fdd), D88, or a .zip holding one.
+"""Read the files of a PC-98 disk image: raw, Virtual98 (.fdd), Anex86 (.fdi), D88, or a .zip holding one.
 
     files = diskimage.files('game.fdd')     # {'MAIN2HDE.EXE': bytes, ...}
 """
@@ -23,6 +23,11 @@ def sectors(d):
         return b''.join(s[3] for s in sorted(secs, key=lambda s: s[:3]))
     if len(d) == RAW_SIZE:
         return d
+    # Anex86 FDI: a header (its size at 8, the image's at 12, the sector size at 16), then the raw sectors
+    if len(d) > 32:
+        head, size, sector = struct.unpack_from('<3I', d, 8)
+        if head + size == len(d) and sector in (256, 512, 1024):
+            return d[head:]
     if len(d) > 0x2B0 and struct.unpack_from('<I', d, 0x1C)[0] == len(d):
         secs = []
         for t in range(164):

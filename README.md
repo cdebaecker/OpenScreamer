@@ -23,6 +23,7 @@ reads these formats:
 |---|---|
 | raw image | `.hdm`, `.xdf`, `.tfd` (1,261,568 bytes) |
 | Virtual98 | `.fdd` |
+| Anex86 | `.fdi` |
 | D88 | `.d88`, `.d98` |
 | zip | a `.zip` holding one of the above |
 
