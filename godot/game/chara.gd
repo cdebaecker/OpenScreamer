@@ -142,7 +142,7 @@ func show_abilities() -> void:
 func load_roster() -> void:
 	var d: PackedByteArray = save_load.call()
 	if d.size() < 8 * Character.SIZE:
-		d = data.roster_default
+		d = GameData.empty_roster()  # (no one registered yet)
 	roster.clear()
 	for i in 8:
 		roster.append(Character.new(d.slice(i * Character.SIZE, (i + 1) * Character.SIZE)))
@@ -184,7 +184,8 @@ func find_in_roster() -> int:
 func _file_load() -> PackedByteArray:
 	if not FileAccess.file_exists(SAVE_PATH):
 		return PackedByteArray()
-	return FileAccess.get_file_as_bytes(SAVE_PATH)
+	# (without the disk's own screamers, which earlier versions copied into the player's roster)
+	return data.without_disk_screamers(FileAccess.get_file_as_bytes(SAVE_PATH))
 
 
 func _file_save(d: PackedByteArray) -> void:

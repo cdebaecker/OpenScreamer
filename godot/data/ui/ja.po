@@ -295,11 +295,11 @@ msgstr "%s はメニューと入力に使います。別のキーを選んでく
 msgid "%s is kept for menus; choose another button"
 msgstr "%s はメニューに使います。別のボタンを選んでください"
 
-msgid "Restore the original disk's roster"
-msgstr "元のディスクの名簿に戻す"
+msgid "Empty the roster"
+msgstr "名簿を消す"
 
-msgid "Restored the original disk's roster"
-msgstr "元のディスクの名簿に戻しました"
+msgid "Emptied the roster"
+msgstr "名簿を消しました"
 
 msgid "Export…"
 msgstr "書き出す…"

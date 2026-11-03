@@ -427,8 +427,8 @@ func _roster_page() -> Control:
 	_delete_button.pressed.connect(_delete_pressed)
 	actions.add_child(_delete_button)
 	var restore := Button.new()
-	restore.text = UiText.N_("Restore the original disk's roster")
-	restore.pressed.connect(func() -> void: _write_roster(game.data.roster_default, tr("Restored the original disk's roster")))
+	restore.text = UiText.N_("Empty the roster")
+	restore.pressed.connect(func() -> void: _write_roster(GameData.empty_roster(), tr("Emptied the roster")))
 	actions.add_child(restore)
 	if not OS.has_feature("web"):
 		var exp := Button.new()
@@ -446,7 +446,7 @@ func _roster_page() -> Control:
 ## the roster as saved (the game keeps a copy in memory from registration on)
 func roster_bytes() -> PackedByteArray:
 	var d: PackedByteArray = game.chara.save_load.call()
-	return d if RosterFile.valid(d) else game.data.roster_default
+	return d if RosterFile.valid(d) else GameData.empty_roster()
 
 
 ## the roster can change only before a screamer is picked (title, demo, registration questions):

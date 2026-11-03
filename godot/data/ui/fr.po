@@ -294,11 +294,11 @@ msgstr "%s sert aux menus et à la saisie ; choisissez une autre touche"
 msgid "%s is kept for menus; choose another button"
 msgstr "%s sert aux menus ; choisissez un autre bouton"
 
-msgid "Restore the original disk's roster"
-msgstr "Rétablir la liste de la disquette originale"
+msgid "Empty the roster"
+msgstr "Vider la liste"
 
-msgid "Restored the original disk's roster"
-msgstr "Liste de la disquette originale rétablie"
+msgid "Emptied the roster"
+msgstr "Liste vidée"
 
 msgid "Export…"
 msgstr "Exporter…"

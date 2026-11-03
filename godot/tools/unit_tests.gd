@@ -352,8 +352,17 @@ func test_roster_file() -> void:
 	game.chara.load_roster()
 	check(game.chara.roster.size() == 8, "roster: 8 slots")
 	game.chara.save_roster()
-	check(FileAccess.get_file_as_bytes(Chara.SAVE_PATH) == game.data.roster_default,
-			"roster: without a save, the disk's CHAR file; saved unchanged, byte for byte")
+	check(FileAccess.get_file_as_bytes(Chara.SAVE_PATH) == GameData.empty_roster(),
+			"roster: without a save, no one registered (not the disk's screamers)")
+	# the disk's own screamers go from a saved roster, unless someone has played them since
+	var disk: PackedByteArray = game.data.roster_default
+	var mine := disk.duplicate()
+	mine[0x10] = mine[0x10] ^ 1  # the first screamer has played since: it stays
+	var kept_one := game.data.without_disk_screamers(mine)
+	check(game.data.without_disk_screamers(disk) == GameData.empty_roster()
+			and kept_one.slice(0, Character.SIZE) == mine.slice(0, Character.SIZE)
+			and kept_one.slice(Character.SIZE, 2 * Character.SIZE)[0] == 0xff,
+			"roster: the disk's untouched screamers purged, the others kept")
 	var c := Character.new()  # a new screamer in the first free slot
 	game.chara.roster[game.chara.roster_count()] = c
 	c.name = "NEW"
@@ -552,27 +561,42 @@ func test_rebinding() -> void:
 	s.reset_bindings()
 
 
+## a roster of three screamers for the tests (whatever the disk image's own roster holds)
+func _test_roster() -> PackedByteArray:
+	var d := GameData.empty_roster()
+	var i := 0
+	for name in ["ALPHA", "BETA", "GAMMA"]:
+		var c := Character.new()
+		c.name = name
+		c.hp = 10 + i
+		c.hp_max = 10 + i
+		for k in Character.SIZE:
+			d[i * Character.SIZE + k] = c.record[k]
+		i += 1
+	return d
+
+
 func test_roster_manager() -> void:
 	var screen: Screen = load("res://screen/screen.tscn").instantiate()
 	root.add_child(screen)
 	var game := Game.create(screen)
-	var saved := [game.data.roster_default]
+	var saved := [_test_roster()]
 	game.chara.save_load = func() -> PackedByteArray: return saved[0]
 	game.chara.save_store = func(d: PackedByteArray) -> void: saved[0] = d
-	var d: PackedByteArray = game.data.roster_default
-	check(RosterFile.valid(d), "roster manager: the disk's roster is valid")
+	var d: PackedByteArray = _test_roster()
+	check(RosterFile.valid(d) and RosterFile.valid(game.data.roster_default), "roster manager: the rosters are valid")
 	var names := RosterFile.entries(d).map(func(c: Character) -> String: return c.name)
-	check(names == ["ari-ken", "Google", "Ryo"], "roster manager: lists the disk's screamers (%s)" % str(names))
+	check(names == ["ALPHA", "BETA", "GAMMA"], "roster manager: lists the screamers (%s)" % str(names))
 	var e := RosterFile.delete(d, 1)
 	names = RosterFile.entries(e).map(func(c: Character) -> String: return c.name)
-	check(names == ["ari-ken", "Ryo"] and e.size() == RosterFile.BYTES and RosterFile.valid(e),
+	check(names == ["ALPHA", "GAMMA"] and e.size() == RosterFile.BYTES and RosterFile.valid(e),
 			"roster manager: delete moves the later ones up (%s)" % str(names))
 	check(e.slice(7 * 0x80, 8 * 0x80).count(0xff) == 0x80, "roster manager: the last slot is left free (FFh)")
 	check(e.slice(0x80, 0x100) == d.slice(0x100, 0x180), "roster manager: records move byte for byte")
 	var bad := d.duplicate()
 	bad[0x80] = 0xff  # a free slot before a used one
 	check(not RosterFile.valid(bad) and not RosterFile.valid(d.slice(0, 0x200)), "roster manager: refuses broken files")
-	check(RosterFile.describe(RosterFile.entries(d)[0]).begins_with("ari-ken"), "roster manager: describes a screamer")
+	check(RosterFile.describe(RosterFile.entries(d)[0]).begins_with("ALPHA"), "roster manager: describes a screamer")
 	# the menu's file actions, with the game at registration
 	game.chara.load_roster()
 	game.town.roster_count = game.chara.roster_count()
@@ -581,7 +605,7 @@ func test_roster_manager() -> void:
 	menu.setup(Settings.new(), game)
 	check(menu.roster_editable(), "roster manager: editable before a screamer is chosen")
 	SettingsMenu.apply_roster(game, e)
-	check(saved[0] == e and game.town.roster_count == 2 and game.chara.roster[1].name == "Ryo",
+	check(saved[0] == e and game.town.roster_count == 2 and game.chara.roster[1].name == "GAMMA",
 			"roster manager: the game's file and memory get the new roster")
 	var out := "user://test_CHAR"
 	check(menu.file_action("export", out).begins_with("Exported") and FileAccess.get_file_as_bytes(out) == e,
@@ -591,7 +615,7 @@ func test_roster_manager() -> void:
 			"roster manager: import reads one")
 	FileAccess.open(out, FileAccess.WRITE).store_buffer(d.slice(0, 100))
 	check(menu.file_action("import", out).contains("isn't a roster") and saved[0] == d, "roster manager: import refuses other files")
-	game.st.chr.name = "Ryo"  # a screamer in play
+	game.st.chr.name = "GAMMA"  # a screamer in play
 	check(not menu.roster_editable() and menu.file_action("import", out).contains("registration"),
 			"roster manager: no changes while a screamer is in play")
 	DirAccess.remove_absolute(ProjectSettings.globalize_path(out))
@@ -892,11 +916,11 @@ func test_save_game() -> void:
 		g.chara.save_store = func(d: PackedByteArray) -> void: saved[0] = d
 		return g
 	var g: Game = mk.call()
-	saved[0] = g.data.roster_default
+	saved[0] = _test_roster()
 	g.program.boot()
 	g.chara.load_roster()
 	g.town.roster_count = g.chara.roster_count()
-	g.st.chr = g.chara.roster[1].copy()  # Google
+	g.st.chr = g.chara.roster[1].copy()  # BETA
 	g.st.chr.credits = 1234
 	g.st.floor = 3
 	g.common.load_floor_file()
@@ -915,7 +939,7 @@ func test_save_game() -> void:
 	g.ui.rest = &"bias"
 	check(SaveGame.write(SaveGame.path_of("1"), g) == "", "saves: written at rest")
 	var d := SaveGame.read(SaveGame.path_of("1"))
-	check(d["where"] == "bias" and d["name"] == "Google" and d["floor"] == 3 and SaveGame.describe(d).begins_with("Google  —  BIAS floor 3"),
+	check(d["where"] == "bias" and d["name"] == "BETA" and d["floor"] == 3 and SaveGame.describe(d).begins_with("BETA  —  BIAS floor 3"),
 			"saves: what and where (%s)" % SaveGame.describe(d))
 	var h: Game = mk.call()
 	SaveGame.restore(h, d["state"])

@@ -395,11 +395,11 @@ msgid "%s is kept for menus; choose another button"
 msgstr ""
 
 #: host/settings_menu.gd
-msgid "Restore the original disk's roster"
+msgid "Empty the roster"
 msgstr ""
 
 #: host/settings_menu.gd
-msgid "Restored the original disk's roster"
+msgid "Emptied the roster"
 msgstr ""
 
 #: host/settings_menu.gd

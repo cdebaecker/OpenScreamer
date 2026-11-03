@@ -26,6 +26,8 @@ var talk: Array = []
 ## named tables from the original data segment (see res://data/catalogue/*.json)
 var tables := {}
 var demo_strings := {}
+## the roster file of the disk image, as it was (scripted runs and comparisons start from it); players
+## start with an empty roster: the disk's registered screamers were left by whoever played it before
 var roster_default := PackedByteArray()
 ## the original's messages by name (res://data/messages.json)
 var _messages := {}
@@ -93,6 +95,34 @@ static func reload() -> void:
 func msg(id: StringName) -> String:
 	assert(_messages.has(String(id)), "missing message " + id)
 	return _messages[String(id)]
+
+
+## a roster with no one registered (8 free slots)
+static func empty_roster() -> PackedByteArray:
+	var d := PackedByteArray()
+	d.resize(8 * Character.SIZE)
+	d.fill(0xff)
+	return d
+
+
+## a roster without the disk's own registered screamers (those still exactly as the disk has them:
+## a screamer someone has played since stays); the others move up, the slots left are freed
+func without_disk_screamers(d: PackedByteArray) -> PackedByteArray:
+	if d.size() != 8 * Character.SIZE:
+		return d
+	var disk := []
+	for i in 8:
+		var r := roster_default.slice(i * Character.SIZE, (i + 1) * Character.SIZE)
+		if r.size() == Character.SIZE and r[0] != 0xff:
+			disk.append(r)
+	var out := PackedByteArray()
+	for i in 8:
+		var r := d.slice(i * Character.SIZE, (i + 1) * Character.SIZE)
+		if r[0] != 0xff and not disk.has(r):
+			out.append_array(r)
+	while out.size() < 8 * Character.SIZE:
+		out.append(0xff)
+	return out
 
 
 ## the item table entry for an item number (bit 7, "equipped", ignored)
