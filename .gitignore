@@ -1,0 +1,19 @@
+# The original game never goes in this repository
+*.fdd
+*.hdm
+*.xdf
+*.tfd
+*.d88
+*.d98
+*.88d
+*.98d
+*.nfd
+*.hdi
+*.zip
+/original/
+/import/
+
+# Godot
+.godot/
+*.translation
+/build/
