@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/logo.png" alt="OpenScreamer" width="600"></p>
+
 # OpenScreamer
 
 Play **THE SCREAMER** (Magical Zoo / ASCII, NEC PC-9801, 1986) on today's computers, with saves, a map,
