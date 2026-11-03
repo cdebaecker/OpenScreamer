@@ -36,18 +36,21 @@ The **PC-8801** version isn't supported.
 
 ### 2. OpenScreamer
 
-Ready-to-play downloads for Windows, Linux (Steam Deck included), macOS and Android are planned on the
-[Releases](https://github.com/cdebaecker/OpenScreamer/releases) page. Until then, run it from the source:
+Download it for your system from the [Releases](https://github.com/cdebaecker/OpenScreamer/releases) page:
+Windows (64-bit), Linux (x86-64, Steam Deck included) or macOS. Unzip it anywhere and start it.
 
-1. Install [Godot 4.7](https://godotengine.org/download) (the standard version, not .NET).
-2. Download this repository (Code → Download ZIP, or `git clone`).
-3. Open `godot/project.godot` in Godot and press Play, or run `godot --path godot`.
+- **macOS:** OpenScreamer isn't signed by Apple, so macOS refuses it the first time: go to System Settings,
+  Privacy & Security, and choose **Open Anyway** (on older macOS, right-click the app and choose Open).
+- **Android** isn't available yet.
+
+To run it from the source instead: install [Godot 4.7](https://godotengine.org/download) (the standard
+version), download this repository, and open `godot/project.godot` (or run `godot --path godot`).
 
 ### 3. A translation, if you want one (optional)
 
-The game is in Japanese. English and French translations are a separate download: the
-[`translations/`](translations/README.md) folder. Put the `.po` files in a folder called `translations`, either
-next to the OpenScreamer program or in OpenScreamer's data folder (below). When playing from the source, the
+The game is in Japanese. English and French translations are a separate download on the Releases page
+(`OpenScreamer-translations-<version>.zip`). Unzip it next to the OpenScreamer program (on macOS: in
+OpenScreamer's data folder, below), so that there is a `translations` folder there. When playing from the source, the
 repository's `translations/` folder is used as it is.
 
 Then choose the language with the **Text** button under the screen, or in Settings.
