@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check the translation packs (translations/*.po) against the player's own game files.
 
-    python tools/check_packs.py <folder with the files read from the disk>
+    python tools/check_packs.py <disk image, or a folder with the files read from it>
 
 For every entry: the original string at the place its `#:` comment names must have the entry's
 digest, the text must be ASCII without '|' or the backquote, and its lines must fit the width.
@@ -52,7 +52,7 @@ def entries(path):
 
 def original(files, where):
     def read(name):
-        return open(os.path.join(files, name), 'rb').read()
+        return files[name]
 
     def cstr(d, o):
         return d[o:d.index(b'\0', o)]
@@ -77,7 +77,12 @@ def digest(b):
 def main():
     if len(sys.argv) != 2:
         sys.exit(__doc__)
-    files = sys.argv[1]
+    if os.path.isdir(sys.argv[1]):
+        files = {n: open(os.path.join(sys.argv[1], n), 'rb').read() for n in os.listdir(sys.argv[1])}
+    else:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import diskimage
+        files = diskimage.files(sys.argv[1])
     bad = []
     keys = {}
     for path in sorted(glob.glob(os.path.join(ROOT, 'translations', '*.po'))):
@@ -113,7 +118,7 @@ def main():
     untranslated = []
     for mid, prog, off, n in re.findall(
             r'\| `([a-z]+\.\d\d)` \| (MAIN|DEMO)2HDE\.EXE \| `0x([0-9A-F]+)` \| (\d+) \|', spec):
-        d = open(os.path.join(files, prog + '2HDE.EXE'), 'rb').read()
+        d = files[prog + '2HDE.EXE']
         o = int(off, 16)
         s = d[o:o + int(n)]
         if not any(c >= 0xA1 for c in s) or d[o + int(n)] != 0:

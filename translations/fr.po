@@ -1,4 +1,4 @@
-# THE SCREAMER: Francais translation pack for OpenScreamer. 
+# THE SCREAMER: Francais translation pack for OpenScreamer.
 # Not covered by OpenScreamer's GPL: see translations/README.md.
 # Generated; keys are digests of the original strings (spec chapter 13).
 # Markup: _ or ~ new line, # a number. ASCII only.

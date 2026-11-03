@@ -1,0 +1,11 @@
+{
+  "tables": {
+    "price_tag_sold": {"off": "0x56f9", "type": "str"},
+    "price_tag_new": {"off": "0x5702", "type": "str"},
+    "wall_texts": {"off": "0xafd0", "n": 21, "type": "strs"},
+    "ring_doors": {"off": "0xbb9b", "n": 12, "type": "u8"},
+    "ring_texts": {"off": "0xbba7", "n": 5, "type": "strs"},
+    "bacillus_names": {"off": "0xbc12", "n": 6, "type": "strs"},
+    "xray_steps": {"off": "0xbc45", "n": 4, "type": "u16"}
+  }
+}

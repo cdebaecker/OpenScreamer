@@ -1,7 +1,9 @@
 # The OpenScreamer specification
 
-What THE SCREAMER (PC-9801, 1985) does, written so an engine can be built from it alone. Read
-[`../CLEANROOM.md`](../CLEANROOM.md) first.
+What THE SCREAMER (PC-9801, 1986) does, written so an engine can be built from it alone. OpenScreamer's
+game (`../godot/`) is a port that was not built this way; this description is kept in case a clean-room
+rewrite is ever needed. Read
+[`CLEANROOM.md`](CLEANROOM.md) first.
 
 | Chapter | |
 |---|---|

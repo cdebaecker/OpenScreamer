@@ -1,0 +1,19 @@
+{
+  "pieces": {
+    "town/gate_lamp_off": {"src": "DS", "off": "0x4c8a", "w": 3, "h": 11, "mode": "3"},
+    "town/gate_lamp_on": {"src": "DS", "off": "0x4ced", "w": 3, "h": 11, "mode": "3"}
+  },
+  "tables": {
+    "town_new_or_registered_nav": {"off": "0x6068", "n": 8, "type": "u8"},
+    "town_new_or_registered_pos": {"off": "0x6070", "n": 2, "type": "u16"},
+    "town_yes_no_nav": {"off": "0x6074", "n": 8, "type": "u8"},
+    "town_yes_no_pos": {"off": "0x607c", "n": 2, "type": "u16"},
+    "town_pick_nav": {"off": "0x6080", "n": 28, "type": "u8"},
+    "town_pick_pos": {"off": "0x609c", "n": 7, "type": "u16"},
+    "town_init_roster": {"off": "0x6066", "n": 2, "type": "u8"},
+    "town_name_cheat_stats": {"off": "0x60aa", "type": "str"},
+    "town_name_dead": {"off": "0x60b9", "type": "str"},
+    "town_name_drinker": {"off": "0x60c4", "type": "str"},
+    "town_name_porter": {"off": "0x60d2", "type": "str"}
+  }
+}

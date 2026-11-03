@@ -1,0 +1,66 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://screen/screen.gd" id="1"]
+[ext_resource type="Script" path="res://screen/text_layer.gd" id="2"]
+[ext_resource type="Shader" path="res://screen/palette.gdshader" id="3"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_board"]
+viewport_path = NodePath("Board")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_palette"]
+resource_local_to_scene = true
+shader = ExtResource("3")
+
+[node name="Screen" type="Control"]
+custom_minimum_size = Vector2(640, 400)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 640.0
+offset_bottom = 400.0
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="Board" type="SubViewport" parent="."]
+disable_3d = true
+handle_input_locally = false
+canvas_item_default_texture_filter = 0
+size = Vector2i(640, 200)
+render_target_update_mode = 4
+
+[node name="Background" type="ColorRect" parent="Board"]
+offset_right = 640.0
+offset_bottom = 200.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Images" type="Control" parent="Board"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 640.0
+offset_bottom = 200.0
+mouse_filter = 2
+
+[node name="Text" type="Control" parent="Board"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 640.0
+offset_bottom = 200.0
+mouse_filter = 2
+script = ExtResource("2")
+
+[node name="Overlay" type="Control" parent="Board"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 640.0
+offset_bottom = 200.0
+mouse_filter = 2
+
+[node name="Display" type="TextureRect" parent="."]
+texture_filter = 1
+material = SubResource("ShaderMaterial_palette")
+layout_mode = 0
+offset_right = 640.0
+offset_bottom = 400.0
+mouse_filter = 2
+texture = SubResource("ViewportTexture_board")
+expand_mode = 1

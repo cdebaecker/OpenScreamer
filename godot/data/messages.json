@@ -1,0 +1,1282 @@
+{
+ "bias.01": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 9291,
+  "length": 90
+ },
+ "bias.02": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 9590,
+  "length": 34
+ },
+ "bias.03": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 9668,
+  "length": 34
+ },
+ "bias.04": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 9746,
+  "length": 32
+ },
+ "bias.05": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 9822,
+  "length": 30
+ },
+ "bias.06": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 9497,
+  "length": 36
+ },
+ "bias.07": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 9975,
+  "length": 24
+ },
+ "bias.08": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 10050,
+  "length": 31
+ },
+ "bias.09": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 10281,
+  "length": 33
+ },
+ "bias.10": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 13836,
+  "length": 32
+ },
+ "bias.11": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 13599,
+  "length": 63
+ },
+ "bias.12": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 13732,
+  "length": 21
+ },
+ "bias.13": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 13413,
+  "length": 27
+ },
+ "bias.14": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 27591,
+  "length": 30
+ },
+ "bias.15": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 27713,
+  "length": 31
+ },
+ "bias.16": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 27777,
+  "length": 65
+ },
+ "bias.17": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 27936,
+  "length": 29
+ },
+ "bias.18": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 29691,
+  "length": 21
+ },
+ "bias.19": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 29047,
+  "length": 14
+ },
+ "bias.20": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 29178,
+  "length": 17
+ },
+ "bias.21": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 29126,
+  "length": 9
+ },
+ "bias.22": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 29236,
+  "length": 28
+ },
+ "bias.23": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 29284,
+  "length": 16
+ },
+ "bias.24": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 29324,
+  "length": 16
+ },
+ "char.01": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 3981,
+  "length": 27
+ },
+ "char.02": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 4082,
+  "length": 12
+ },
+ "char.03": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 4120,
+  "length": 12
+ },
+ "char.04": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 4158,
+  "length": 12
+ },
+ "char.05": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 4196,
+  "length": 12
+ },
+ "char.06": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 4234,
+  "length": 11
+ },
+ "char.07": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 4286,
+  "length": 8
+ },
+ "char.08": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 4320,
+  "length": 8
+ },
+ "char.09": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 4354,
+  "length": 8
+ },
+ "char.10": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 4388,
+  "length": 8
+ },
+ "char.11": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 4422,
+  "length": 8
+ },
+ "char.12": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 4434,
+  "length": 7
+ },
+ "char.13": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 4452,
+  "length": 8
+ },
+ "char.14": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 4467,
+  "length": 2
+ },
+ "end.01": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 21316,
+  "length": 32
+ },
+ "end.02": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 21417,
+  "length": 11
+ },
+ "end.03": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 21504,
+  "length": 36
+ },
+ "end.04": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 21609,
+  "length": 70
+ },
+ "end.05": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 21755,
+  "length": 26
+ },
+ "end.06": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 21850,
+  "length": 146
+ },
+ "end.07": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 22072,
+  "length": 25
+ },
+ "end.08": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 22166,
+  "length": 132
+ },
+ "end.09": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 22360,
+  "length": 33
+ },
+ "end.10": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 22469,
+  "length": 60
+ },
+ "end.11": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 22598,
+  "length": 12
+ },
+ "end.12": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 22682,
+  "length": 32
+ },
+ "end.13": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 22783,
+  "length": 98
+ },
+ "end.14": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 22957,
+  "length": 35
+ },
+ "end.15": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 23061,
+  "length": 74
+ },
+ "end.16": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 23197,
+  "length": 117
+ },
+ "end.17": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 23390,
+  "length": 80
+ },
+ "end.18": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 23539,
+  "length": 30
+ },
+ "end.19": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 23638,
+  "length": 32
+ },
+ "end.20": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 23739,
+  "length": 10
+ },
+ "end.21": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 23793,
+  "length": 14
+ },
+ "end.22": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 23848,
+  "length": 8
+ },
+ "end.23": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 23908,
+  "length": 23
+ },
+ "end.24": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 23962,
+  "length": 1006
+ },
+ "end.26": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 25071,
+  "length": 584
+ },
+ "event.01": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 37154,
+  "length": 54
+ },
+ "event.02": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 37253,
+  "length": 24
+ },
+ "event.03": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 37349,
+  "length": 28
+ },
+ "event.04": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 37407,
+  "length": 29
+ },
+ "event.05": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 37697,
+  "length": 35
+ },
+ "event.06": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 37796,
+  "length": 29
+ },
+ "event.07": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 37966,
+  "length": 40
+ },
+ "event.08": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 38287,
+  "length": 48
+ },
+ "event.09": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 38461,
+  "length": 45
+ },
+ "event.10": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 35193,
+  "length": 55
+ },
+ "event.11": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 35363,
+  "length": 54
+ },
+ "event.12": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 35588,
+  "length": 57
+ },
+ "event.13": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 35748,
+  "length": 24
+ },
+ "event.14": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 36404,
+  "length": 56
+ },
+ "event.15": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 1902,
+  "length": 35
+ },
+ "event.16": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 36985,
+  "length": 51
+ },
+ "fight.01": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 38920,
+  "length": 57
+ },
+ "fight.02": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 41787,
+  "length": 34
+ },
+ "fight.03": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 41929,
+  "length": 20
+ },
+ "fight.04": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 39779,
+  "length": 13
+ },
+ "fight.07": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 43071,
+  "length": 13
+ },
+ "fight.08": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 42487,
+  "length": 13
+ },
+ "fight.09": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 42591,
+  "length": 13
+ },
+ "fight.10": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 42698,
+  "length": 12
+ },
+ "fight.11": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 40381,
+  "length": 25
+ },
+ "fight.12": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 39164,
+  "length": 42
+ },
+ "fight.13": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 39316,
+  "length": 41
+ },
+ "fight.14": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 39473,
+  "length": 42
+ },
+ "fight.16": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 43307,
+  "length": 17
+ },
+ "fight.17": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 43381,
+  "length": 24
+ },
+ "item.01": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 12020,
+  "length": 28
+ },
+ "item.02": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 11974,
+  "length": 16
+ },
+ "item.03": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 11038,
+  "length": 27
+ },
+ "item.04": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 10864,
+  "length": 34
+ },
+ "item.05": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 10976,
+  "length": 21
+ },
+ "item.06": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 11574,
+  "length": 25
+ },
+ "item.07": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 11297,
+  "length": 35
+ },
+ "item.08": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 11629,
+  "length": 31
+ },
+ "item.09": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 11690,
+  "length": 19
+ },
+ "item.10": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 11439,
+  "length": 36
+ },
+ "item.11": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 11514,
+  "length": 17
+ },
+ "item.12": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 12926,
+  "length": 25
+ },
+ "item.13": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 12706,
+  "length": 37
+ },
+ "item.14": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 12862,
+  "length": 29
+ },
+ "item.15": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 12800,
+  "length": 21
+ },
+ "item.16": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 15972,
+  "length": 27
+ },
+ "item.17": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 16027,
+  "length": 28
+ },
+ "item.18": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 15844,
+  "length": 8
+ },
+ "item.19": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 15878,
+  "length": 11
+ },
+ "item.20": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 15910,
+  "length": 8
+ },
+ "item.21": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 19198,
+  "length": 14
+ },
+ "item.22": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 19233,
+  "length": 10
+ },
+ "item.23": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 19114,
+  "length": 30
+ },
+ "item.24": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 19271,
+  "length": 12
+ },
+ "item.25": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 19324,
+  "length": 9
+ },
+ "item.26": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 30302,
+  "length": 24
+ },
+ "item.27": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 30361,
+  "length": 30
+ },
+ "item.28": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 30426,
+  "length": 33
+ },
+ "item.29": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 30250,
+  "length": 24
+ },
+ "item.30": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 30056,
+  "length": 36
+ },
+ "item.31": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 30190,
+  "length": 32
+ },
+ "item.32": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 30543,
+  "length": 30
+ },
+ "item.33": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 30615,
+  "length": 32
+ },
+ "item.34": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 30689,
+  "length": 31
+ },
+ "item.35": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 30794,
+  "length": 29
+ },
+ "item.36": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 30865,
+  "length": 29
+ },
+ "item.37": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 30936,
+  "length": 29
+ },
+ "item.38": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 31007,
+  "length": 23
+ },
+ "item.39": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 31075,
+  "length": 22
+ },
+ "item.40": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 31142,
+  "length": 27
+ },
+ "item.41": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 31214,
+  "length": 25
+ },
+ "item.42": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 31649,
+  "length": 43
+ },
+ "item.43": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 32071,
+  "length": 31
+ },
+ "item.44": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 33239,
+  "length": 40
+ },
+ "item.45": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 33331,
+  "length": 36
+ },
+ "item.46": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 31436,
+  "length": 19
+ },
+ "item.47": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 31583,
+  "length": 23
+ },
+ "item.48": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 31479,
+  "length": 71
+ },
+ "item.49": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 31751,
+  "length": 34
+ },
+ "item.50": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 31811,
+  "length": 20
+ },
+ "item.51": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 31857,
+  "length": 5
+ },
+ "item.52": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 31949,
+  "length": 35
+ },
+ "item.53": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 31992,
+  "length": 18
+ },
+ "item.54": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 32184,
+  "length": 115
+ },
+ "item.55": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 32357,
+  "length": 58
+ },
+ "item.56": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 32517,
+  "length": 23
+ },
+ "item.57": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 32578,
+  "length": 27
+ },
+ "item.58": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 32619,
+  "length": 6
+ },
+ "item.59": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 32669,
+  "length": 7
+ },
+ "item.60": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 32711,
+  "length": 7
+ },
+ "item.61": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 32753,
+  "length": 7
+ },
+ "item.62": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 32804,
+  "length": 29
+ },
+ "item.63": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 32887,
+  "length": 6
+ },
+ "item.64": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 32935,
+  "length": 6
+ },
+ "item.65": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 32983,
+  "length": 6
+ },
+ "item.66": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 33048,
+  "length": 23
+ },
+ "item.67": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 33106,
+  "length": 42
+ },
+ "item.68": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 33166,
+  "length": 24
+ },
+ "shop.01": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 14406,
+  "length": 47
+ },
+ "shop.02": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 14505,
+  "length": 41
+ },
+ "shop.03": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 15300,
+  "length": 22
+ },
+ "shop.04": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 14675,
+  "length": 98
+ },
+ "shop.05": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 15210,
+  "length": 32
+ },
+ "shop.06": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 14855,
+  "length": 19
+ },
+ "shop.07": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 14893,
+  "length": 7
+ },
+ "shop.08": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 15006,
+  "length": 31
+ },
+ "shop.09": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 15092,
+  "length": 14
+ },
+ "shop.10": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 15125,
+  "length": 8
+ },
+ "shop.11": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 15755,
+  "length": 23
+ },
+ "shop.12": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 15401,
+  "length": 20
+ },
+ "shop.13": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 15527,
+  "length": 42
+ },
+ "shop.14": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 16803,
+  "length": 144
+ },
+ "shop.15": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 16988,
+  "length": 56
+ },
+ "shop.16": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 17601,
+  "length": 52
+ },
+ "shop.17": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 17486,
+  "length": 59
+ },
+ "shop.18": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 17148,
+  "length": 58
+ },
+ "shop.19": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 17242,
+  "length": 16
+ },
+ "shop.20": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 17362,
+  "length": 68
+ },
+ "shop.21": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 18681,
+  "length": 57
+ },
+ "shop.22": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 17709,
+  "length": 49
+ },
+ "shop.23": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 17936,
+  "length": 55
+ },
+ "shop.24": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 17843,
+  "length": 37
+ },
+ "shop.25": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 18451,
+  "length": 51
+ },
+ "shop.26": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 18558,
+  "length": 45
+ },
+ "shop.27": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 18079,
+  "length": 141
+ },
+ "shop.28": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 18275,
+  "length": 120
+ },
+ "shop.29": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 19396,
+  "length": 90
+ },
+ "shop.30": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 19527,
+  "length": 103
+ },
+ "shop.31": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 20126,
+  "length": 17
+ },
+ "shop.32": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 20806,
+  "length": 35
+ },
+ "shop.33": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 19825,
+  "length": 60
+ },
+ "shop.34": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 20061,
+  "length": 25
+ },
+ "shop.35": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 20705,
+  "length": 45
+ },
+ "shop.36": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 20248,
+  "length": 65
+ },
+ "shop.37": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 20332,
+  "length": 7
+ },
+ "shop.38": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 20426,
+  "length": 7
+ },
+ "shop.39": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 20504,
+  "length": 37
+ },
+ "shop.40": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 26678,
+  "length": 91
+ },
+ "shop.41": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 26810,
+  "length": 43
+ },
+ "shop.42": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 27372,
+  "length": 14
+ },
+ "shop.43": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 26943,
+  "length": 91
+ },
+ "shop.44": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 27089,
+  "length": 53
+ },
+ "shop.45": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 27194,
+  "length": 78
+ },
+ "shop.46": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 35035,
+  "length": 65
+ },
+ "shop.47": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 16186,
+  "length": 20
+ },
+ "shop.48": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 16106,
+  "length": 20
+ },
+ "shop.49": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 16247,
+  "length": 97
+ },
+ "shop.50": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 16413,
+  "length": 23
+ },
+ "shop.51": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 16586,
+  "length": 18
+ },
+ "shop.52": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 16639,
+  "length": 16
+ },
+ "shop.53": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 25698,
+  "length": 22
+ },
+ "shop.54": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 25841,
+  "length": 43
+ },
+ "shop.55": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 25937,
+  "length": 18
+ },
+ "shop.56": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 26160,
+  "length": 22
+ },
+ "shop.57": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 26095,
+  "length": 30
+ },
+ "shop.58": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 26484,
+  "length": 19
+ },
+ "shop.59": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 26230,
+  "length": 34
+ },
+ "shop.60": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 26538,
+  "length": 30
+ },
+ "shop.62": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 26403,
+  "length": 8
+ },
+ "town.01": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 7348,
+  "length": 70
+ },
+ "town.02": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 5778,
+  "length": 136
+ },
+ "town.03": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 7610,
+  "length": 15
+ },
+ "town.04": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 7283,
+  "length": 20
+ },
+ "town.05": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 7492,
+  "length": 7
+ },
+ "town.06": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 5996,
+  "length": 134
+ },
+ "town.07": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 6188,
+  "length": 37
+ },
+ "town.08": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 7683,
+  "length": 6
+ },
+ "town.09": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 7878,
+  "length": 25
+ },
+ "town.10": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 7967,
+  "length": 24
+ },
+ "town.11": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 7773,
+  "length": 30
+ },
+ "town.12": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 6280,
+  "length": 144
+ },
+ "town.13": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 6486,
+  "length": 24
+ },
+ "town.14": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 6575,
+  "length": 113
+ },
+ "town.15": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 6743,
+  "length": 188
+ },
+ "town.16": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 7000,
+  "length": 14
+ },
+ "town.17": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 7076,
+  "length": 37
+ },
+ "town.18": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 7172,
+  "length": 29
+ },
+ "town.19": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 8620,
+  "length": 21
+ },
+ "town.20": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 8670,
+  "length": 32
+ },
+ "town.21": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 8811,
+  "length": 50
+ },
+ "town.22": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 8875,
+  "length": 46
+ },
+ "town.23": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 8935,
+  "length": 41
+ },
+ "town.24": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 5231,
+  "length": 113
+ },
+ "town.25": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 5384,
+  "length": 62
+ },
+ "town.26": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 5521,
+  "length": 139
+ },
+ "town.27": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 1104,
+  "length": 90
+ },
+ "town.28": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 1235,
+  "length": 82
+ },
+ "town.29": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 1405,
+  "length": 64
+ },
+ "town.30": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 1531,
+  "length": 56
+ },
+ "town.31": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 21095,
+  "length": 124
+ },
+ "ui.01": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 12996,
+  "length": 9
+ },
+ "ui.02": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 13046,
+  "length": 14
+ },
+ "ui.03": {
+  "file": "MAIN2HDE.EXE",
+  "offset": 20948,
+  "length": 25
+ }
+}

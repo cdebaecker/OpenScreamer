@@ -1,0 +1,555 @@
+# THE SCREAMER (Godot port): the interface in Japanese.
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "No saving at the Original difficulty"
+msgstr "難易度「オリジナル」ではセーブできません"
+
+msgid "Saved (quick save)"
+msgstr "セーブしました（クイックセーブ）"
+
+msgid "Saved (slot %s)"
+msgstr "セーブしました（スロット %s）"
+
+msgid "No loading at the Original difficulty"
+msgstr "難易度「オリジナル」ではロードできません"
+
+msgid "Nothing saved there"
+msgstr "セーブデータがありません"
+
+msgid "%s isn't in the roster and it's full: delete someone first"
+msgstr "%s は名簿になく、名簿がいっぱいです。先に誰かを削除してください"
+
+msgid "Loaded %s"
+msgstr "%s をロードしました"
+
+msgid "Back 1 step: %s"
+msgstr "1歩前に戻りました：%s"
+
+msgid "Back %d steps: %s"
+msgstr "%d歩前に戻りました：%s"
+
+msgid "KANA ON"
+msgstr "カナ オン"
+
+msgid "KANA OFF"
+msgstr "カナ オフ"
+
+msgid "Text: %s"
+msgstr "テキスト：%s"
+
+msgid "Keyboard: on"
+msgstr "キーボード：オン"
+
+msgid "Keyboard: auto"
+msgstr "キーボード：自動"
+
+msgid "Sound: off"
+msgstr "サウンド：オフ"
+
+msgid "Sound: on"
+msgstr "サウンド：オン"
+
+msgid "Menus"
+msgstr "メニュー"
+
+msgid "Up / Down choose,  Space / Enter select,  Esc cancel"
+msgstr "↑ ↓ 選ぶ、 スペース / Enter 決定、 Esc 取り消し"
+
+msgid "Walking in BIAS"
+msgstr "BIASの移動"
+
+msgid "numeric keypad 8 forward, 4 6 turn, 2 turn around, 5 open a door\nwithout a keypad: W A D S and E\ngamepad: left stick, RB opens a door"
+msgstr "テンキー 8 前進、 4 6 向きを変える、 2 振り向く、 5 ドアを開ける\nテンキーがなければ W A D S と E\nゲームパッド：左スティック、RB でドアを開ける"
+
+msgid "Fighting"
+msgstr "戦闘"
+
+msgid "4 6 walk, 8 jump (with 4/6 to leap), 2 crouch, 0 run away  (A D W S Q)\nZ attack, X defend, C command mode (items)\ngamepad: X attack, Y defend, Back command, LB run away; in menus d-pad, A select, B cancel"
+msgstr "4 6 歩く、 8 ジャンプ（4/6 と一緒に跳ぶ）、 2 しゃがむ、 0 逃げる  （A D W S Q）\nZ 攻撃、 X 防御、 C コマンドモード（アイテム）\nゲームパッド：X 攻撃、Y 防御、Back コマンド、LB 逃げる。メニューでは十字キー、A 決定、B 取り消し"
+
+msgid "Typing"
+msgstr "入力"
+
+msgid "names end with Space; Right types a space.\nTo talk to people, type a word to ask about: in a translation plain words work (in English e.g. drug, FRD, password, a monster's name).  In Japanese mode they only understand katakana: press ` (or the KANA button) and type romaji, e.g. doraggu gives ﾄﾞﾗｯｸﾞ.\nWith a gamepad, an on-screen keyboard comes up (also the Keyboard button): A types, B deletes, X space, LB/RB page (ABC, abc, katakana), Start OK."
+msgstr "名前はスペースで終わり、 → でスペースを入力。\n人と話す時は、聞きたい言葉を入力。翻訳では普通の言葉が通じる（英語なら drug、FRD、password、モンスターの名前など）。日本語モードではカタカナしか通じない：` （または KANA ボタン）を押してローマ字で入力、例：doraggu → ﾄﾞﾗｯｸﾞ。\nゲームパッドでは画面キーボードが出る（キーボードボタンでも）：A 入力、B 削除、X スペース、LB/RB ページ（ABC、abc、カナ）、Start 決定。"
+
+msgid "Port"
+msgstr "移植版"
+
+msgid "F6 quick save (in the town's menu or standing in BIAS),  F7 quick load\nF8 or M map of the floor (in BIAS; gamepad R3),  J journal (gamepad L3),  F9 fast-forward (RT)\nF10 / Start settings: language, font, display, sound, accessibility, saves, controls, roster\nF11 full screen,  F12 this help\nSaving, and going back a few steps on death: the Modern difficulty (settings: Game; Original plays as in 1985).\nOn a touch screen, touch it: buttons come up beside the picture (settings: Access)."
+msgstr "F6 クイックセーブ（町のメニューか、BIASで立ち止まっている時）、 F7 クイックロード\nF8 か M その階の地図（BIASで。ゲームパッドは R3）、 J 日誌（ゲームパッドは L3）、 F9 早送り（RT）\nF10 / Start 設定：言語、フォント、表示、サウンド、アクセシビリティ、セーブ、操作、名簿\nF11 フルスクリーン、 F12 このヘルプ\nセーブと、死んだ時に数歩前に戻るのは難易度「モダン」（設定：ゲーム。「オリジナル」は1985年のまま）。\nタッチスクリーンでは、画面に触れると画面の横にボタンが出る（設定：アクセシビリティ）。"
+
+msgid "THE SCREAMER — original game © 1985 Magical Zoo / ASCII Corporation, used with permission. This is an unofficial, non-commercial fan port, not affiliated with or endorsed by the copyright holders. It may not be sold or monetised in any way."
+msgstr "THE SCREAMER — オリジナル © 1985 マジカルズゥ / アスキー、許可を得て使用しています。これは非公式・非営利のファン移植版で、著作権者とは関係がなく、承認も受けていません。販売や収益化は一切できません。"
+
+msgid "This program plays the PC-9801 version of THE SCREAMER from your own copy of the game: it comes with nothing from the original.\n\nChoose the image of the original disk (.fdd, .hdm, .d88, or a .zip holding one), or drop it on this window. It is read once and kept on this computer."
+msgstr "このプログラムは、あなたのゲームから PC-9801 版の THE SCREAMER を動かします。オリジナルのものは何も入っていません。\n\nオリジナルのディスクのイメージ（.fdd、.hdm、.d88、またはそれを入れた .zip）を選ぶか、このウィンドウにドロップしてください。一度だけ読み込んで、このコンピューターに入れます。"
+
+msgid "Choose the disk image…"
+msgstr "ディスクイメージを選ぶ…"
+
+msgid "THE SCREAMER © 1985 Magical Zoo / ASCII Corporation. This is an unofficial, non-commercial fan project, not affiliated with or endorsed by the copyright holders."
+msgstr "THE SCREAMER © 1985 マジカルズゥ / アスキー。これは非公式・非営利のファンプロジェクトで、著作権者とは関係がなく、承認も受けていません。"
+
+msgid "Disk images"
+msgstr "ディスクイメージ"
+
+msgid "Reading %s…"
+msgstr "%s を読み込み中…"
+
+msgid "BIAS  floor %d"
+msgstr "BIAS  %d階"
+
+msgid "F8 / R3: back"
+msgstr "F8 / R3：戻る"
+
+msgid "Journal of %s"
+msgstr "%s の日誌"
+
+msgid "J / L3: back"
+msgstr "J / L3：戻る"
+
+msgid "Nothing yet: what people tell you, wall writings and what you find will be noted here."
+msgstr "まだ何もありません。人から聞いたこと、壁の文字、見つけたものがここに記されます。"
+
+msgid "Town"
+msgstr "町"
+
+msgid "Floor %d (%d, %d)"
+msgstr "%d階（%d, %d）"
+
+msgid "Asked about %s: %s"
+msgstr "%s について聞いた：%s"
+
+msgid "Written on the wall: %s"
+msgstr "壁の文字：%s"
+
+msgid "The revelation ring: %s"
+msgstr "レベレーションリング：%s"
+
+msgid "Found %s"
+msgstr "%s を見つけた"
+
+msgid "Was given %s: %s"
+msgstr "%s をもらった：%s"
+
+msgid "Met the hunter %s"
+msgstr "ハンター %s に出会った"
+
+msgid "Beat %s (%s beast points)"
+msgstr "%s を倒した（ビーストポイント %s）"
+
+msgid "Page: %s"
+msgstr "ページ：%s"
+
+msgid "On-screen keyboard  %s   —  A type · B delete · X space · LB/RB page · Start OK"
+msgstr "画面キーボード  %s   —  A 入力 · B 削除 · X スペース · LB/RB ページ · Start 決定"
+
+msgid "Space"
+msgstr "スペース"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Page"
+msgstr "ページ"
+
+msgid "OK"
+msgstr "決定"
+
+msgid "Your screamer has died.\n\nGo back  ◀  1 step  ▶  before it happened?\n\nSpace / A: go back      Esc / B: not now"
+msgstr "スクリーマーは死んでしまった。\n\n◀  1歩  ▶  前に戻りますか？\n\nスペース / A：戻る      Esc / B：やめる"
+
+msgid "Your screamer has died.\n\nGo back  ◀  %d steps  ▶  before it happened?\n\nSpace / A: go back      Esc / B: not now"
+msgstr "スクリーマーは死んでしまった。\n\n◀  %d歩  ▶  前に戻りますか？\n\nスペース / A：戻る      Esc / B：やめる"
+
+msgid "The game can be saved in the town's menu or standing in BIAS"
+msgstr "セーブできるのは、町のメニューか、BIASで立ち止まっている時です"
+
+msgid "Couldn't write the saved game"
+msgstr "セーブデータを書き込めませんでした"
+
+msgid "(empty)"
+msgstr "（空き）"
+
+msgid "BIAS floor %d"
+msgstr "BIAS %d階"
+
+msgid "Beast City"
+msgstr "ビーストシティ"
+
+msgid "Walk forward / jump"
+msgstr "前進 / ジャンプ"
+
+msgid "Turn around / crouch"
+msgstr "振り向く / しゃがむ"
+
+msgid "Turn left / step left"
+msgstr "左を向く / 左へ移動"
+
+msgid "Turn right / step right"
+msgstr "右を向く / 右へ移動"
+
+msgid "Open a door"
+msgstr "ドアを開ける"
+
+msgid "Run away"
+msgstr "逃げる"
+
+msgid "Attack"
+msgstr "攻撃"
+
+msgid "Defend"
+msgstr "防御"
+
+msgid "Command (items)"
+msgstr "コマンド（アイテム）"
+
+msgid "LB / RB: page   B / Esc: back to the game"
+msgstr "LB / RB：ページ   B / Esc：ゲームに戻る"
+
+msgid "Back to the game"
+msgstr "ゲームに戻る"
+
+msgid "Save in the town's menu or standing in BIAS (F6 quick save, F7 quick load). Loading goes back to the town or the cell; the roster keeps the screamer as last saved in town."
+msgstr "町のメニューか、BIASで立ち止まっている時にセーブできます（F6 クイックセーブ、F7 クイックロード）。ロードすると町かそのマスに戻ります。名簿には町で最後に記録されたスクリーマーが残ります。"
+
+msgid "Save"
+msgstr "セーブ"
+
+msgid "Load"
+msgstr "ロード"
+
+msgid "Deleted the saved game"
+msgstr "セーブデータを削除しました"
+
+msgid "Quick"
+msgstr "クイック"
+
+msgid "Slot %s"
+msgstr "スロット %s"
+
+msgid "Action"
+msgstr "動作"
+
+msgid "Keypad"
+msgstr "テンキー"
+
+msgid "Key"
+msgstr "キー"
+
+msgid "Gamepad"
+msgstr "ゲームパッド"
+
+msgid "Reset to the defaults"
+msgstr "初期設定に戻す"
+
+msgid "Menus: arrows, Space / Enter, Esc; gamepad d-pad, A, B.  The keypad keys stay as on the PC-98.  Start / F10: this menu,  F11: full screen,  F12: help."
+msgstr "メニュー：矢印キー、スペース / Enter、Esc。ゲームパッドは十字キー、A、B。テンキーはPC-98のままです。Start / F10：このメニュー、F11：フルスクリーン、F12：ヘルプ。"
+
+msgid "press a key…"
+msgstr "キーを押してください…"
+
+msgid "press a button…"
+msgstr "ボタンを押してください…"
+
+msgid "Esc / Start: cancel"
+msgstr "Esc / Start：キャンセル"
+
+msgid "%s is kept for menus and typing; choose another key"
+msgstr "%s はメニューと入力に使います。別のキーを選んでください"
+
+msgid "%s is kept for menus; choose another button"
+msgstr "%s はメニューに使います。別のボタンを選んでください"
+
+msgid "Restore the original disk's roster"
+msgstr "元のディスクの名簿に戻す"
+
+msgid "Restored the original disk's roster"
+msgstr "元のディスクの名簿に戻しました"
+
+msgid "Export…"
+msgstr "書き出す…"
+
+msgid "Import…"
+msgstr "読み込む…"
+
+msgid "(no one registered)"
+msgstr "（登録者なし）"
+
+msgid "%d of 7 places taken.  Select a screamer to delete them."
+msgstr "7人中 %d人 登録済み。削除するスクリーマーを選んでください。"
+
+msgid "%d of 7 places taken.  The roster can be changed at the registration screen, before a screamer is chosen."
+msgstr "7人中 %d人 登録済み。名簿の変更は、スクリーマーを選ぶ前の登録画面でできます。"
+
+msgid "Really delete %s?"
+msgstr "本当に %s を削除しますか？"
+
+msgid "Deleted %s"
+msgstr "%s を削除しました"
+
+msgid "Export the roster (CHAR file)"
+msgstr "名簿を書き出す（CHARファイル）"
+
+msgid "Import a roster (CHAR file)"
+msgstr "名簿を読み込む（CHARファイル）"
+
+msgid "Couldn't write %s"
+msgstr "%s を書き込めませんでした"
+
+msgid "Exported to %s"
+msgstr "%s に書き出しました"
+
+msgid "The roster can be changed at the registration screen"
+msgstr "名簿の変更は登録画面でできます"
+
+msgid "%s isn't a roster (a CHAR file is 1024 bytes)"
+msgstr "%s は名簿ではありません（CHARファイルは1024バイトです）"
+
+msgid "Imported %s"
+msgstr "%s を読み込みました"
+
+msgid "Game"
+msgstr "ゲーム"
+
+msgid "Text language"
+msgstr "テキストの言語"
+
+msgid "Typewriter text"
+msgstr "タイプライター文字"
+
+msgid "Original speed"
+msgstr "元の速さ"
+
+msgid "Instant"
+msgstr "すぐに表示"
+
+msgid "Fast-forward (F9, RT)"
+msgstr "早送り（F9、RT）"
+
+msgid "The way to floor 6"
+msgstr "6階への道"
+
+msgid "Open, as on the PC-88"
+msgstr "開いている（PC-88版と同じ）"
+
+msgid "Closed, as on the PC-98"
+msgstr "閉じている（PC-98版のまま）"
+
+msgid "Difficulty"
+msgstr "難易度"
+
+msgid "Modern: saving, going back on death"
+msgstr "モダン：セーブあり、死んだら前に戻れる"
+
+msgid "Original (1985): no saving, death is final"
+msgstr "オリジナル（1985年）：セーブなし、死んだら終わり"
+
+msgid "Other original bugs"
+msgstr "その他の元のバグ"
+
+msgid "Kept, as in 1985"
+msgstr "そのまま（1985年のまま）"
+
+msgid "Fixed (changes the game)"
+msgstr "修正する（ゲームが変わります）"
+
+msgid "Display"
+msgstr "表示"
+
+msgid "Game text font"
+msgstr "ゲームの文字のフォント"
+
+msgid "PC-98 (original 8x8)"
+msgstr "PC-98（元の8×8）"
+
+msgid "Modern (Noto Sans JP)"
+msgstr "モダン（Noto Sans JP）"
+
+msgid "Interface font"
+msgstr "メニューのフォント"
+
+msgid "PC-98 (the game's own)"
+msgstr "PC-98（ゲームのもの）"
+
+msgid "Text size"
+msgstr "文字の大きさ"
+
+msgid "Normal"
+msgstr "普通"
+
+msgid "Large (modern font)"
+msgstr "大きい（モダンフォント）"
+
+msgid "Style"
+msgstr "スタイル"
+
+msgid "Sharp"
+msgstr "くっきり"
+
+msgid "CRT (curved glass, scanlines)"
+msgstr "ブラウン管（曲面、走査線）"
+
+msgid "Soft (dithering blended)"
+msgstr "ソフト（ディザをぼかす）"
+
+msgid "Colours"
+msgstr "色"
+
+msgid "Original"
+msgstr "オリジナル"
+
+msgid "High contrast"
+msgstr "ハイコントラスト"
+
+msgid "Colour-blind friendly"
+msgstr "色覚に配慮した色"
+
+msgid "Colour changes"
+msgstr "色の変化"
+
+msgid "At once (original)"
+msgstr "瞬時（オリジナル）"
+
+msgid "Smooth fades"
+msgstr "なめらかにフェード"
+
+msgid "Window scaling"
+msgstr "ウィンドウの拡大"
+
+msgid "Fit the window"
+msgstr "ウィンドウに合わせる"
+
+msgid "Whole multiples (sharp pixels)"
+msgstr "整数倍（くっきりしたドット）"
+
+msgid "Full screen (F11)"
+msgstr "フルスクリーン（F11）"
+
+msgid "Sound"
+msgstr "サウンド"
+
+msgid "On"
+msgstr "オン"
+
+msgid "Off"
+msgstr "オフ"
+
+msgid "Beeper volume"
+msgstr "ビープ音の音量"
+
+msgid "Beeper sound"
+msgstr "ビープ音の音色"
+
+msgid "PC-98 beeper"
+msgstr "PC-98のビープ音"
+
+msgid "Softer"
+msgstr "やわらかい音"
+
+msgid "Pure tone"
+msgstr "純音"
+
+msgid "Background ambience"
+msgstr "環境音"
+
+msgid "Ambience volume"
+msgstr "環境音の音量"
+
+msgid "Access"
+msgstr "アクセシビリティ"
+
+msgid "Read new text aloud"
+msgstr "新しいテキストを読み上げる"
+
+msgid "Touch controls"
+msgstr "タッチ操作"
+
+msgid "On a touch screen, once touched"
+msgstr "タッチスクリーンで、触れたら"
+
+msgid "Always shown"
+msgstr "常に表示"
+
+msgid "Never"
+msgstr "表示しない"
+
+msgid "Held d-pad repeats in menus"
+msgstr "メニューで十字キー長押しでリピート"
+
+msgid "Repeat delay (ms)"
+msgstr "リピートまでの時間（ミリ秒）"
+
+msgid "Repeat rate (ms)"
+msgstr "リピート間隔（ミリ秒）"
+
+msgid "Also: Display has large text, high-contrast and colour-blind colours, and smooth colour changes; Controls rebinds keys and buttons; Game has instant text and fast-forward."
+msgstr "ほかに：「表示」に大きい文字、ハイコントラストと色覚に配慮した色、なめらかな色の変化があります。「操作」でキーとボタンを変更、「ゲーム」に即時表示と早送りがあります。"
+
+msgid "Map"
+msgstr "地図"
+
+msgid "Journal"
+msgstr "日誌"
+
+msgid "Door"
+msgstr "ドア"
+
+msgid "Run"
+msgstr "逃げる"
+
+msgid "Items"
+msgstr "アイテム"
+
+msgid "Menu"
+msgstr "メニュー"
+
+msgid "Toggle katakana input (also the ` key)"
+msgstr "カタカナ入力の切り替え（` キーでも）"
+
+msgid "Switch the game text: the translations and the original Japanese"
+msgstr "ゲームのテキストを切り替える：翻訳と元の日本語"
+
+msgid "Text: English"
+msgstr "テキスト：英語"
+
+msgid "On-screen keyboard for typing: auto (comes up when you use a gamepad) or always on"
+msgstr "入力用の画面キーボード：自動（ゲームパッドを使うと表示）または常にオン"
+
+msgid "Settings: language, font, display, sound, controls, roster (F10, gamepad Start)"
+msgstr "設定：言語、フォント、表示、サウンド、操作、名簿（F10、ゲームパッドのStart）"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Help"
+msgstr "ヘルプ"
+
+msgid "Go back a few steps, to before your screamer died (R, gamepad Y)"
+msgstr "死んだ時の数歩前に戻る（R、ゲームパッドのY）"
+
+msgid "Go back… (R)"
+msgstr "戻る…（R）"
+
+msgid "Saved"
+msgstr "セーブしました"
+
+msgid "English"
+msgstr "英語"
+
+msgid "Japanese (original)"
+msgstr "日本語（オリジナル）"
+
+msgid "Saves"
+msgstr "セーブ"
+
+msgid "Controls"
+msgstr "操作"
+
+msgid "Roster"
+msgstr "名簿"
+

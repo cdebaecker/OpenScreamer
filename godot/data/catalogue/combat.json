@@ -1,0 +1,14 @@
+{
+  "pieces": {
+    "combat/player": {"src": "DS", "off": "0xbcf6", "w": 4, "h": 32, "mode": "3", "frames": 20, "stride": "0x180"},
+    "combat/shot_left": {"src": "DS", "off": "0xdc8f", "w": 4, "h": 5, "mode": "3"},
+    "combat/shot_right": {"src": "DS", "off": "0xdccb", "w": 4, "h": 5, "mode": "3"},
+    "combat/monster_lamp": {"src": "DS", "off": "0xbc4e", "w": 2, "h": 8, "mode": "R"},
+    "combat/player_lamp": {"src": "DS", "off": "0xbc5e", "w": 2, "h": 8, "mode": "R"},
+    "combat/backdrop_top": {"src": "B03", "off": "0x1400", "w": 40, "h": 10, "mode": "3"},
+    "combat/backdrop_bottom": {"src": "B03", "off": "0x18b0", "w": 40, "h": 8, "mode": "3"}
+  },
+  "tables": {
+    "combat_jump": {"off": "0xbcdc", "n": 13, "type": "u16"}
+  }
+}

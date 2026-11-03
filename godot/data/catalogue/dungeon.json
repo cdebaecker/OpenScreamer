@@ -1,0 +1,524 @@
+{
+ "pieces": {
+  "view/p_60df": {
+   "src": "DS",
+   "off": "0x60df",
+   "w": 40,
+   "h": 44,
+   "mode": "G"
+  },
+  "view/p_67bf": {
+   "src": "DS",
+   "off": "0x67bf",
+   "w": 5,
+   "h": 16,
+   "mode": "G"
+  },
+  "view/p_8987": {
+   "src": "DS",
+   "off": "0x8987",
+   "w": 5,
+   "h": 16,
+   "mode": "G"
+  },
+  "view/p_680f": {
+   "src": "DS",
+   "off": "0x680f",
+   "w": 6,
+   "h": 16,
+   "mode": "G"
+  },
+  "view/p_89d7": {
+   "src": "DS",
+   "off": "0x89d7",
+   "w": 6,
+   "h": 16,
+   "mode": "G"
+  },
+  "view/p_686f": {
+   "src": "DS",
+   "off": "0x686f",
+   "w": 6,
+   "h": 16,
+   "mode": "G"
+  },
+  "view/p_68cf": {
+   "src": "DS",
+   "off": "0x68cf",
+   "w": 6,
+   "h": 16,
+   "mode": "G"
+  },
+  "view/p_692f": {
+   "src": "DS",
+   "off": "0x692f",
+   "w": 6,
+   "h": 16,
+   "mode": "G"
+  },
+  "view/p_698f": {
+   "src": "DS",
+   "off": "0x698f",
+   "w": 6,
+   "h": 16,
+   "mode": "G"
+  },
+  "view/p_69ef": {
+   "src": "DS",
+   "off": "0x69ef",
+   "w": 5,
+   "h": 16,
+   "mode": "G"
+  },
+  "view/p_8a37": {
+   "src": "DS",
+   "off": "0x8a37",
+   "w": 5,
+   "h": 16,
+   "mode": "G"
+  },
+  "view/p_6a3f": {
+   "src": "DS",
+   "off": "0x6a3f",
+   "w": 5,
+   "h": 24,
+   "mode": "G"
+  },
+  "view/p_8a87": {
+   "src": "DS",
+   "off": "0x8a87",
+   "w": 5,
+   "h": 24,
+   "mode": "G"
+  },
+  "view/p_6ab7": {
+   "src": "DS",
+   "off": "0x6ab7",
+   "w": 6,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_8aff": {
+   "src": "DS",
+   "off": "0x8aff",
+   "w": 6,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_6b5f": {
+   "src": "DS",
+   "off": "0x6b5f",
+   "w": 2,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_8ba7": {
+   "src": "DS",
+   "off": "0x8ba7",
+   "w": 2,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_6b97": {
+   "src": "DS",
+   "off": "0x6b97",
+   "w": 2,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_8bdf": {
+   "src": "DS",
+   "off": "0x8bdf",
+   "w": 2,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_6bcf": {
+   "src": "DS",
+   "off": "0x6bcf",
+   "w": 6,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_8c17": {
+   "src": "DS",
+   "off": "0x8c17",
+   "w": 6,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_6c77": {
+   "src": "DS",
+   "off": "0x6c77",
+   "w": 5,
+   "h": 24,
+   "mode": "G"
+  },
+  "view/p_8cbf": {
+   "src": "DS",
+   "off": "0x8cbf",
+   "w": 5,
+   "h": 24,
+   "mode": "G"
+  },
+  "view/p_6cef": {
+   "src": "DS",
+   "off": "0x6cef",
+   "w": 5,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_8d37": {
+   "src": "DS",
+   "off": "0x8d37",
+   "w": 5,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_6d7b": {
+   "src": "DS",
+   "off": "0x6d7b",
+   "w": 10,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_8dc3": {
+   "src": "DS",
+   "off": "0x8dc3",
+   "w": 10,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_6e93": {
+   "src": "DS",
+   "off": "0x6e93",
+   "w": 10,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_6fab": {
+   "src": "DS",
+   "off": "0x6fab",
+   "w": 10,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_70c3": {
+   "src": "DS",
+   "off": "0x70c3",
+   "w": 5,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_8edb": {
+   "src": "DS",
+   "off": "0x8edb",
+   "w": 5,
+   "h": 28,
+   "mode": "G"
+  },
+  "view/p_714f": {
+   "src": "DS",
+   "off": "0x714f",
+   "w": 5,
+   "h": 36,
+   "mode": "G"
+  },
+  "view/p_8f67": {
+   "src": "DS",
+   "off": "0x8f67",
+   "w": 5,
+   "h": 36,
+   "mode": "G"
+  },
+  "view/p_7203": {
+   "src": "DS",
+   "off": "0x7203",
+   "w": 10,
+   "h": 80,
+   "mode": "G"
+  },
+  "view/p_901b": {
+   "src": "DS",
+   "off": "0x901b",
+   "w": 10,
+   "h": 80,
+   "mode": "G"
+  },
+  "view/p_7523": {
+   "src": "DS",
+   "off": "0x7523",
+   "w": 10,
+   "h": 80,
+   "mode": "G"
+  },
+  "view/p_933b": {
+   "src": "DS",
+   "off": "0x933b",
+   "w": 10,
+   "h": 80,
+   "mode": "G"
+  },
+  "view/p_7843": {
+   "src": "DS",
+   "off": "0x7843",
+   "w": 5,
+   "h": 36,
+   "mode": "G"
+  },
+  "view/p_965b": {
+   "src": "DS",
+   "off": "0x965b",
+   "w": 5,
+   "h": 36,
+   "mode": "G"
+  },
+  "view/p_78f7": {
+   "src": "DS",
+   "off": "0x78f7",
+   "w": 5,
+   "h": 80,
+   "mode": "G"
+  },
+  "view/p_970f": {
+   "src": "DS",
+   "off": "0x970f",
+   "w": 5,
+   "h": 80,
+   "mode": "G"
+  },
+  "view/p_7a87": {
+   "src": "DS",
+   "off": "0x7a87",
+   "w": 30,
+   "h": 80,
+   "mode": "G"
+  },
+  "view/p_989f": {
+   "src": "DS",
+   "off": "0x989f",
+   "w": 30,
+   "h": 80,
+   "mode": "G"
+  },
+  "view/p_83e7": {
+   "src": "DS",
+   "off": "0x83e7",
+   "w": 5,
+   "h": 80,
+   "mode": "G"
+  },
+  "view/p_a1ff": {
+   "src": "DS",
+   "off": "0xa1ff",
+   "w": 5,
+   "h": 80,
+   "mode": "G"
+  },
+  "view/p_8577": {
+   "src": "DS",
+   "off": "0x8577",
+   "w": 5,
+   "h": 104,
+   "mode": "G"
+  },
+  "view/p_a38f": {
+   "src": "DS",
+   "off": "0xa38f",
+   "w": 5,
+   "h": 104,
+   "mode": "G"
+  },
+  "view/p_877f": {
+   "src": "DS",
+   "off": "0x877f",
+   "w": 5,
+   "h": 104,
+   "mode": "G"
+  },
+  "view/p_a597": {
+   "src": "DS",
+   "off": "0xa597",
+   "w": 5,
+   "h": 104,
+   "mode": "G"
+  },
+  "view/light_aba0_0": {
+   "src": "DS",
+   "off": "0xaba0",
+   "w": 16,
+   "h": 4,
+   "mode": "B"
+  },
+  "view/light_aba0_1": {
+   "src": "DS",
+   "off": "0xabe0",
+   "w": 8,
+   "h": 5,
+   "mode": "B"
+  },
+  "view/light_aba0_2": {
+   "src": "DS",
+   "off": "0xac08",
+   "w": 4,
+   "h": 2,
+   "mode": "B"
+  },
+  "view/light_ac10_0": {
+   "src": "DS",
+   "off": "0xac10",
+   "w": 16,
+   "h": 4,
+   "mode": "B"
+  },
+  "view/light_ac10_1": {
+   "src": "DS",
+   "off": "0xac50",
+   "w": 8,
+   "h": 5,
+   "mode": "B"
+  },
+  "view/light_ac10_2": {
+   "src": "DS",
+   "off": "0xac78",
+   "w": 4,
+   "h": 2,
+   "mode": "B"
+  },
+  "view/light_ac80_0": {
+   "src": "DS",
+   "off": "0xac80",
+   "w": 16,
+   "h": 4,
+   "mode": "B"
+  },
+  "view/light_ac80_1": {
+   "src": "DS",
+   "off": "0xacc0",
+   "w": 8,
+   "h": 5,
+   "mode": "B"
+  },
+  "view/light_ac80_2": {
+   "src": "DS",
+   "off": "0xace8",
+   "w": 4,
+   "h": 2,
+   "mode": "B"
+  },
+  "view/light_acf0_0": {
+   "src": "DS",
+   "off": "0xacf0",
+   "w": 16,
+   "h": 4,
+   "mode": "B"
+  },
+  "view/light_acf0_1": {
+   "src": "DS",
+   "off": "0xad30",
+   "w": 8,
+   "h": 5,
+   "mode": "B"
+  },
+  "view/light_acf0_2": {
+   "src": "DS",
+   "off": "0xad58",
+   "w": 4,
+   "h": 2,
+   "mode": "B"
+  },
+  "view/light_ad60_0": {
+   "src": "DS",
+   "off": "0xad60",
+   "w": 16,
+   "h": 4,
+   "mode": "B"
+  },
+  "view/light_ad60_1": {
+   "src": "DS",
+   "off": "0xada0",
+   "w": 8,
+   "h": 5,
+   "mode": "B"
+  },
+  "view/light_ad60_2": {
+   "src": "DS",
+   "off": "0xadc8",
+   "w": 4,
+   "h": 2,
+   "mode": "B"
+  },
+  "dungeon/step": {
+   "src": "DS",
+   "off": "0xb9d9",
+   "w": 4,
+   "h": 16,
+   "mode": "3",
+   "frames": 2,
+   "stride": 192
+  },
+  "dungeon/compass": {
+   "src": "DS",
+   "off": "0xbb59",
+   "w": 2,
+   "h": 8,
+   "mode": "W",
+   "frames": 4,
+   "stride": 16
+  },
+  "dungeon/backdrop": {
+   "src": "B01",
+   "off": "0x2800",
+   "w": 20,
+   "h": 100,
+   "mode": "3"
+  }
+ },
+ "tables": {
+  "view_wall_offsets": {
+   "off": "0xae20",
+   "n": 108,
+   "type": "u16"
+  },
+  "view_pieces": {
+   "off": "0xaef8",
+   "n": 108,
+   "type": "u16"
+  },
+  "light_frames": {
+   "off": "0xab82",
+   "n": 8,
+   "type": "u16"
+  },
+  "ahead_dx": {
+   "off": "0xab92",
+   "n": 4,
+   "type": "u16"
+  },
+  "placed_items": {
+   "off": "0xa8e0",
+   "n": 15,
+   "type": "u8"
+  },
+  "floor_items": {
+   "off": "0xa8ef",
+   "n": 64,
+   "type": "u8"
+  },
+  "encounter_rates": {
+   "off": "0xb904",
+   "n": 16,
+   "type": "u8"
+  },
+  "floor_monsters": {
+   "off": "0xb913",
+   "n": 80,
+   "type": "u8"
+  },
+  "door_passwords": {
+   "off": "0xab4f",
+   "n": 50,
+   "type": "u8"
+  }
+ }
+}

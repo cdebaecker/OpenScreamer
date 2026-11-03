@@ -1,0 +1,12 @@
+{
+  "pieces": {
+    "events/pit": {"src": "B02", "off": "0x1400", "w": "0x28", "h": "0x68", "mode": "G"},
+    "events/stairs": {"src": "B02", "off": "0x0", "w": "0x28", "h": "0x68", "mode": "G"},
+    "events/fire": {"src": "B02", "off": "0x2800", "w": "0x1e", "h": "0x20", "mode": "R"},
+    "events/fire_top": {"src": "B02", "off": "0x32f0", "w": "0x1e", "h": "0x20", "mode": "R"},
+    "events/fog": {"src": "B02", "off": "0x3800", "w": 8, "h": 256, "mode": "B"},
+    "events/robot_r": {"src": "B03", "off": "0x0", "w": "0x0e", "h": "0x36", "mode": "R"},
+    "events/robot_g": {"src": "B03", "off": "0x2f4", "w": "0x0e", "h": "0x36", "mode": "G"},
+    "events/elevator": {"src": "DS", "off": "0x7a87", "w": "0x1e", "h": "0x50", "mode": "G"}
+  }
+}

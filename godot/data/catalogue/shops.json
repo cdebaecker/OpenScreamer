@@ -1,0 +1,22 @@
+{
+  "tables": {
+    "shops_buy_nav": {"off": "0xadd2", "n": 8, "type": "u8"},
+    "shops_buy_pos": {"off": "0xadda", "n": 2, "type": "u16"},
+    "shops_init_vars": {"off": "0xadd0", "n": 15, "type": "u8"},
+    "shops_password": {"off": "0xaddf", "type": "str"},
+    "shops_class_bp": {"off": "0xadec", "n": 26, "type": "u16"},
+    "shops_treat_labels": {"off": "0xb14b", "n": 5, "type": "strs"},
+    "shops_antidote_prices": {"off": "0xb18a", "n": 6, "type": "u16"},
+    "shops_antidote_nav": {"off": "0xb196", "n": 8, "type": "u8"},
+    "shops_antidote_pos": {"off": "0xb19e", "n": 2, "type": "u16"},
+    "shops_init_give_person": {"off": "0xb1a2", "n": 1, "type": "u8"},
+    "shops_give_nav": {"off": "0xb1a3", "n": 8, "type": "u8"},
+    "shops_give_pos": {"off": "0xb1af", "n": 2, "type": "u16"},
+    "shops_give_gold": {"off": "0xb1b3", "n": "0x2e1", "type": "u8"},
+    "shops_give_item_combat": {"off": "0xb494", "n": "0x2ca", "type": "u8"},
+    "shops_give_item": {"off": "0xb75e", "n": "0x300", "type": "u8"},
+    "shops_init_person": {"off": "0xbc72", "n": 1, "type": "u8"},
+    "shops_person_nav": {"off": "0xbc73", "n": 32, "type": "u8"},
+    "shops_person_pos": {"off": "0xbc93", "n": 8, "type": "u16"}
+  }
+}
