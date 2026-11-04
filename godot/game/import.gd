@@ -22,8 +22,8 @@ const MAIN_END := 0x186c0
 const DEMO_DS := 0x830
 const DEMO_END := 0xc050
 
-const RGB := [Color8(0, 0, 0), Color8(0, 0, 255), Color8(255, 0, 0), Color8(255, 0, 255),
-	Color8(0, 255, 0), Color8(0, 255, 255), Color8(255, 255, 0), Color8(255, 255, 255)]
+const RGB := [Color(0, 0, 0), Color(0, 0, 1), Color(1, 0, 0), Color(1, 0, 1),
+	Color(0, 1, 0), Color(0, 1, 1), Color(1, 1, 0), Color(1, 1, 1)]
 const PLANE_RGB := {"B": 1, "R": 2, "G": 4, "W": 7}
 
 

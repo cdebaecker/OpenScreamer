@@ -18,3 +18,5 @@
 *.translation
 /build/
 /export/
+/engine/src/
+/engine/bin/

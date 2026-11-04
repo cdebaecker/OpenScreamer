@@ -118,6 +118,8 @@ Two settings do change the game:
 - [`godot/ARCHITECTURE.md`](godot/ARCHITECTURE.md): how the game is put together.
 - `python tools/run_tests.py <disk image> [--playthrough]` imports a disk and runs the checks; `--playthrough`
   has a bot play the whole game.
+- [`engine/`](engine/README.md): the Windows release uses a Godot build with only what the game needs
+  (`python engine/build.py`), about a fifth of the size of Godot's stock one.
 - [`spec/`](spec/README.md): a written description of the game, kept in case a clean-room rewrite is ever needed.
 
 ## Licence
