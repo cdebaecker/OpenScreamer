@@ -32,6 +32,14 @@ static func entries(d: PackedByteArray) -> Array[Character]:
 	return out
 
 
+## the registered screamers' names
+static func names(d: PackedByteArray) -> PackedStringArray:
+	var out := PackedStringArray()
+	for c in entries(d):
+		out.append(c.name)
+	return out
+
+
 ## remove slot i: the later slots move up and the last one is left free, as the game does it
 static func delete(d: PackedByteArray, i: int) -> PackedByteArray:
 	var out := d.slice(0, i * Character.SIZE)

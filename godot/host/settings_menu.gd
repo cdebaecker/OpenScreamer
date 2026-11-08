@@ -14,6 +14,9 @@ var settings: Settings
 var game: Game
 ## the window: saves and loads games (save_slot, load_slot)
 var host: Node
+## called with the name of each screamer who leaves the roster (deleted, emptied, another roster
+## imported): the window forgets their map and journal
+var on_forget := Callable()
 var _save_rows := {}  # slot -> [label, save button, load button, delete button]
 
 var _tabs: TabContainer
@@ -28,6 +31,9 @@ var _delete_button: Button
 var _delete_armed := false
 var _file_dialog: FileDialog
 var _file_mode := ""
+## a slider's value is applied (and the settings saved) when it stops moving, not at each step of a drag
+var _slider_timer: Timer
+const SLIDER_REST_S := 0.15
 
 ## the option pages: [page, rows]; a row is ["choice", title, setting, [[value, label], ...]],
 ## ["check", title, setting] or ["slider", title, setting, min, max, step]
@@ -84,6 +90,11 @@ func _init() -> void:
 func setup(s: Settings, g: Game) -> void:
 	settings = s
 	game = g
+	_slider_timer = Timer.new()
+	_slider_timer.one_shot = true
+	_slider_timer.wait_time = SLIDER_REST_S
+	_slider_timer.timeout.connect(func() -> void: changed.emit())
+	add_child(_slider_timer)
 	var box := VBoxContainer.new()
 	add_child(box)
 	_tabs = TabContainer.new()
@@ -123,6 +134,9 @@ func close_menu() -> void:
 	visible = false
 	_capture = []
 	_delete_armed = false
+	if not _slider_timer.is_stopped():  # a slider just moved: apply it now
+		_slider_timer.stop()
+		changed.emit()
 	var f := get_viewport().gui_get_focus_owner()
 	if f != null:
 		f.release_focus()
@@ -196,7 +210,7 @@ func _option_page(title: String, rows: Array) -> Control:
 				sl.value_changed.connect(func(v: float) -> void:
 					settings.set(key, int(v))
 					val.text = str(int(v))
-					changed.emit())
+					_slider_timer.start())  # (applied and saved once the slider rests)
 				h.add_child(sl)
 				h.add_child(val)
 				grid.add_child(h)
@@ -506,8 +520,6 @@ func _delete_pressed() -> void:
 		return
 	var name := RosterFile.entries(roster_bytes())[_roster_sel].name
 	_write_roster(RosterFile.delete(roster_bytes(), _roster_sel), tr("Deleted %s") % name)
-	Automap.forget(Automap.PATH, name)
-	Journal.forget(Journal.PATH, name)
 	_roster_sel = -1
 
 
@@ -515,7 +527,13 @@ func _delete_pressed() -> void:
 func _write_roster(d: PackedByteArray, msg: String) -> void:
 	if not roster_editable():
 		return
+	var before := RosterFile.names(roster_bytes())
 	apply_roster(game, d)
+	var after := RosterFile.names(roster_bytes())
+	if on_forget.is_valid():
+		for n in before:
+			if not n in after:
+				on_forget.call(n)
 	_delete_armed = false
 	_fill_roster()
 	_status.text = msg

@@ -603,6 +603,8 @@ func test_roster_manager() -> void:
 	var menu := SettingsMenu.new()
 	root.add_child(menu)
 	menu.setup(Settings.new(), game)
+	var gone := []
+	menu.on_forget = func(n: String) -> void: gone.append(n)
 	check(menu.roster_editable(), "roster manager: editable before a screamer is chosen")
 	SettingsMenu.apply_roster(game, e)
 	check(saved[0] == e and game.town.roster_count == 2 and game.chara.roster[1].name == "GAMMA",
@@ -613,6 +615,11 @@ func test_roster_manager() -> void:
 	FileAccess.open(out, FileAccess.WRITE).store_buffer(d)
 	check(menu.file_action("import", out).begins_with("Imported") and saved[0] == d and game.town.roster_count == 3,
 			"roster manager: import reads one")
+	check(gone.is_empty(), "roster manager: no one left the roster, no map or journal forgotten")
+	menu._write_roster(GameData.empty_roster(), "")
+	check(gone == Array(RosterFile.names(d)), "roster manager: emptied, each screamer's map and journal are forgotten (%s)" % str(gone))
+	FileAccess.open(out, FileAccess.WRITE).store_buffer(d)
+	menu.file_action("import", out)
 	FileAccess.open(out, FileAccess.WRITE).store_buffer(d.slice(0, 100))
 	check(menu.file_action("import", out).contains("isn't a roster") and saved[0] == d, "roster manager: import refuses other files")
 	game.st.chr.name = "GAMMA"  # a screamer in play
@@ -796,6 +803,12 @@ func test_sound_options() -> void:
 	check(p.playing and p.get_meta("area") == "town", "ambience: on, the town's loop plays")
 	amb.area = "bias"
 	check(amb._players[amb._current] != p and amb._players[amb._current].get_meta("area") == "bias", "ambience: crossfades to BIAS")
+	amb.area = ""  # out and straight back, while the town's player is still fading out
+	amb.area = "town"
+	var back: AudioStreamPlayer = amb._players[amb._current]
+	await create_timer(Ambience.FADE_S + 0.3).timeout
+	check(back.playing and back.get_meta("area") == "town" and back.volume_db > -79.0,
+			"ambience: back to a place within the fade, its loop keeps playing (%.0f dB)" % back.volume_db)
 	amb.queue_free()
 	await process_frame
 
@@ -892,6 +905,12 @@ func test_automap() -> void:
 	Automap.forget(path, "MAPPER")
 	check(Automap.load_map(path, "MAPPER").is_empty() and not Automap.load_map(path, "OTHER").is_empty(),
 			"automap: a deleted screamer's map goes")
+	Automap.forget(path, "OTHER")
+	m.drop("OTHER")  # gone while still the map's screamer: a new OTHER starts afresh
+	game.st.pos_x = 5
+	m.record()
+	check(not m.visited(1, 4, 3) and m.visited(1, 5, 3) and (Automap.load_map(path, "OTHER")[1] as PackedByteArray).count(1) == 1,
+			"automap: a new screamer of a deleted one's name has a map of their own")
 	game.st.pos_x = 0x30  # off the floor (the original's warp can't, but no crash)
 	m.record()
 	m.visible = true
@@ -983,6 +1002,8 @@ func test_save_game() -> void:
 	check(SaveGame.read(SaveGame.path_of("2")).is_empty() and SaveGame.describe({}) == "(empty)", "saves: an empty slot")
 	FileAccess.open(SaveGame.path_of("3"), FileAccess.WRITE).store_string("garbage")
 	check(SaveGame.read(SaveGame.path_of("3")).is_empty(), "saves: a broken file reads as empty")
+	FileAccess.open(SaveGame.path_of("4"), FileAccess.WRITE).store_string(var_to_str({"version": SaveGame.VERSION, "state": {}}))
+	check(SaveGame.read(SaveGame.path_of("4")).is_empty(), "saves: a file without what the menu and loading read is empty")
 	for f in DirAccess.get_files_at(dir):
 		DirAccess.remove_absolute(ProjectSettings.globalize_path(dir.path_join(f)))
 	DirAccess.remove_absolute(ProjectSettings.globalize_path(dir))
@@ -1019,6 +1040,23 @@ func test_translations() -> void:
 			+ 'msgctxt "keyword"\nmsgid "%s"\nmsgstr "Drogue|médicament"\n' % d.digest(kw))
 	f.close()
 	var xx := d.read_po(path)
+	var tight := "user://test_tight.po"
+	f = FileAccess.open(tight, FileAccess.WRITE)
+	f.store_string('"stray"
+msgctxt "game"
+msgid "%s"
+msgstr "one"
+#. a note
+msgctxt "game"
+msgid "%s"
+msgstr "two"
+'
+			% [d.digest("ｱｲｳｴｵ"), d.digest("ｶｷｸｹｺ")])
+	f.close()
+	var tt := d.read_po(tight)
+	check(tt["game"].get(d.digest("ｱｲｳｴｵ")) == "one" and tt["game"].get(d.digest("ｶｷｸｹｺ")) == "two",
+			"translations: entries without blank lines between them, a stray line skipped (%s)" % str(tt["game"]))
+	DirAccess.remove_absolute(ProjectSettings.globalize_path(tight))
 	check(xx["name"] == "Testish", "translations: the language's name from the header")
 	check(GameData._po_unquote("\"a \\x02 b\\n\"") == "a " + char(2) + " b\n", "translations: \\x escapes (the game's arrow) and \\n read")
 	d._langs["xx"] = xx
@@ -1546,6 +1584,11 @@ func test_journal() -> void:
 	check(j.entries().is_empty(), "journal: another screamer's own journal")
 	Journal.forget(path, "WALKER")
 	check(Journal.load_entries(path, "WALKER").is_empty(), "journal: forgotten with the screamer")
+	g.st.chr.name = "WALKER"
+	j.entries()
+	Journal.forget(path, "WALKER")
+	j.drop("WALKER")
+	check(j.entries().is_empty(), "journal: a new screamer of a forgotten one's name starts with none")
 	check(j.shown("{ｱｲｳ}ｱ|_ﾝ") == "あいうｱ ﾝ", "journal: hiragana where { } asks, markup gone (%s)" % j.shown("{ｱｲｳ}ｱ|_ﾝ"))
 	check(j.shown("{ｶﾞﾊﾟｳﾞ}ﾀﾞ") == "がぱゔﾀﾞ", "journal: voiced hiragana (%s)" % j.shown("{ｶﾞﾊﾟｳﾞ}ﾀﾞ"))
 	check(j.shown("[b]") == "[lb]b]", "journal: no bbcode from the game text")

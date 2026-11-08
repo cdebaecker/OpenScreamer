@@ -72,6 +72,15 @@ static func save_map(p: String, name: String, v: Dictionary) -> void:
 	f.save(p)
 
 
+## forget a screamer's map here too (the file's done with forget()): a new screamer of that name
+## starts with none
+func drop(name: String) -> void:
+	if name == _name:
+		_name = ""
+		_visited = {}
+		_last = Vector3i(-1, -1, -1)
+
+
 ## forget a screamer's map (deleted from the roster)
 static func forget(p: String, name: String) -> void:
 	var f := ConfigFile.new()

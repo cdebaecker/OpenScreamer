@@ -32,8 +32,9 @@ var bar_theme := Theme.new()  # the bar, the help, the notes
 var rewind := Rewind.new()
 var rewind_prompt: RewindPrompt
 var _death_seen := false  # the game is (or was, until this frame) on the death screen
+var _dead_name := ""  # the screamer who died there
 ## the last load_slot / load_state worked
-var last_load_ok := false  # the rewind prompt was shown for this game over
+var last_load_ok := false
 ## a held d-pad button repeats (settings: Access): the button, and when it next repeats (ms)
 var _pad_held := -1
 var _pad_next := 0
@@ -157,6 +158,7 @@ func _ready() -> void:
 	settings.lang = game.data.lang
 	settings.apply_bindings()
 	menu.host = self
+	menu.on_forget = forget_screamer
 	menu.setup(settings, game)
 	menu.changed.connect(_settings_changed)
 	apply_settings()
@@ -193,6 +195,7 @@ func load_slot(slot: String) -> String:
 
 ## a saved game's data (a slot's, or a rewind state): the running game stops, a new one goes on
 func load_state(d: Dictionary) -> String:
+	last_load_ok = false
 	var g := Game.create(screen)
 	# where the roster is kept stays the same, when it was replaced (scripted runs): the defaults
 	# are the old game's own methods, gone with it
@@ -231,13 +234,16 @@ func _rewind_chosen(steps: int) -> void:
 	var d := rewind.back(name, steps)
 	if steps == 0 or d.is_empty():
 		return
+	var mine := rewind.of(name)
+	var msg := load_state(d)
+	if not last_load_ok:  # (the roster is full): still on the death screen, the states kept
+		notify(msg)
+		return
 	_death_seen = false  # (leaving the death screen this way isn't dying for good)
 	# the states after it are gone (they lead here)
-	var mine := rewind.of(name)
 	for i in steps:
 		rewind.snaps.erase(mine[mine.size() - 1 - i])
 	rewind._last = ""
-	load_state(d)
 	notify((tr("Back 1 step: %s") if steps == 1 else tr("Back %d steps: %s") % [steps, "%s"]) % game.st.chr.name)
 
 
@@ -256,6 +262,17 @@ func _replace_game(g: Game) -> void:
 	menu.game = g
 	g.sys.host = self
 	apply_settings()
+
+
+## a screamer who's gone (dead for good, or out of the roster): their map and journal go too, so a
+## new screamer of the same name starts with none
+func forget_screamer(name: String) -> void:
+	if name == "":
+		return
+	Automap.forget(automap.path, name)
+	Journal.forget(journal.path, name)
+	automap.drop(name)
+	journal.drop(name)
 
 
 func _update_kana() -> void:
@@ -546,9 +563,12 @@ func _process(_delta: float) -> void:
 	_rewind_button.visible = dead and settings.saves_allowed() and not rewind.of(game.st.chr.name).is_empty()
 	if dead:
 		_death_seen = true
+		_dead_name = game.st.chr.name
 	elif _death_seen:  # Space on the death screen: dead for good, nothing to go back to any more
 		_death_seen = false
 		rewind.clear()
+		if not _dead_name in RosterFile.names(menu.roster_bytes()):
+			forget_screamer(_dead_name)
 	if menu.visible or automap.visible or rewind_prompt.visible or journal.visible or _help.visible:
 		return  # paused: the game waits for the next tick
 	_set_speed(float(settings.ff_speed) if fast_forward or _ff_trigger else 1.0)

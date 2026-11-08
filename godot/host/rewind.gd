@@ -1,4 +1,4 @@
-## Rewind (settings, on by default): the game state at each of the last KEEP places the screamer
+## Rewind (the Modern difficulty, the default): the game state at each of the last KEEP places the screamer
 ## stood in BIAS (a new cell or facing, at rest: Ui.rest), so that on death the player can go
 ## back a few steps instead.  The states are saved games (SaveGame.snapshot) kept in memory.
 class_name Rewind

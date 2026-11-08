@@ -88,6 +88,13 @@ static func save_entries(p: String, name: String, e: Array) -> void:
 	f.save(p)
 
 
+## forget a screamer's journal here too (the file's done with forget())
+func drop(name: String) -> void:
+	if name == _name:
+		_name = ""
+		_entries = []
+
+
 ## forget a screamer's journal (deleted from the roster)
 static func forget(p: String, name: String) -> void:
 	var f := ConfigFile.new()

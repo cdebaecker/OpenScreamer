@@ -74,8 +74,14 @@ func _db() -> float:
 	return linear_to_db(volume) - 6.0
 
 
+## one fade at a time per player: a fade-out still running would otherwise stop a player that was
+## faded back in since (the area changed and changed back within FADE_S)
 func _fade(p: AudioStreamPlayer, db: float, s: float) -> void:
+	var old: Tween = p.get_meta("tween", null)
+	if old != null and old.is_valid():
+		old.kill()
 	var t := create_tween()
+	p.set_meta("tween", t)
 	t.tween_property(p, "volume_db", db, s)
 	if db <= -79.0:
 		t.tween_callback(func() -> void:

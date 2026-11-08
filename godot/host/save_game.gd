@@ -133,8 +133,18 @@ static func read(path: String) -> Dictionary:
 	if not FileAccess.file_exists(path):
 		return {}
 	var d: Variant = str_to_var(FileAccess.get_file_as_string(path))
-	if not d is Dictionary or d.get("version", 0) != VERSION or not d.has("state"):
+	if not d is Dictionary or d.get("version", 0) != VERSION:
 		return {}
+	# what describe() and loading read (a file cut short, or edited, is no save)
+	for k: String in ["where", "name", "floor", "hp", "hp_max", "time"]:
+		if not d.has(k):
+			return {}
+	var s: Variant = d.get("state")
+	if not s is Dictionary:
+		return {}
+	for k: String in ["st", "chr", "mon", "map", "sys", "modules"]:
+		if not s.has(k):
+			return {}
 	return d
 
 

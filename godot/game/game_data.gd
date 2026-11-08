@@ -267,15 +267,22 @@ func read_po(path: String) -> Dictionary:
 	for line in (text + "\n").split("\n"):
 		line = line.strip_edges()
 		if line == "" or line.begins_with("#"):
-			if cur.has("msgid") and line == "":
+			# an entry ends at a blank line, or at a comment (the next entry's) after its msgstr
+			if cur.has("msgid") and (line == "" or cur.has("msgstr")):
 				_po_entry(out, cur)
 				cur = {}
 			continue
 		if line.begins_with("\""):
-			cur[field] = String(cur[field]) + _po_unquote(line)
+			if cur.has(field):  # (a quoted line with no field before it is skipped)
+				cur[field] = String(cur[field]) + _po_unquote(line)
 			continue
 		var sp := line.find(" ")
+		if sp < 0:
+			continue
 		field = line.substr(0, sp)
+		if field in ["msgctxt", "msgid"] and cur.has("msgstr"):  # the next entry, with no blank line before it
+			_po_entry(out, cur)
+			cur = {}
 		cur[field] = _po_unquote(line.substr(sp + 1))
 	return out
 

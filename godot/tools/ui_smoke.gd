@@ -277,6 +277,25 @@ func _run() -> void:
 	await _key(KEY_ESCAPE)
 	check(not main.rewind_prompt.visible and main._rewind_button.visible and dying.program.current == &"game_over",
 			"rewind: Esc goes back to the death screen")
+	# the roster full meanwhile: going back can't put the screamer in it, and nothing is lost
+	var load_fn: Callable = dying.chara.save_load
+	var store_fn: Callable = dying.chara.save_store
+	var full := PackedByteArray()
+	for i in 7:
+		var rec: PackedByteArray = dying.st.chr.record.duplicate()
+		var nm := ("FULL%d" % i).to_ascii_buffer()
+		for b in 16:
+			rec[b] = nm[b] if b < nm.size() else 0
+		full.append_array(rec)
+	full.append_array(GameData.empty_roster().slice(0, Character.SIZE))
+	dying.chara.save_load = func() -> PackedByteArray: return full
+	dying.chara.save_store = func(_d: PackedByteArray) -> void: pass
+	var kept: int = main.rewind.of(dying.st.chr.name).size()
+	main._rewind_chosen(1)
+	check(main.game == dying and main.rewind.of(dying.st.chr.name).size() == kept and main._note.text.contains("full"),
+			"rewind: with the roster full, it says so and keeps the steps (%s)" % main._note.text)
+	dying.chara.save_load = load_fn
+	dying.chara.save_store = store_fn
 	await _key(KEY_R)
 	clock = dying.sys.clock
 	await create_timer(0.5).timeout
