@@ -336,7 +336,7 @@ func apply_settings() -> void:
 		game.data.set_lang(settings.lang)
 	_show_lang()
 	screen.modern_font = settings.modern_font
-	screen.style = {"sharp": Screen.Style.SHARP, "crt": Screen.Style.CRT, "soft": Screen.Style.SOFT}[settings.style]
+	screen.style = {"sharp": Screen.Style.SHARP, "crt": Screen.Style.CRT, "soft": Screen.Style.SOFT, "smooth": Screen.Style.SMOOTH}[settings.style]
 	screen.scheme = settings.scheme
 	screen.smooth_fades = settings.smooth_fades
 	screen.large_text = settings.large_text

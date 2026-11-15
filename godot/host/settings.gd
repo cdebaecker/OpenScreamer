@@ -22,7 +22,7 @@ var modern_font := false  # the game's text
 ## the interface's font: "pc98" (the game's own glyphs) or "modern" (Noto Sans JP)
 var ui_font := "pc98"
 var large_text := false  # the modern font, bigger
-var style := "sharp"  # "sharp", "crt", "soft"
+var style := "sharp"  # "sharp", "crt", "soft", "smooth"
 var scheme := "original"  # colours: "original", "high_contrast", "colour_blind"
 var smooth_fades := false
 var integer_scale := false
@@ -59,7 +59,7 @@ const FIELDS := {
 	"lang": ["game", null], "instant_text": ["game", null], "ff_speed": ["game", [2, 4, 8]],
 	"fix_bugs": ["game", null], "pendant_fix": ["game", null], "difficulty": ["game", ["modern", "original"]],
 	"modern_font": ["display", null], "ui_font": ["display", ["pc98", "modern"]], "large_text": ["display", null],
-	"style": ["display", ["sharp", "crt", "soft"]], "scheme": ["display", ["original", "high_contrast", "colour_blind"]],
+	"style": ["display", ["sharp", "crt", "soft", "smooth"]], "scheme": ["display", ["original", "high_contrast", "colour_blind"]],
 	"smooth_fades": ["display", null], "integer_scale": ["display", null], "fullscreen": ["display", null],
 	"muted": ["sound", null], "volume": ["sound", [0, 100]], "tone": ["sound", ["square", "soft", "sine"]],
 	"ambience": ["sound", null], "ambience_volume": ["sound", [0, 100]],

@@ -571,6 +571,10 @@ msgid "Soft (dithering blended)"
 msgstr ""
 
 #: host/settings_menu.gd PAGES
+msgid "Smooth (upscaled)"
+msgstr ""
+
+#: host/settings_menu.gd PAGES
 msgid "Colours"
 msgstr ""
 

@@ -12,6 +12,9 @@ var _colour := PackedByteArray()
 var _font: Texture2D
 ## bumped on every change (ModernText redraws when it moves)
 var version := 0
+## the cells holding a glyph (white) for the display shader: the smooth style leaves text alone
+var mask_image := Image.create(COLS, ROWS, false, Image.FORMAT_L8)
+var mask := ImageTexture.create_from_image(mask_image)
 ## the modern font draws the glyphs it has (ModernText); this layer keeps the others and the
 ## black behind white text
 var modern := false:
@@ -80,7 +83,18 @@ func _changed() -> void:
 	queue_redraw()
 
 
+## the mask as the text is now (redrawn with the text)
+func update_mask() -> void:
+	var cells := PackedByteArray()
+	cells.resize(COLS * ROWS)
+	for i in COLS * ROWS:
+		cells[i] = 255 if _glyph[i] != 0 else 0
+	mask_image.set_data(COLS, ROWS, false, Image.FORMAT_L8, cells)
+	mask.update(mask_image)
+
+
 func _draw() -> void:
+	update_mask()
 	if _font == null:
 		return
 	for i in COLS * ROWS:

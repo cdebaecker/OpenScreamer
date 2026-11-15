@@ -478,6 +478,12 @@ func test_modern_font() -> void:
 	check(m.get_shader_parameter("fade") == 1.0, "fades: off, changes at once")
 	screen.style = Screen.Style.CRT
 	check((screen.get_node("Display").material as ShaderMaterial).get_shader_parameter("style") == Screen.Style.CRT, "CRT: the shader gets it")
+	screen.style = Screen.Style.SMOOTH
+	screen.text.put(5, 3, 0x41, 7)
+	screen.text.update_mask()
+	var mask := screen.text.mask_image
+	check(m.get_shader_parameter("text_mask") == screen.text.mask and mask.get_size() == Vector2i(80, 25) and mask.get_pixel(5, 3).r > 0.5 and mask.get_pixel(6, 3).r < 0.5,
+			"smooth: the shader knows which cells hold text (left alone)")
 	screen.queue_free()
 
 

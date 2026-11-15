@@ -116,6 +116,11 @@ func _run() -> void:
 	main.settings.modern_font = false
 	main.apply_settings()
 	await _shot("soft_registration.png")
+	main.settings.style = "smooth"
+	main.apply_settings()
+	check((main.screen.get_node("Display").material as ShaderMaterial).get_shader_parameter("style") == Screen.Style.SMOOTH,
+			"the smooth style reaches the display")
+	await _shot("smooth_registration.png")
 	main.settings.style = "sharp"
 	main.settings.scheme = "colour_blind"
 	main.settings.modern_font = true

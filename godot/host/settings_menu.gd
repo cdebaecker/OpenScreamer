@@ -50,7 +50,7 @@ const PAGES := [
 		["choice", "Game text font", "modern_font", [[false, "PC-98 (original 8x8)"], [true, "Modern (Noto Sans JP)"]]],
 		["choice", "Interface font", "ui_font", [["pc98", "PC-98 (the game's own)"], ["modern", "Modern (Noto Sans JP)"]]],
 		["choice", "Text size", "large_text", [[false, "Normal"], [true, "Large (modern font)"]]],
-		["choice", "Style", "style", [["sharp", "Sharp"], ["crt", "CRT (curved glass, scanlines)"], ["soft", "Soft (dithering blended)"]]],
+		["choice", "Style", "style", [["sharp", "Sharp"], ["crt", "CRT (curved glass, scanlines)"], ["soft", "Soft (dithering blended)"], ["smooth", "Smooth (upscaled)"]]],
 		["choice", "Colours", "scheme", [["original", "Original"], ["high_contrast", "High contrast"], ["colour_blind", "Colour-blind friendly"]]],
 		["choice", "Colour changes", "smooth_fades", [[false, "At once (original)"], [true, "Smooth fades"]]],
 		["choice", "Window scaling", "integer_scale", [[false, "Fit the window"], [true, "Whole multiples (sharp pixels)"]]],

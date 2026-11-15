@@ -426,6 +426,9 @@ msgstr "CRT (verre bombé, lignes)"
 msgid "Soft (dithering blended)"
 msgstr "Doux (tramage fondu)"
 
+msgid "Smooth (upscaled)"
+msgstr "Lissé (agrandi)"
+
 msgid "Colours"
 msgstr "Couleurs"
 

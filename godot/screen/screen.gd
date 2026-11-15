@@ -67,7 +67,7 @@ var _text_view: SubViewport
 
 # ------------------------------------------------------------------ presentation options (settings)
 
-enum Style { SHARP, CRT, SOFT }
+enum Style { SHARP, CRT, SOFT, SMOOTH }
 
 ## colour schemes: the colours shown for the eight digital colours
 const SCHEMES := {
@@ -322,6 +322,7 @@ func _update_palette() -> void:
 		cols.append(Vector3(c.r, c.g, c.b))
 	m.set_shader_parameter("colours", cols)
 	m.set_shader_parameter("style", style)
+	m.set_shader_parameter("text_mask", text.mask)
 	m.set_shader_parameter("text_on", modern_font and _text_view != null)
 	if _text_view != null:
 		m.set_shader_parameter("text_tex", _text_view.get_texture())

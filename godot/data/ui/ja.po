@@ -427,6 +427,9 @@ msgstr "ブラウン管（曲面、走査線）"
 msgid "Soft (dithering blended)"
 msgstr "ソフト（ディザをぼかす）"
 
+msgid "Smooth (upscaled)"
+msgstr "なめらか（拡大）"
+
 msgid "Colours"
 msgstr "色"
 
