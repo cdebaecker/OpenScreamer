@@ -388,8 +388,12 @@ func _touch_used() -> void:
 
 
 ## a short message over the screen (saving, loading)
+## a short message on a dark box (readable over any picture), centred where the box was laid out
 func notify(msg: String) -> void:
+	var centre := _note.position.x + _note.size.x / 2.0
 	_note.text = msg
+	_note.reset_size()
+	_note.position.x = centre - _note.size.x / 2.0
 	_note.visible = true
 	_note_until = Time.get_ticks_msec() + 2500
 

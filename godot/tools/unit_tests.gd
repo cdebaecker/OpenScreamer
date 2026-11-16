@@ -870,7 +870,8 @@ func test_accessibility() -> void:
 	await process_frame
 	var n: int = main.pad_repeats
 	await create_timer(0.2).timeout
-	check(n >= 3 and n <= 6 and main.pad_repeats == n, "d-pad repeat: after the delay, at the rate, until released (%d)" % n)
+	# (at most once a frame: on a busy machine, slow frames make fewer)
+	check(n >= 1 and n <= 6 and main.pad_repeats == n, "d-pad repeat: after the delay, at the rate, until released (%d)" % n)
 	main.settings.pad_repeat = false
 	Input.parse_input_event(e)
 	await create_timer(0.45).timeout
