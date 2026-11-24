@@ -323,6 +323,7 @@ func _update_palette() -> void:
 	m.set_shader_parameter("colours", cols)
 	m.set_shader_parameter("style", style)
 	m.set_shader_parameter("text_mask", text.mask)
+	m.set_shader_parameter("board", _display.texture)
 	m.set_shader_parameter("text_on", modern_font and _text_view != null)
 	if _text_view != null:
 		m.set_shader_parameter("text_tex", _text_view.get_texture())

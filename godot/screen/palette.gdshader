@@ -23,6 +23,9 @@ uniform sampler2D text_tex : filter_linear;
 uniform bool text_on = false;
 // the cells of the original font's text (TextLayer.mask), left alone by the smooth style
 uniform sampler2D text_mask : filter_nearest;
+// the board again (the display's own texture): the smooth style's functions read it, and the OpenGL
+// renderer doesn't take the built-in TEXTURE as a function's argument
+uniform sampler2D board : filter_nearest;
 
 // a board pixel (as sampled) -> its colour
 vec3 board_colour(vec4 c) {
@@ -35,8 +38,8 @@ vec3 board_colour(vec4 c) {
 }
 
 // the colour of the board pixel at `cell` (in board pixels)
-vec3 cell_colour(sampler2D tex, vec2 cell, vec2 px) {
-	return board_colour(texture(tex, (cell + 0.5) * px));
+vec3 cell_colour(vec2 cell, vec2 px) {
+	return board_colour(texture(board, (cell + 0.5) * px));
 }
 
 bool same(vec3 a, vec3 b) {
@@ -45,10 +48,10 @@ bool same(vec3 a, vec3 b) {
 
 // the pixel `e` at `cell` blended with the colour it alternates with along `dir`, if it's in a run
 // of four alternating pixels
-vec3 undither(sampler2D tex, vec2 cell, vec2 dir, vec2 px, vec3 e, vec3 rgb) {
+vec3 undither(vec2 cell, vec2 dir, vec2 px, vec3 e, vec3 rgb) {
 	vec3 c[7];
 	for (int i = 0; i < 7; i++) {
-		c[i] = i == 3 ? e : cell_colour(tex, cell + dir * float(i - 3), px);
+		c[i] = i == 3 ? e : cell_colour(cell + dir * float(i - 3), px);
 	}
 	for (int j = 0; j < 4; j++) {
 		if (!same(c[j], c[j + 1]) && same(c[j], c[j + 2]) && same(c[j + 1], c[j + 3])) {
@@ -63,18 +66,18 @@ vec3 undither(sampler2D tex, vec2 cell, vec2 dir, vec2 px, vec3 e, vec3 rgb) {
 // corner: an edge going across the corner, drawn as a slope over E's corner instead of a step.
 // Lone pixels, lines one pixel wide and dithering (where the neighbours alternate) have no such
 // corner, so they keep their shape.  The slope is anti-aliased over one screen pixel.
-vec3 smooth_colour(sampler2D tex, vec2 uv, vec2 px) {
+vec3 smooth_colour(vec2 uv, vec2 px) {
 	vec2 p = uv / px;
 	vec2 cell = floor(p);
 	vec2 f = p - cell;
-	vec3 e = cell_colour(tex, cell, px);
+	vec3 e = cell_colour(cell, px);
 	if (texture(text_mask, (cell + 0.5) * px).r > 0.5) {
 		return e;  // text: the font's own pixels
 	}
-	vec3 b = cell_colour(tex, cell + vec2(0.0, -1.0), px);
-	vec3 d = cell_colour(tex, cell + vec2(-1.0, 0.0), px);
-	vec3 fr = cell_colour(tex, cell + vec2(1.0, 0.0), px);
-	vec3 h = cell_colour(tex, cell + vec2(0.0, 1.0), px);
+	vec3 b = cell_colour(cell + vec2(0.0, -1.0), px);
+	vec3 d = cell_colour(cell + vec2(-1.0, 0.0), px);
+	vec3 fr = cell_colour(cell + vec2(1.0, 0.0), px);
+	vec3 h = cell_colour(cell + vec2(0.0, 1.0), px);
 	vec3 rgb = e;
 	// distance past each corner's cut, and one screen pixel of it (for the anti-aliasing)
 	vec2 w = fwidth(p);
@@ -94,7 +97,7 @@ vec3 smooth_colour(sampler2D tex, vec2 uv, vec2 px) {
 	// dithering (two colours alternating pixel by pixel, four pixels in a row at least: stripes and
 	// checks) shown as the colour it mixes; a line one pixel wide makes only three.  Not along the
 	// columns: lines alternating with gaps are drawings there (letters, hatching), not dithering.
-	rgb = undither(tex, cell, vec2(1.0, 0.0), px, e, rgb);
+	rgb = undither(cell, vec2(1.0, 0.0), px, e, rgb);
 	return rgb;
 }
 
@@ -141,7 +144,7 @@ void fragment() {
 				+ (board_colour(texture(TEXTURE, uv + vec2(0.0, px.y))) + board_colour(texture(TEXTURE, uv - vec2(0.0, px.y)))) * 0.05;
 		COLOR = vec4(with_text(rgb, uv), 1.0);
 	} else if (style == 3) {
-		COLOR = vec4(with_text(smooth_colour(TEXTURE, uv, px), uv), 1.0);
+		COLOR = vec4(with_text(smooth_colour(uv, px), uv), 1.0);
 	} else {
 		COLOR = vec4(with_text(board_colour(texture(TEXTURE, uv)), uv), 1.0);
 	}
