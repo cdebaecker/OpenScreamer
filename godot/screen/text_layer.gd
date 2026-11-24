@@ -13,7 +13,7 @@ var _font: Texture2D
 ## bumped on every change (ModernText redraws when it moves)
 var version := 0
 ## the cells holding a glyph (white) for the display shader: the smooth style leaves text alone
-var mask_image := Image.create(COLS, ROWS, false, Image.FORMAT_L8)
+var mask_image := Image.create_empty(COLS, ROWS, false, Image.FORMAT_L8)
 var mask := ImageTexture.create_from_image(mask_image)
 ## the modern font draws the glyphs it has (ModernText); this layer keeps the others and the
 ## black behind white text
