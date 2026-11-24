@@ -1295,9 +1295,16 @@ func test_fix_bugs_shops_bias() -> void:
 		g.st.chr.hp_max = 100
 		g.st.chr.credits = 100
 		g.keys.push(0x36)  # "6", then Space from the poll
-		await g.shops._treat(0, "HP", &"hp")
+		await g.shops._treat(1, 0, "HP", &"hp")
 		check(g.st.chr.hp == (11 if fix else 12) and g.st.chr.credits == (95 if fix else 94),
 				"%s: 6 credits at the hospital: HP %d, credits %d" % [tag, g.st.chr.hp, g.st.chr.credits])
+		# the stray bytes after the doctor's question cut into a wall picture of BIAS (HP: and 1)
+		var wall := g.dungeon._piece_bytes(Dungeon.SCAR_PIECE)
+		var whole := g.art.plane_bytes(Dungeon.SCAR_PIECE)
+		var expect: int = whole[Dungeon.SCAR_BYTE] if fix else whole[Dungeon.SCAR_BYTE] & 1
+		check(whole[Dungeon.SCAR_BYTE] == 0x7f and wall[Dungeon.SCAR_BYTE] == expect,
+				"%s: the hospital's stray writes: the wall picture's byte %02x (was %02x)" % [tag, wall[Dungeon.SCAR_BYTE], whole[Dungeon.SCAR_BYTE]])
+		check(SaveGame.snapshot(g)["st"]["wall_scar"] == g.st.wall_scar, "%s: the hospital's cut is kept in saves" % tag)
 		g.dispose()
 		# giving: the pendant chain in BIAS (the hunter who wants the white pendant gives the yellow)
 		g = mk.call(fix)

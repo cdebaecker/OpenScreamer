@@ -113,7 +113,9 @@ conversations, the disk's roster, the catalogues' tables and every message by it
   - *Bacillus sensor* (`Items`): misses poison levels 1-3 and names 4 and 5 wrongly.
   - *Giving* an equipped item that's wanted fails (the "equipped" bit is compared); given or sold armour
     still counts in AC; *selling* an equipped FRD keeps its beast points.
-  - *Hospital*: an amount that isn't a multiple of 5 buys an extra point. *Credits* and earned BP wrap at
+  - *Hospital*: an amount that isn't a multiple of 5 buys an extra point. The doctor's question is
+    followed by stray bytes the CPU runs as code: each treatment cuts a few pixels out of a wall picture
+    of BIAS (`st.wall_scar`, `Shops._treat`) until the program restarts. *Credits* and earned BP wrap at
     65535. *Class-up* exactly on the table's value doesn't happen ("0 points to go"); making master class
     during a visit shows a count to a class that doesn't exist and skips the memento.
   - *Floor items* (`Dungeon.look_for_item`): never looked for on stairs and elevator cells or where they land

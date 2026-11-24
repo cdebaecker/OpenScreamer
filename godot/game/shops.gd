@@ -291,15 +291,15 @@ func hospital() -> void:
 		if sys.unwinding: return
 		match sel:
 			1:
-				await _treat(0, labels[0], &"hp")
+				await _treat(1, 0, labels[0], &"hp")
 			2:
-				await _treat(1, labels[1], &"agl")
+				await _treat(2, 1, labels[1], &"agl")
 			3:
-				await _treat(2, labels[2], &"pow")
+				await _treat(3, 2, labels[2], &"pow")
 			4:
-				await _treat(4, labels[3], &"iq")
+				await _treat(4, 4, labels[3], &"iq")
 			5:
-				await _treat(3, labels[4], &"tec")
+				await _treat(5, 3, labels[4], &"tec")
 			6:
 				await _antidote()
 			7:
@@ -328,14 +328,19 @@ func _pay_wrong() -> void:
 	await _npc_wait(data.msg(&"shop.32"))
 
 
-## 1 point for 5 credits
-func _treat(stat: int, label: String, field: StringName) -> void:
+## 1 point for 5 credits (`sel`: the menu item chosen)
+func _treat(sel: int, stat: int, label: String, field: StringName) -> void:
 	_treat_stat = stat
 	_treat_label = label
 	_treat_field = field
 	await common.npc(data.msg(&"shop.33"))
 	if sys.unwinding: return
-	# (the original falls through a few stray data bytes here that AND random memory; skipped)
+	# The message's end is followed by stray bytes the CPU runs: and [bp+si-2848h],dh / and [bx],bh /
+	# and [bx+si],al, with bx = 4AC5h + 2 (sel - 1), si = 2CE0h and al = sel.  The first lands in the
+	# stack's unused depths and the second on zeros; the third in a wall picture of BIAS (row 64 of
+	# view/p_7523), whose pixels it takes out until the program restarts (st.wall_scar).
+	if not sys.fix_bugs:
+		st.wall_scar[sel - 1] &= sel
 	_show_credits()
 	_show_treated_stat()
 	txt.col = 0x1b

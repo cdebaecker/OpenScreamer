@@ -35,6 +35,10 @@ var idle_count := 0
 var revealed_walls := 0
 var hide_hunter := 0
 var rng_seed := 0
+## the hospital's stray writes into a wall picture of BIAS (Shops._treat): what's left of the bytes
+## 77A5h, 77A7h, .. 77ADh of the data segment (row 64 of piece view/p_7523), as AND masks; with the
+## original's bugs fixed it stays whole
+var wall_scar := PackedByteArray([0xff, 0xff, 0xff, 0xff, 0xff])
 
 var chr := Character.new()
 var mon := Monster.new()
@@ -69,6 +73,6 @@ func canonical() -> Dictionary:
 		"floor_item_poison": floor_item_poison, "facing": facing, "floor": floor, "pos_x": pos_x,
 		"pos_y": pos_y, "cell": Array(cell), "stood": stood, "door_msg": door_msg, "hunter": hunter,
 		"idle_count": idle_count, "revealed_walls": revealed_walls, "hide_hunter": hide_hunter,
-		"rng_seed": rng_seed, "chr": Marshalls.raw_to_base64(chr.record),
+		"rng_seed": rng_seed, "wall_scar": Array(wall_scar), "chr": Marshalls.raw_to_base64(chr.record),
 		"mon": Marshalls.raw_to_base64(mon.record), "map": Marshalls.raw_to_base64(map.bytes),
 	}

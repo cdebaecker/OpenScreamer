@@ -7,6 +7,9 @@ const IDLE_ITERATION_US := 600
 
 ## the view window's top-left corner on the board
 const VIEW := Vector2i(144, 24)
+## the wall picture the hospital's stray writes cut into, and their first byte in it (77A5h - 7523h)
+const SCAR_PIECE := "view/p_7523"
+const SCAR_BYTE := 0x282
 ## where the three parts of the ceiling lights go (0x79E, 0xE82, 0x1424)
 const LIGHT_SPOTS: Array[Vector2i] = [Vector2i(240, 24), Vector2i(272, 46), Vector2i(288, 64)]
 ## compass letters: north, east, south, west spots of the compass box
@@ -102,19 +105,81 @@ func show_view() -> void:
 			al = 6 if st.color4 == 6 else 0
 	common.set_color4(al)
 	# the original rewrites only the walls' plane: the ceiling lights stay
+	var lights := _lights_shown()
+	screen.fill(Rect2i(VIEW, Vector2i(320, 104)), Screen.BLACK)
+	for p in _view_pieces:
+		var tex := _piece(p[0])
+		screen.fill(Rect2i(p[1], Vector2i(tex.get_size())), Screen.BLACK)
+		screen.draw(tex, p[1], false)
+	_put_lights(lights)
+	_compass()
+
+
+## the ceiling lights on the screen now ([which, texture]), to put back after plane G is redrawn
+func _lights_shown() -> Array:
 	var lights := []
 	for i in 3:
 		var n: Array = _light_nodes[i] if _light_nodes[i] != null else []
 		if not n.is_empty() and is_instance_valid(n[1]) and n[1].get_parent() == screen.images:
 			lights.append([i, n[1].texture])
-	screen.fill(Rect2i(VIEW, Vector2i(320, 104)), Screen.BLACK)
-	for p in _view_pieces:
-		var tex := art.piece(p[0])
-		screen.fill(Rect2i(p[1], Vector2i(tex.get_size())), Screen.BLACK)
-		screen.draw(tex, p[1], false)
+	return lights
+
+
+func _put_lights(lights: Array) -> void:
 	for l in lights:
 		_draw_light(l[0], l[1])
-	_compass()
+
+
+## a view piece as the game has it: the hospital's stray writes cut into one (Shops._treat)
+func _piece(name: String) -> Texture2D:
+	if name != SCAR_PIECE or st.wall_scar == PackedByteArray([0xff, 0xff, 0xff, 0xff, 0xff]):
+		return art.piece(name)
+	return art.plane_g_piece(name + "#" + st.wall_scar.hex_encode(), _piece_bytes(name), 10)
+
+
+func _piece_bytes(name: String) -> PackedByteArray:
+	var b := art.plane_bytes(name)
+	if name == SCAR_PIECE:
+		b = b.duplicate()
+		for i in 5:
+			b[SCAR_BYTE + 2 * i] &= st.wall_scar[i]
+	return b
+
+
+## the view's plane G as the original composes it in its work buffer (28h bytes x 104 lines, at
+## DS:0006h), pieces overwriting what they cover
+func _view_bytes(pieces: Array) -> PackedByteArray:
+	var buf := PackedByteArray()
+	buf.resize(0x28 * 104)
+	for p in pieces:
+		var b := _piece_bytes(p[0])
+		var w := art.piece(p[0]).get_width() / 8
+		var at: Vector2i = p[1] - VIEW
+		for y in b.size() / w:
+			for x in w:
+				buf[(at.y + y) * 0x28 + at.x / 8 + x] = b[y * w + x]
+	return buf
+
+
+## plane G of the board (50h bytes a line) with the view shown from `pieces`
+func _plane_of(pieces: Array) -> PackedByteArray:
+	var plane := PackedByteArray()
+	plane.resize(0x50 * 200)
+	var buf := _view_bytes(pieces)
+	for y in 104:
+		for x in 0x28:
+			plane[(VIEW.y + y) * 0x50 + VIEW.x / 8 + x] = buf[y * 0x28 + x]
+	return plane
+
+
+## show a rectangle of plane G (`cols` bytes x `rows` lines from byte `col`, line `row`); the lights stay
+func _show_plane(plane: PackedByteArray, col: int, cols: int, row: int, rows: int) -> void:
+	var bytes := PackedByteArray()
+	for r in rows:
+		bytes.append_array(plane.slice((row + r) * 0x50 + col, (row + r) * 0x50 + col + cols))
+	var lights := _lights_shown()
+	screen.draw(ImageTexture.create_from_image(Art.plane_g_image(bytes, cols)), Vector2i(col * 8, row), true)
+	_put_lights(lights)
 
 
 func render_view() -> void:
@@ -545,9 +610,8 @@ func arrive() -> void:
 	sys.jump(&"dungeon_loop")
 
 
-## walking into an invisible wall makes it solid (until you leave the cell).  The
-## original slides the wall down into the view with no pause, and redraws the view
-## straight after, so only the redraw is kept.
+## walking into an invisible wall makes it solid (until you leave the cell): it slides down into
+## the view, then the view is redrawn
 func _secret_wall() -> void:
 	var bx := st.facing + st.cell_off
 	if (st.map.b(bx) & 0x0b) != 8:
@@ -555,6 +619,7 @@ func _secret_wall() -> void:
 	st.map.set_b(bx, st.map.b(bx) | 1)
 	st.revealed_walls = st.map.b(bx)
 	lights_off()
+	await _wall_rises()
 	render_view()
 	look_ahead()
 	lights_on()
@@ -623,18 +688,109 @@ func _door_stuck() -> void:
 
 func _door_opens() -> void:
 	screen.clear_window(Screen.MESSAGE)
-	_door_slide()
+	await _door_slide()
 	await arrive()
 
 
-## the door halves slide apart revealing the corridor behind.  The original composes
-## the view with the door open (which also takes the cell) and slides plane G with no
-## pause before the step redraws everything, so only the composing is kept.
+## sub_80BF: a wall slides down into the view, a line at a time, from the bottom line of its picture
+## (DS:7A87h..83E6h, 1Eh bytes a line) at line 36; plane G only, as fast as the CPU moves the bytes
+## (charged per pass, Events.cpu).  Done on a copy of plane G, shown after each pass.
+func _wall_rises() -> void:
+	var plane := _plane_of(_view_pieces)
+	var src := art.plane_bytes("view/p_7a87")
+	var bx := 0x83e6 - 0x7a87
+	for k in 0x1e:
+		plane[0xb74 - k] = src[bx - k]
+	bx -= 0x1e
+	_show_plane(plane, 23, 0x1e, 36, 80)
+	await events.cpu(0x1e)
+	var si := 0xb74
+	var di := 0xbc4
+	for cx in range(1, 0x50):
+		var s := si
+		var d := di
+		for r in cx:
+			for k in 0x1e:
+				plane[d - k] = plane[s - k]
+			s -= 0x50
+			d -= 0x50
+		for k in 0x1e:
+			plane[0xb74 - k] = src[bx - k]
+		bx -= 0x1e
+		_show_plane(plane, 23, 0x1e, 36, 80)
+		await events.cpu(cx * 0x1e + 0x1e)
+		si += 0x50
+		di += 0x50
+
+
+## sub_85B9: the door halves slide apart revealing the corridor behind.  The view is composed with
+## the door open (which also takes the cell); then, on plane G, the right half moves right and the
+## left half left a byte at a time, the open view's bytes coming in between, as fast as the CPU
+## moves them (charged per pass, Events.cpu).  Done on a copy of plane G, shown after each pass.
 func _door_slide() -> void:
+	var plane := _plane_of(_view_pieces)
 	var bx := st.facing + st.cell_off
 	st.map.set_b(bx, st.map.b(bx) & 0xfe)
 	build_view()
 	st.map.set_b(bx, st.map.b(bx) | 1)
+	var buf := _view_bytes(_view_pieces)  # the work buffer, at DS:0006h
+	var right := 0x3da
+	var si := 0xf1b
+	for r in 0x44:
+		_shift_right(plane, si, 0x0c, buf[right - 6])
+		si += 0x50
+		right += 0x28
+	_show_plane(plane, 26, 25, 48, 0x44)
+	await events.cpu(0x44 * 0x0d)
+	right = 0x3db
+	var left := 0x3d9
+	for cx in range(0x0b, 0, -1):
+		var l0 := left
+		var r0 := right
+		si = 0xf1b
+		for r in 0x44:
+			_shift_left(plane, si, cx, buf[left - 6])
+			_shift_right(plane, si, cx, buf[right - 6])
+			si += 0x50
+			left += 0x28
+			right += 0x28
+		left = l0 - 1
+		right = r0 + 1
+		_show_plane(plane, 26, 25, 48, 0x44)
+		await events.cpu(0x44 * 2 * (cx + 1))
+	var dx := 0xf1a
+	var b := 0xf32
+	for r in 0x44:
+		plane[dx] = buf[left - 6]
+		plane[b] = buf[right - 6]
+		dx += 0x50
+		b += 0x50
+		left += 0x28
+		right += 0x28
+	_show_plane(plane, 26, 25, 48, 0x44)
+	await events.cpu(0x44 * 2)
+
+
+## [si+0Bh..si+16h]: `cx` bytes one to the right, `v` coming in on the left
+static func _shift_right(plane: PackedByteArray, si: int, cx: int, v: int) -> void:
+	var s := si + 0x16
+	var d := s + 1
+	for k in cx:
+		plane[d] = plane[s]
+		d -= 1
+		s -= 1
+	plane[d] = v
+
+
+## `cx` bytes from si one to the left, `v` coming in on the right
+static func _shift_left(plane: PackedByteArray, si: int, cx: int, v: int) -> void:
+	var s := si
+	var d := si - 1
+	for k in cx:
+		plane[d] = plane[s]
+		d += 1
+		s += 1
+	plane[d] = v
 
 
 # ------------------------------------------------------------------ encounters
